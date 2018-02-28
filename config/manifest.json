@@ -1,0 +1,211 @@
+{
+  "spa/ssr.js": "/public/js/spa/ssr.js",
+  "spa/ssr.css": "/public/css/spa/ssr.css",
+  "spa/redux.js": "/public/js/spa/redux.js",
+  "spa/redux.css": "/public/css/spa/redux.css",
+  "ant/tab/tab.js": "/public/js/ant/tab/tab.js",
+  "ant/tab/tab.css": "/public/css/ant/tab/tab.css",
+  "spa/client.js": "/public/js/spa/client.js",
+  "spa/client.css": "/public/css/spa/client.css",
+  "index/index.js": "/public/js/index/index.js",
+  "index/index.css": "/public/css/index/index.css",
+  "ventureedu/new.js": "/public/js/ventureedu/new.js",
+  "ventureedu/new.css": "/public/css/ventureedu/new.css",
+  "recharge/charge.js": "/public/js/recharge/charge.js",
+  "recharge/charge.css": "/public/css/recharge/charge.css",
+  "info/new.js": "/public/js/info/new.js",
+  "info/new.css": "/public/css/info/new.css",
+  "companynew/new.js": "/public/js/companynew/new.js",
+  "companynew/new.css": "/public/css/companynew/new.css",
+  "about/about.js": "/public/js/about/about.js",
+  "about/about.css": "/public/css/about/about.css",
+  "home/home.js": "/public/js/home/home.js",
+  "home/home.css": "/public/css/home/home.css",
+  "css/module/module.js": "/public/js/css/module/module.js",
+  "css/module/module.css": "/public/css/css/module/module.css",
+  "hello/element.js": "/public/js/hello/element.js",
+  "hello/element.css": "/public/css/hello/element.css",
+  "hello/component.js": "/public/js/hello/component.js",
+  "hello/component.css": "/public/css/hello/component.css",
+  "layout.js": "/public/js/layout.js",
+  "common.js": "/public/js/common.js",
+  "img/appdownload.png": "/public/img/appdownload.png",
+  "img/index1.png": "/public/img/index1.png",
+  "img/index2.png": "/public/img/index2.png",
+  "img/index3.png": "/public/img/index3.png",
+  "img/loading.gif": "/public/img/loading.gif",
+  "img/logo.png": "/public/img/logo.png",
+  "img/waiter.png": "/public/img/waiter.png",
+  "img/weixin.png": "/public/img/weixin.png",
+  "img/header.png": "/public/img/header.png",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "spa/ssr.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/spa/ssr.js"
+      ],
+      "css": [
+        "/public/css/spa/ssr.css"
+      ]
+    },
+    "spa/redux.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/spa/redux.js"
+      ],
+      "css": [
+        "/public/css/spa/redux.css"
+      ]
+    },
+    "ant/tab/tab.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/ant/tab/tab.js"
+      ],
+      "css": [
+        "/public/css/ant/tab/tab.css"
+      ]
+    },
+    "spa/client.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/spa/client.js"
+      ],
+      "css": [
+        "/public/css/spa/client.css"
+      ]
+    },
+    "index/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/index/index.js"
+      ],
+      "css": [
+        "/public/css/index/index.css"
+      ]
+    },
+    "ventureedu/new.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/ventureedu/new.js"
+      ],
+      "css": [
+        "/public/css/ventureedu/new.css"
+      ]
+    },
+    "recharge/charge.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/recharge/charge.js"
+      ],
+      "css": [
+        "/public/css/recharge/charge.css"
+      ]
+    },
+    "info/new.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/info/new.js"
+      ],
+      "css": [
+        "/public/css/info/new.css"
+      ]
+    },
+    "companynew/new.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/new.js"
+      ],
+      "css": [
+        "/public/css/companynew/new.css"
+      ]
+    },
+    "about/about.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/about/about.js"
+      ],
+      "css": [
+        "/public/css/about/about.css"
+      ]
+    },
+    "home/home.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/home/home.js"
+      ],
+      "css": [
+        "/public/css/home/home.css"
+      ]
+    },
+    "css/module/module.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/css/module/module.js"
+      ],
+      "css": [
+        "/public/css/css/module/module.css"
+      ]
+    },
+    "hello/element.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/hello/element.js"
+      ],
+      "css": [
+        "/public/css/hello/element.css"
+      ]
+    },
+    "hello/component.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/hello/component.js"
+      ],
+      "css": [
+        "/public/css/hello/component.css"
+      ]
+    },
+    "layout.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/layout.js"
+      ],
+      "css": []
+    },
+    "common.js": {
+      "js": [
+        "/public/js/common.js",
+        "/public/js/common.js"
+      ],
+      "css": []
+    },
+    "vendor.js": {
+      "js": [
+        "/public/js/common.js",
+        "/public/js/vendor.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}

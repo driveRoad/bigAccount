@@ -1,0 +1,77 @@
+@import "../../asset/css/global.css";
+.footer .company-info {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -mz-flex;
+  flex-direction: column;
+  align-items: center;
+  height: 222px;
+  background-color: #e6e6e6;
+}
+.footer .company-info .info-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 21px;
+  width: 1220px;
+}
+.footer .company-info .info-top section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footer .company-info .info-top .baseinfo {
+  flex-direction: column;
+  width: 369px;
+  border-right: 1px #bcbcbc solid;
+  height: 122px;
+}
+.footer .company-info .info-top .qrcode {
+  width: 435px;
+}
+.footer .company-info .info-top .qrcode .qrcode-tip {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #444444;
+  margin-top: 4px;
+}
+.footer .company-info .info-top .waiter {
+  width: 314px;
+  justify-content: flex-end;
+  flex-direction: row;
+  border-left: 1px solid #bcbcbc;
+}
+.footer .company-info .info-top .waiter div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .company-info .info-top .waiter span:nth-child(2) {
+  font-size: 24px;
+}
+.footer .company-info .info-top .waiter span:nth-child(3) {
+  font-size: 16px;
+}
+.footer .company-info .info-bottom {
+  display: flex;
+  flex-direction: row;
+  width: 1186px;
+  justify-content: space-around;
+  margin-top: 43px;
+  margin-bottom: 15px;
+}
+.footer .company-info .info-bottom span {
+  font-size: 16px;
+}
+.footer .company-record {
+  background-color: #808080;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 36px;
+  color: #ffffff;
+}

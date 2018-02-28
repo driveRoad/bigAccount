@@ -1,0 +1,89 @@
+.main .page-component section { 
+}
+.main .page-component section:nth-child(1) .section-common {
+  margin: 0 auto;
+  position: relative;
+}
+.main .page-component section:nth-child(1) img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+.main .page-component section:nth-child(1) .bigaccount-download {
+  position: absolute;
+  left: 360px;
+  top:186px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.main .page-component section:nth-child(1) .bigaccount-download span:nth-child(1) {
+  font-size: 40px;
+}
+.main .page-component section:nth-child(1) .bigaccount-download span:nth-child(2) {
+  margin-top: 15px;
+}
+.main .page-component section:nth-child(1) .bigaccount-download span:nth-child(3) {
+  margin-top: 9px;
+}
+.main .page-component section:nth-child(1) .bigaccount-download span:nth-child(4) {
+  width: 182px;
+  height: 53px;
+  color: #2a74fc;
+  background-color: #ffffff;
+  border-radius: 10px;
+  line-height: 53px;
+  text-align: center;
+}
+.main .page-component section:nth-child(n+2) {
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .page-component section:nth-child(3) {
+  background-color: #f3f4f7;
+}
+.main .page-component section:nth-child(2) .section-common {
+  margin-right: 64px;
+}
+.main .page-component section:nth-child(2) .section-common .excellent-assets {
+  margin-left: 47px;
+}
+.main .page-component section:nth-child(3) .section-common .intellence-tool {
+  width: 668px;
+}
+.main .page-component section:nth-child(4) .section-common {
+  margin-right: 60px;
+}
+.main .page-component section:nth-child(4) .section-common .venture-safe {
+  margin-left: 72px;
+}
+.main .page-component section:nth-child(n+2) .section-common {
+  width: 1270px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .page-component .common-intro {
+  display: flex;
+  flex-direction: column;
+  height: 138px;
+}
+.main .page-component section:nth-child(2) span {
+  color: #222222;
+}
+.main .page-component .common-intro span:nth-child(1) {
+  font-size: 34px;
+}
+.main .page-component .common-intro >span:not(:first-child){
+  font-size: 18px;
+}
+.main .page-component .common-intro span:nth-child(2) {
+  margin-top: 23px;
+}
+.main .page-component .common-intro span:nth-child(n+3) {
+  margin-top: 13px;
+}

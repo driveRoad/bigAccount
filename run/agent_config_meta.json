@@ -1,0 +1,339 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.default.js",
+    "dir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.default.js",
+    "encoding": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "env": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "level": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.default.js",
+    "dir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.default.js",
+    "maxAge": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.local.js",
+    "dynamic": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.default.js",
+  "middleware": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.default.js",
+  "development": {
+    "watchDirs": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.local.js",
+    "ignoreDirs": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.local.js",
+    "fastReady": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-development/config/config.default.js"
+  },
+  "reactssr": {
+    "injectCss": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.local.js",
+    "doctype": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "layout": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "manifest": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectJs": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "crossorigin": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectRes": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+    "afterRender": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js"
+  },
+  "webpack": {
+    "webpackConfigList": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.local.js",
+    "port": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack/config/config.default.js",
+    "proxy": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack/config/config.default.js",
+    "proxyMapping": {
+      "js": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack/config/config.default.js",
+      "css": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack/config/config.default.js",
+      "json": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack/config/config.default.js",
+      "html": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack/config/config.default.js",
+      "map": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack/config/config.default.js"
+    }
+  },
+  "security": {
+    "domainWhiteList": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/config.local.js",
+    "protocolWhiteList": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js",
+      ".jsx": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/config.default.js"
+    }
+  },
+  "cors": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-cors/config/config.default.js",
+  "webpackreact": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack-react/config/config.default.js",
+  "env": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "name": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "version": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "description": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "build": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "build:test": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "build:prod": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "start": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "start:test": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "start:prod": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "kill-port": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "lint": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "fix": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "egg-view-react-ssr": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "extend": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "history": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "moment": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "react": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "react-router-config": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "antd": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-plugin-add-module-exports": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-plugin-syntax-dynamic-import": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-assign": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-rest-spread": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "babel-preset-react": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "directory-named-webpack-plugin": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "easywebpack-cli": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "easywebpack-react": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "egg-webpack-react": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "history": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "imagemin-webpack-plugin": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "ip": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "less": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "progress-bar-webpack-plugin": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "react-redux": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "react-router-redux": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "redux": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "stylus": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "stylus-loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "vconsole": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "webpack-manifest-resource-plugin": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "url": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "license": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "strict": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "depth": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+    "logging": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "port": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/config.default.js"
+  }
+}
