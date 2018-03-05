@@ -15,13 +15,13 @@
       "domainWhiteList": [
         "http://localhost:9000",
         "http://127.0.0.1:9000",
-        "http://10.43.8.145:9000",
+        "http://10.43.8.217:9000",
         "http://localhost:9001",
         "http://127.0.0.1:9001",
-        "http://10.43.8.145:9001",
+        "http://10.43.8.217:9001",
         "http://localhost:9002",
         "http://127.0.0.1:9002",
-        "http://10.43.8.145:9002"
+        "http://10.43.8.217:9002"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -90,24 +90,24 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-session/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-jsonp/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-onerror/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-i18n/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-watcher/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-development/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-schedule/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-static/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-cors/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack-react/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/locales",
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/locales"
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-jsonp/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-onerror/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-development/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-schedule/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-static/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-cors/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack-react/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/locales",
+        "/Users/chenzuying/Documents/bigAccount/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -117,8 +117,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -148,7 +148,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/logs/bigAccountB/egg-schedule.log"
+        "file": "/Users/chenzuying/Documents/bigAccount/logs/bigAccountB/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -162,7 +162,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/public",
+      "dir": "/Users/chenzuying/Documents/bigAccount/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -172,7 +172,7 @@
     },
     "view": {
       "root": [
-        "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/view"
+        "/Users/chenzuying/Documents/bigAccount/app/view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -184,8 +184,8 @@
     },
     "reactssr": {
       "doctype": "<!doctype html>",
-      "layout": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/view/layout.js",
-      "manifest": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/manifest.json",
+      "layout": "/Users/chenzuying/Documents/bigAccount/app/view/layout.js",
+      "manifest": "/Users/chenzuying/Documents/bigAccount/config/manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": true,
@@ -210,104 +210,200 @@
       },
       "webpackConfigList": [
         {
-          "context": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB",
+          "context": "/Users/chenzuying/Documents/bigAccount",
           "entry": {
             "about/about": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/about/about.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/about/about.jsx"
             ],
             "ant/tab/tab": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/ant/tab/tab.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ant/tab/tab.jsx"
             ],
             "companynew/new": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/companynew/new.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/new.jsx"
+            ],
+            "companynew/news_detail": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_detail.jsx"
+            ],
+            "companynew/news_details/news_detail_00001": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00001.jsx"
+            ],
+            "companynew/news_details/news_detail_00002": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00002.jsx"
+            ],
+            "companynew/news_details/news_detail_00003": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00003.jsx"
+            ],
+            "companynew/news_details/news_detail_00004": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00004.jsx"
+            ],
+            "companynew/news_details/news_detail_00005": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00005.jsx"
+            ],
+            "companynew/news_details/news_detail_00006": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00006.jsx"
+            ],
+            "companynew/news_details/news_detail_00007": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00007.jsx"
+            ],
+            "companynew/news_details/news_detail_00008": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00008.jsx"
+            ],
+            "companynew/news_details/news_detail_00009": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00009.jsx"
+            ],
+            "companynew/news_details/news_detail_00010": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00010.jsx"
             ],
             "css/module/module": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module/module.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/css/module/module.jsx"
             ],
             "hello/component": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/hello/component.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/hello/component.jsx"
             ],
             "hello/element": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/hello/element.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/hello/element.jsx"
             ],
             "home/home": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/home/home.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/home/home.jsx"
             ],
             "index/index": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/index/index.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/index/index.jsx"
             ],
             "info/new": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/info/new.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/info/new.jsx"
             ],
             "recharge/charge": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/recharge/charge.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/recharge/charge.jsx"
             ],
             "spa/client": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/spa/client.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/client.jsx"
             ],
             "spa/redux": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/spa/redux.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/redux.jsx"
             ],
             "spa/ssr": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/spa/ssr.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/ssr.jsx"
             ],
             "ventureedu/new": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/client-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/ventureedu/new.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/new.jsx"
+            ],
+            "ventureedu/ventureedu_detail": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_detail.jsx"
+            ],
+            "ventureedu/ventureedu_details/ventureedu_detail_00001": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00001.jsx"
+            ],
+            "ventureedu/ventureedu_details/ventureedu_detail_00002": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00002.jsx"
+            ],
+            "ventureedu/ventureedu_details/ventureedu_detail_00003": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00003.jsx"
+            ],
+            "ventureedu/ventureedu_details/ventureedu_detail_00004": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00004.jsx"
             ],
             "layout": [
               "react-hot-loader/patch",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack-hot-middleware/client?path=http://10.43.8.145:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/utils/hot.js",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/layout/layout.jsx"
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "/Users/chenzuying/Documents/bigAccount/app/web/framework/layout/layout.jsx"
             ]
           },
           "output": {
             "filename": "js/[name].js",
             "chunkFilename": "js/chunk/[name].js",
-            "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/public",
-            "publicPath": "http://10.43.8.145:9000/public/"
+            "path": "/Users/chenzuying/Documents/bigAccount/public",
+            "publicPath": "http://10.43.8.217:9000/public/"
           },
           "resolve": {
             "extensions": [
@@ -315,18 +411,18 @@
               ".jsx"
             ],
             "alias": {
-              "asset": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/asset",
-              "component": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/component",
-              "framework": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework",
-              "store": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/store"
+              "asset": "/Users/chenzuying/Documents/bigAccount/app/web/asset",
+              "component": "/Users/chenzuying/Documents/bigAccount/app/web/component",
+              "framework": "/Users/chenzuying/Documents/bigAccount/app/web/framework",
+              "store": "/Users/chenzuying/Documents/bigAccount/app/web/store"
             }
           },
           "externals": [],
           "resolveLoader": {
             "modules": [
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/node_modules",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack-react/node_modules"
+              "/Users/chenzuying/Documents/bigAccount/node_modules",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/node_modules",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack-react/node_modules"
             ]
           },
           "target": "web",
@@ -355,7 +451,7 @@
                 "test": {},
                 "use": [
                   {
-                    "loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -376,14 +472,14 @@
                   }
                 ],
                 "exclude": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
                 "test": {},
                 "use": [
                   {
-                    "loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -407,14 +503,14 @@
                   }
                 ],
                 "exclude": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
                 "test": {},
                 "use": [
                   {
-                    "loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -441,7 +537,7 @@
                   }
                 ],
                 "exclude": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
@@ -472,7 +568,7 @@
                 "test": {},
                 "use": [
                   {
-                    "loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -495,14 +591,14 @@
                   }
                 ],
                 "include": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
                 "test": {},
                 "use": [
                   {
-                    "loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -528,14 +624,14 @@
                   }
                 ],
                 "include": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
                 "test": {},
                 "use": [
                   {
-                    "loader": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -564,7 +660,7 @@
                   }
                 ],
                 "include": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               }
             ]
@@ -594,8 +690,8 @@
                 "EASY_ENV_IS_BROWSER": true,
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_PUBLIC_PATH": "\"http://10.43.8.145:9000/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://10.43.8.145:9000\""
+                "EASY_ENV_PUBLIC_PATH": "\"http://10.43.8.217:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://10.43.8.217:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -608,6 +704,17 @@
                 "about/about",
                 "ant/tab/tab",
                 "companynew/new",
+                "companynew/news_detail",
+                "companynew/news_details/news_detail_00001",
+                "companynew/news_details/news_detail_00002",
+                "companynew/news_details/news_detail_00003",
+                "companynew/news_details/news_detail_00004",
+                "companynew/news_details/news_detail_00005",
+                "companynew/news_details/news_detail_00006",
+                "companynew/news_details/news_detail_00007",
+                "companynew/news_details/news_detail_00008",
+                "companynew/news_details/news_detail_00009",
+                "companynew/news_details/news_detail_00010",
                 "css/module/module",
                 "hello/component",
                 "hello/element",
@@ -619,9 +726,14 @@
                 "spa/redux",
                 "spa/ssr",
                 "ventureedu/new",
+                "ventureedu/ventureedu_detail",
+                "ventureedu/ventureedu_details/ventureedu_detail_00001",
+                "ventureedu/ventureedu_details/ventureedu_detail_00002",
+                "ventureedu/ventureedu_details/ventureedu_detail_00003",
+                "ventureedu/ventureedu_details/ventureedu_detail_00004",
                 "layout"
               ],
-              "ident": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js1",
+              "ident": "/Users/chenzuying/Documents/bigAccount/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js1",
               "__plugin__": "CommonsChunkPlugin",
               "__lable__": "commonsChunk"
             },
@@ -649,14 +761,14 @@
                 "map": null,
                 "generate": null,
                 "sort": null,
-                "baseDir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB",
-                "host": "http://10.43.8.145:9000",
+                "baseDir": "/Users/chenzuying/Documents/bigAccount",
+                "host": "http://10.43.8.217:9000",
                 "proxy": true,
-                "buildPath": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/public",
-                "publicPath": "http://10.43.8.145:9000/public/",
+                "buildPath": "/Users/chenzuying/Documents/bigAccount/public",
+                "publicPath": "http://10.43.8.217:9000/public/",
                 "localPublicPath": "/public/",
                 "assets": false,
-                "filepath": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/manifest.json",
+                "filepath": "/Users/chenzuying/Documents/bigAccount/config/manifest.json",
                 "dllConfig": [
                   {
                     "name": "vendor",
@@ -666,7 +778,7 @@
                     ]
                   }
                 ],
-                "dllDir": "/var/folders/vc/zhsdcsrn2q5gpwn6rgk06k6c0000gn/T/easywebpack/bigAccountB/dev"
+                "dllDir": "/var/folders/mm/x__q5s250hx0xt0y48r6wxcm0000gn/T/easywebpack/bigAccountB/dev"
               },
               "__plugin__": "webpack-manifest-resource-plugin",
               "__lable__": "manifest"
@@ -688,7 +800,7 @@
             },
             {
               "options": {
-                "context": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB",
+                "context": "/Users/chenzuying/Documents/bigAccount",
                 "manifest": {
                   "name": "vendor",
                   "content": {
@@ -793,29 +905,45 @@
           ]
         },
         {
-          "context": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB",
+          "context": "/Users/chenzuying/Documents/bigAccount",
           "entry": {
-            "about/about": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/about/about.jsx",
-            "ant/tab/tab": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/ant/tab/tab.jsx",
-            "companynew/new": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/companynew/new.jsx",
-            "css/module/module": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module/module.jsx",
-            "hello/component": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/hello/component.jsx",
-            "hello/element": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/hello/element.jsx",
-            "home/home": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/home/home.jsx",
-            "index/index": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/index/index.jsx",
-            "info/new": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/info/new.jsx",
-            "recharge/charge": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/recharge/charge.jsx",
-            "spa/client": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/spa/client.jsx",
-            "spa/redux": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/spa/redux.jsx",
-            "spa/ssr": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/spa/ssr.jsx",
-            "ventureedu/new": "babel-loader!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/entry/server-loader.js!/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/ventureedu/new.jsx",
-            "layout": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework/layout/layout.jsx"
+            "about/about": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/about/about.jsx",
+            "ant/tab/tab": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ant/tab/tab.jsx",
+            "companynew/new": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/new.jsx",
+            "companynew/news_detail": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_detail.jsx",
+            "companynew/news_details/news_detail_00001": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00001.jsx",
+            "companynew/news_details/news_detail_00002": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00002.jsx",
+            "companynew/news_details/news_detail_00003": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00003.jsx",
+            "companynew/news_details/news_detail_00004": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00004.jsx",
+            "companynew/news_details/news_detail_00005": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00005.jsx",
+            "companynew/news_details/news_detail_00006": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00006.jsx",
+            "companynew/news_details/news_detail_00007": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00007.jsx",
+            "companynew/news_details/news_detail_00008": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00008.jsx",
+            "companynew/news_details/news_detail_00009": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00009.jsx",
+            "companynew/news_details/news_detail_00010": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00010.jsx",
+            "css/module/module": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/css/module/module.jsx",
+            "hello/component": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/hello/component.jsx",
+            "hello/element": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/hello/element.jsx",
+            "home/home": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/home/home.jsx",
+            "index/index": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/index/index.jsx",
+            "info/new": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/info/new.jsx",
+            "recharge/charge": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/recharge/charge.jsx",
+            "spa/client": "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/client.jsx",
+            "spa/redux": "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/redux.jsx",
+            "spa/ssr": "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/ssr.jsx",
+            "ventureedu/new": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/new.jsx",
+            "ventureedu/ventureedu_detail": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_detail.jsx",
+            "ventureedu/ventureedu_details/ventureedu_detail_00001": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00001.jsx",
+            "ventureedu/ventureedu_details/ventureedu_detail_00002": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00002.jsx",
+            "ventureedu/ventureedu_details/ventureedu_detail_00003": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00003.jsx",
+            "ventureedu/ventureedu_details/ventureedu_detail_00004": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00004.jsx",
+            "layout": "/Users/chenzuying/Documents/bigAccount/app/web/framework/layout/layout.jsx"
           },
           "output": {
             "libraryTarget": "commonjs2",
             "filename": "[name].js",
-            "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/view",
-            "publicPath": "http://10.43.8.145:9000/public/"
+            "path": "/Users/chenzuying/Documents/bigAccount/app/view",
+            "publicPath": "http://10.43.8.217:9000/public/"
           },
           "resolve": {
             "extensions": [
@@ -823,10 +951,10 @@
               ".jsx"
             ],
             "alias": {
-              "asset": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/asset",
-              "component": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/component",
-              "framework": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/framework",
-              "store": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/store"
+              "asset": "/Users/chenzuying/Documents/bigAccount/app/web/asset",
+              "component": "/Users/chenzuying/Documents/bigAccount/app/web/component",
+              "framework": "/Users/chenzuying/Documents/bigAccount/app/web/framework",
+              "store": "/Users/chenzuying/Documents/bigAccount/app/web/store"
             }
           },
           "externals": [
@@ -834,9 +962,9 @@
           ],
           "resolveLoader": {
             "modules": [
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack/node_modules",
-              "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/easywebpack-react/node_modules"
+              "/Users/chenzuying/Documents/bigAccount/node_modules",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/node_modules",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack-react/node_modules"
             ]
           },
           "target": "node",
@@ -883,7 +1011,7 @@
                   }
                 ],
                 "exclude": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
@@ -907,7 +1035,7 @@
                   }
                 ],
                 "exclude": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
@@ -934,7 +1062,7 @@
                   }
                 ],
                 "exclude": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
@@ -981,7 +1109,7 @@
                   }
                 ],
                 "include": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
@@ -1007,7 +1135,7 @@
                   }
                 ],
                 "include": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
               {
@@ -1036,7 +1164,7 @@
                   }
                 ],
                 "include": [
-                  "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/app/web/page/css/module"
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               }
             ]
@@ -1061,8 +1189,8 @@
                 "EASY_ENV_IS_BROWSER": false,
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_PUBLIC_PATH": "\"http://10.43.8.145:9000/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://10.43.8.145:9000\""
+                "EASY_ENV_PUBLIC_PATH": "\"http://10.43.8.217:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://10.43.8.217:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -1176,9 +1304,9 @@
       "license": "MIT",
       "homepage": "https://github.com/hubcarl/egg-react-webpack-boilerplate"
     },
-    "baseDir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB",
-    "HOME": "/Users/chumo",
-    "rundir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/run",
+    "baseDir": "/Users/chenzuying/Documents/bigAccount",
+    "HOME": "/Users/chenzuying",
+    "rundir": "/Users/chenzuying/Documents/bigAccount/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -1209,7 +1337,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/logs",
+      "dir": "/Users/chenzuying/Documents/bigAccount/logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -1319,8 +1447,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-session",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -1332,8 +1460,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-security",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security",
       "version": "2.0.0"
     },
     "jsonp": {
@@ -1345,8 +1473,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-jsonp",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -1358,8 +1486,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-onerror",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -1369,8 +1497,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-i18n",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -1380,8 +1508,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-watcher",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -1391,8 +1519,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-multipart",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -1406,8 +1534,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-development",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -1417,8 +1545,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-schedule",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-schedule",
       "version": "3.2.1"
     },
     "logrotator": {
@@ -1430,8 +1558,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-logrotator",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator",
       "version": "3.0.1"
     },
     "static": {
@@ -1441,8 +1569,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-static",
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -1452,8 +1580,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view",
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view",
       "version": "2.0.0"
     },
     "reactssr": {
@@ -1463,8 +1591,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/plugin.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-view-react-ssr",
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr",
       "version": "2.2.2"
     },
     "cors": {
@@ -1474,8 +1602,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/plugin.local.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-cors",
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-cors",
       "version": "2.0.0"
     },
     "webpack": {
@@ -1487,8 +1615,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/plugin.local.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack",
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack",
       "version": "3.3.2"
     },
     "webpackreact": {
@@ -1500,8 +1628,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/config/plugin.local.js",
-      "path": "/Users/chumo/fishwork/bigAccount/nodejsPlan/bigAccountGit/bigAccountB/node_modules/egg-webpack-react",
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack-react",
       "version": "2.0.1"
     }
   }
