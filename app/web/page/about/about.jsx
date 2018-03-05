@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Header from 'component/header/header.jsx';
 import Footer from 'component/footer/footer.jsx';
+import Banner from 'component/common/banner/banner.jsx';
+import BannerImage from '../../asset/images/banner/aboutBanner.png';
 
 
 import './about.css'
@@ -93,46 +95,54 @@ class MediumCard extends Component {
 }
 
 
+
 export default class About extends Component {
+  constructor(props) {
+    super(props);
+    this.options = {
+      bannerImage: BannerImage,
+      bannerText:'关于我们'
+    }
+  }
+  
   render() {
-    return (
-      <div>
-        <Header menuactive={this.props.menuActive}></Header>
-        <div className="about">
-          <IntroduceBanner title="公司简介"/>
-          <p className="introduce">大账户是聚源金融公司旗下发布的一款专业金融理财APP，操作简单，提供一站式定制化
-            服务，依据客户的需求和特征，为其量身定制资产配置方案，轻松帮助客户实现财富增值。 先后获得江南愤青陈宇和
-            聚秀资本的天使投资，总部位于杭州江南1535茶馆。 在2017年5月，大账户携手重庆富民银行签订资金存管服务协议。
-            我们仅进行信息撮合，全程不触碰任何资金，银行把关，保证每一个标的都是真实的，更合规、更大限度地保障
-            用户资金安全。
-          </p>
-          <IntroduceBanner title="股东介绍"/>
-          <p className="introduce">小黑鱼是集移动互联网生活方式、消费新生态、大众金融服务于一体的科技金融平台。
-            公司成立于2017年3月31日，注册资本5000万元。前身为途牛金服，在途牛体系内负责运营途牛理财平台、
-            旅游分期及小额信贷等金融板块的产品。于2018年1月10日宣布完成9.5亿元A轮融资，该轮融资由光速中国、
-            晨兴资本、集富亚洲、戈壁创投、丰盛集团、大众点评创始人张涛和小黑鱼科技管理团队联合投资。
-          </p>
-          <IntroduceBanner title="团队介绍"/>
+    return <div>
+      <Header menuactive={this.props.menuActive}></Header>{this.props.message}
+      <Banner options={this.options}/>
+      <div className="about">
+        <IntroduceBanner title="公司简介"/>
+        <p className="introduce">大账户是聚源金融公司旗下发布的一款专业金融理财APP，操作简单，提供一站式定制化
+          服务，依据客户的需求和特征，为其量身定制资产配置方案，轻松帮助客户实现财富增值。 先后获得江南愤青陈宇和
+          聚秀资本的天使投资，总部位于杭州江南1535茶馆。 在2017年5月，大账户携手重庆富民银行签订资金存管服务协议。
+          我们仅进行信息撮合，全程不触碰任何资金，银行把关，保证每一个标的都是真实的，更合规、更大限度地保障
+          用户资金安全。
+        </p>
+        <IntroduceBanner title="股东介绍"/>
+        <p className="introduce">小黑鱼是集移动互联网生活方式、消费新生态、大众金融服务于一体的科技金融平台。
+          公司成立于2017年3月31日，注册资本5000万元。前身为途牛金服，在途牛体系内负责运营途牛理财平台、
+          旅游分期及小额信贷等金融板块的产品。于2018年1月10日宣布完成9.5亿元A轮融资，该轮融资由光速中国、
+          晨兴资本、集富亚洲、戈壁创投、丰盛集团、大众点评创始人张涛和小黑鱼科技管理团队联合投资。
+        </p>
+        <IntroduceBanner title="团队介绍"/>
 
-          <div className="member-list">
-            <div className="senior-list">
-              <SeniorCard member={memberArr[0]}/>
-              <SeniorCard member={memberArr[1]}/>
-            </div>
+        <div className="member-list">
+          <div className="senior-list">
+            <SeniorCard member={memberArr[0]}/>
+            <SeniorCard member={memberArr[1]}/>
           </div>
-
-          <div className="member-list">
-            <div className="medium-list">
-              <MediumCard member={memberArr[2]}/>
-              <MediumCard member={memberArr[3]}/>
-              <MediumCard member={memberArr[4]}/>
-            </div>
-          </div>
-
-          <IntroduceBanner title="合作伙伴介绍"/>
         </div>
-        <Footer/>
+
+        <div className="member-list">
+          <div className="medium-list">
+            <MediumCard member={memberArr[2]}/>
+            <MediumCard member={memberArr[3]}/>
+            <MediumCard member={memberArr[4]}/>
+          </div>
+        </div>
+
+        <IntroduceBanner title="合作伙伴介绍"/>
       </div>
-    );
+      <Footer></Footer>
+    </div>;
   }
 }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Header from 'component/header/header.jsx';
 import Footer from 'component/footer/footer.jsx';
-
+import Banner from 'component/common/banner/banner.jsx';
+import BannerImage from '../../asset/images/banner/newBanner.png';
 import './ventureedu.css'
 
 class VentureEdu extends Component {
-
-
+  
   render() {
     let ventureEdu = this.props.ventureEdu;
     let index = this.props.index;
@@ -65,14 +65,22 @@ class VentureEduList extends Component {
 }
 
 export default class VentureEduPage extends Component {
-  componentDidMount(){
-    console.log('----componentDidMount-----');
+  
+  constructor(props) {
+    super(props);
+    this.options = {
+      bannerImage: BannerImage,
+      bannerText:'风险教育',
+      height:200
+    }
   }
+  
   render() {
     return (
       <div>
         <Header menuactive={this.props.menuActive}></Header>
-          <VentureEduList ventureEduList={this.props.ventureEduList}/>
+        <Banner options={this.options}/>
+        <VentureEduList ventureEduList={this.props.ventureEduList}/>
         <Footer></Footer>
       </div>
     )

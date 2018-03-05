@@ -106,5 +106,29 @@
     "stack": [
       "wrappedController"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": 0,
+        "prefix": "",
+        "delimiter": "/",
+        "optional": true,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "\\/.+"
+      }
+    ],
+    "path": "/spa(/.+)?",
+    "regexp": "/^\\/spa(?:((?:\\/.+)))?(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
   }
 ]

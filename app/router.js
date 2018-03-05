@@ -1,4 +1,4 @@
-/**
+       /**
 路由规则：
   首页：index和 /
   公司新闻页： /companynew
@@ -23,5 +23,10 @@ module.exports = app => {
   app.get('/info.html', app.controller.info.info.new);
   app.get('/recharge.html', app.controller.recharge.recharge.charge);
   app.get('/about.html', app.controller.about.about.about);
+  
+
+  app.get('/spa(/.+)?', app.controller.spa.spa.ssr);
+
+  
 
 };

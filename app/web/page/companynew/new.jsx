@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import Header from 'component/header/header.jsx';
 import Footer from 'component/footer/footer.jsx';
-
-
+import Banner from 'component/common/banner/banner.jsx';
+import BannerImage from '../../asset/images/banner/newBanner.png';
 import './news.css'
 
-
-
 class NewsItem extends Component {
-
   render() {
     const news = this.props.news;
     return (
@@ -32,8 +29,6 @@ class NewsItem extends Component {
 }
 
 class NewsList extends Component {
-
-
   render() {
     let newsList = this.props.newsList;
     return (
@@ -47,17 +42,24 @@ class NewsList extends Component {
 }
 
 export default class NewsPage extends Component {
-  componentDidMount(){
-    console.log('----componentDidMount-----');
+  constructor(props) {
+    super(props);
+    this.options = {
+      bannerImage: BannerImage,
+      bannerText:'公司新闻',
+      height:200
+    }
   }
+  
   render() {
-    console.log('xxxxxxxxx' + this.props.newsList);
     return <div>
       <Header menuactive={this.props.menuActive}></Header>
+      <Banner options={this.options}/>
       <NewsList newsList={this.props.newsList}/>
       <Footer></Footer>
     </div>;
   }
 }
+
 
 

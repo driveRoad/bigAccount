@@ -1,4 +1,6 @@
 {
+  "info/new.js": "/public/js/info/new.js",
+  "info/new.css": "/public/css/info/new.css",
   "spa/ssr.js": "/public/js/spa/ssr.js",
   "spa/ssr.css": "/public/css/spa/ssr.css",
   "spa/redux.js": "/public/js/spa/redux.js",
@@ -21,6 +23,8 @@
   "ventureedu/ventureedu_detail.css": "/public/css/ventureedu/ventureedu_detail.css",
   "recharge/charge.js": "/public/js/recharge/charge.js",
   "recharge/charge.css": "/public/css/recharge/charge.css",
+  "companynew/new.js": "/public/js/companynew/new.js",
+  "companynew/new.css": "/public/css/companynew/new.css",
   "ventureedu/new.js": "/public/js/ventureedu/new.js",
   "ventureedu/new.css": "/public/css/ventureedu/new.css",
   "info/new.js": "/public/js/info/new.js",
@@ -52,10 +56,15 @@
   "layout.js": "/public/js/layout.js",
   "common.js": "/public/js/common.js",
 <<<<<<< HEAD
+  "img/fxfangfan.png": "/public/img/fxfangfan.png",
+  "img/bg.png": "/public/img/bg.png",
+=======
+<<<<<<< HEAD
   "img/accountlogo.png": "/public/img/accountlogo.png",
 =======
   "img/accountload.png": "/public/img/accountload.png",
 >>>>>>> 3b73613547bcdb1f8b16283dcdf0bd82b103ecd1
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
   "img/header.png": "/public/img/header.png",
   "img/index1.png": "/public/img/index1.png",
   "img/index2.png": "/public/img/index2.png",
@@ -101,6 +110,34 @@
   "img/车贷介绍.png": "/public/img/车贷介绍.png",
   "img/waiter.png": "/public/img/waiter.png",
   "img/weixin.png": "/public/img/weixin.png",
+<<<<<<< HEAD
+  "img/Qualification_dianxin.jpeg": "/public/img/Qualification_dianxin.jpeg",
+  "img/Qualification_yinye.png": "/public/img/Qualification_yinye.png",
+  "img/Qualification_yuming.jpeg": "/public/img/Qualification_yuming.jpeg",
+  "img/money_deposit_agreement1.png": "/public/img/money_deposit_agreement1.png",
+  "img/money_deposit_agreement10.png": "/public/img/money_deposit_agreement10.png",
+  "img/money_deposit_agreement11.png": "/public/img/money_deposit_agreement11.png",
+  "img/money_deposit_agreement12.png": "/public/img/money_deposit_agreement12.png",
+  "img/money_deposit_agreement13.png": "/public/img/money_deposit_agreement13.png",
+  "img/money_deposit_agreement2.png": "/public/img/money_deposit_agreement2.png",
+  "img/money_deposit_agreement3.png": "/public/img/money_deposit_agreement3.png",
+  "img/money_deposit_agreement4.png": "/public/img/money_deposit_agreement4.png",
+  "img/money_deposit_agreement5.png": "/public/img/money_deposit_agreement5.png",
+  "img/money_deposit_agreement6.png": "/public/img/money_deposit_agreement6.png",
+  "img/money_deposit_agreement7.png": "/public/img/money_deposit_agreement7.png",
+  "img/money_deposit_agreement8.png": "/public/img/money_deposit_agreement8.png",
+  "img/money_deposit_agreement9.png": "/public/img/money_deposit_agreement9.png",
+  "img/audit.png": "/public/img/audit.png",
+  "img/icon_card.png": "/public/img/icon_card.png",
+  "img/icon_dun.png": "/public/img/icon_dun.png",
+  "img/icon_home.png": "/public/img/icon_home.png",
+  "img/icon_left.png": "/public/img/icon_left.png",
+  "img/icon_right.png": "/public/img/icon_right.png",
+  "img/fkliucheng.png": "/public/img/fkliucheng.png",
+  "img/appdownload.png": "/public/img/appdownload.png",
+  "img/hhguanli.png": "/public/img/hhguanli.png",
+  "img/mid.png": "/public/img/mid.png",
+=======
   "img/appdownload.png": "/public/img/appdownload.png",
   "img/票据.png": "/public/img/票据.png",
 =======
@@ -111,8 +148,19 @@
   "img/weixin.png": "/public/img/weixin.png",
   "img/appdownload.png": "/public/img/appdownload.png",
 >>>>>>> 3b73613547bcdb1f8b16283dcdf0bd82b103ecd1
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
   "vendor.js": "/public/js/vendor.js",
   "deps": {
+    "info/new.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/info/new.js"
+      ],
+      "css": [
+        "/public/css/info/new.css"
+      ]
+    },
     "spa/ssr.js": {
       "js": [
         "/public/js/vendor.js",
@@ -194,6 +242,9 @@
         "/public/css/companynew/news_detail.css"
       ]
     },
+<<<<<<< HEAD
+    "companynew/new.js": {
+=======
     "index/index.js": {
       "js": [
         "/public/js/vendor.js",
@@ -205,6 +256,7 @@
       ]
     },
     "ventureedu/ventureedu_detail.js": {
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "js": [
         "/public/js/vendor.js",
         "/public/js/common.js",
@@ -411,7 +463,7 @@
   },
   "info": {
     "publicPath": "/public/",
-    "buildPath": "public",
+    "buildPath": "\\public",
     "mapped": true
   }
 }

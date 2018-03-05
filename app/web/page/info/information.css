@@ -1,0 +1,24 @@
+.top_bg{
+    width: 100%;
+    height: 200px;
+    background-image: url('./images/information/bg.png');
+    overflow: hidden;
+    letter-spacing: 20px;
+}
+.top_title{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 83px;
+}
+.Con_box{
+    margin: 120px auto 0;
+    width: 1200px;
+}
+.ant-tabs-bar{
+    margin-top: 20px;
+}
+.ant-tabs-vertical.ant-tabs-left > .ant-tabs-content{
+    border-left: none;
+}
+

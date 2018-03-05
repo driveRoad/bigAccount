@@ -15,6 +15,13 @@
       "domainWhiteList": [
         "http://localhost:9000",
         "http://127.0.0.1:9000",
+        "http://10.43.4.83:9000",
+        "http://localhost:9001",
+        "http://127.0.0.1:9001",
+        "http://10.43.4.83:9001",
+        "http://localhost:9002",
+        "http://127.0.0.1:9002",
+        "http://10.43.4.83:9002"
         "http://10.43.8.217:9000",
         "http://localhost:9001",
         "http://127.0.0.1:9001",
@@ -90,6 +97,24 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-session\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-development\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-static\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-view\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-cors\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack-react\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\locales",
+        "D:\\BigAccount\\bigAccount\\config\\locales"
         "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session/config/locales",
         "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/locales",
         "/Users/chenzuying/Documents/bigAccount/node_modules/egg-jsonp/config/locales",
@@ -117,6 +142,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
+        "default": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher\\lib\\event-sources\\development"
         "default": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/lib/event-sources/development"
       }
@@ -148,6 +175,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
+        "file": "D:\\BigAccount\\bigAccount\\logs\\bigAccountB\\egg-schedule.log"
         "file": "/Users/chenzuying/Documents/bigAccount/logs/bigAccountB/egg-schedule.log"
       }
     },
@@ -162,6 +190,7 @@
     },
     "static": {
       "prefix": "/public/",
+      "dir": "D:\\BigAccount\\bigAccount\\public",
       "dir": "/Users/chenzuying/Documents/bigAccount/public",
       "dynamic": true,
       "preload": false,
@@ -172,6 +201,7 @@
     },
     "view": {
       "root": [
+        "D:\\BigAccount\\bigAccount\\app\\view"
         "/Users/chenzuying/Documents/bigAccount/app/view"
       ],
       "cache": false,
@@ -184,6 +214,8 @@
     },
     "reactssr": {
       "doctype": "<!doctype html>",
+      "layout": "D:\\BigAccount\\bigAccount\\app\\view\\layout.js",
+      "manifest": "D:\\BigAccount\\bigAccount\\config\\manifest.json",
       "layout": "/Users/chenzuying/Documents/bigAccount/app/view/layout.js",
       "manifest": "/Users/chenzuying/Documents/bigAccount/config/manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
@@ -210,6 +242,97 @@
       },
       "webpackConfigList": [
         {
+          "context": "D:\\BigAccount\\bigAccount",
+          "entry": {
+            "about/about": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\about\\about.jsx"
+            ],
+            "ant/tab/tab": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\ant\\tab\\tab.jsx"
+            ],
+            "companynew/new": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\companynew\\new.jsx"
+            ],
+            "css/module/module": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module\\module.jsx"
+            ],
+            "hello/component": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\hello\\component.jsx"
+            ],
+            "hello/element": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\hello\\element.jsx"
+            ],
+            "home/home": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\home\\home.jsx"
+            ],
+            "index/index": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\index\\index.jsx"
+            ],
+            "info/new": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\info\\new.jsx"
+            ],
+            "recharge/charge": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\recharge\\charge.jsx"
+            ],
+            "spa/client": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "D:\\BigAccount\\bigAccount\\app\\web\\page\\spa\\client.jsx"
+            ],
+            "spa/redux": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "D:\\BigAccount\\bigAccount\\app\\web\\page\\spa\\redux.jsx"
+            ],
+            "spa/ssr": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "D:\\BigAccount\\bigAccount\\app\\web\\page\\spa\\ssr.jsx"
+            ],
+            "ventureedu/new": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\client-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\ventureedu\\new.jsx"
+            ],
+            "layout": [
+              "react-hot-loader/patch",
+              "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
+              "D:\\BigAccount\\bigAccount\\app\\web\\framework\\layout\\layout.jsx"
           "context": "/Users/chenzuying/Documents/bigAccount",
           "entry": {
             "about/about": [
@@ -402,6 +525,8 @@
           "output": {
             "filename": "js/[name].js",
             "chunkFilename": "js/chunk/[name].js",
+            "path": "D:\\BigAccount\\bigAccount\\public",
+            "publicPath": "http://127.0.0.1:9000/public/"
             "path": "/Users/chenzuying/Documents/bigAccount/public",
             "publicPath": "http://10.43.8.217:9000/public/"
           },
@@ -411,6 +536,10 @@
               ".jsx"
             ],
             "alias": {
+              "asset": "D:\\BigAccount\\bigAccount\\app\\web\\asset",
+              "component": "D:\\BigAccount\\bigAccount\\app\\web\\component",
+              "framework": "D:\\BigAccount\\bigAccount\\app\\web\\framework",
+              "store": "D:\\BigAccount\\bigAccount\\app\\web\\store"
               "asset": "/Users/chenzuying/Documents/bigAccount/app/web/asset",
               "component": "/Users/chenzuying/Documents/bigAccount/app/web/component",
               "framework": "/Users/chenzuying/Documents/bigAccount/app/web/framework",
@@ -420,6 +549,9 @@
           "externals": [],
           "resolveLoader": {
             "modules": [
+              "D:\\BigAccount\\bigAccount\\node_modules",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\node_modules",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack-react\\node_modules"
               "/Users/chenzuying/Documents/bigAccount/node_modules",
               "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/node_modules",
               "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack-react/node_modules"
@@ -451,6 +583,7 @@
                 "test": {},
                 "use": [
                   {
+                    "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
                     "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
@@ -472,6 +605,7 @@
                   }
                 ],
                 "exclude": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -479,6 +613,7 @@
                 "test": {},
                 "use": [
                   {
+                    "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
                     "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
@@ -503,6 +638,7 @@
                   }
                 ],
                 "exclude": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -510,6 +646,7 @@
                 "test": {},
                 "use": [
                   {
+                    "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
                     "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
@@ -537,6 +674,7 @@
                   }
                 ],
                 "exclude": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -568,6 +706,7 @@
                 "test": {},
                 "use": [
                   {
+                    "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
                     "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
@@ -591,6 +730,7 @@
                   }
                 ],
                 "include": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -598,6 +738,7 @@
                 "test": {},
                 "use": [
                   {
+                    "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
                     "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
@@ -624,6 +765,7 @@
                   }
                 ],
                 "include": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -631,6 +773,7 @@
                 "test": {},
                 "use": [
                   {
+                    "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
                     "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
                     "options": {
                       "omit": 1,
@@ -660,6 +803,7 @@
                   }
                 ],
                 "include": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               }
@@ -690,6 +834,8 @@
                 "EASY_ENV_IS_BROWSER": true,
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
+                "EASY_ENV_PUBLIC_PATH": "\"http://127.0.0.1:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
                 "EASY_ENV_PUBLIC_PATH": "\"http://10.43.8.217:9000/public/\"",
                 "EASY_ENV_HOST_URL": "\"http://10.43.8.217:9000\""
               },
@@ -733,6 +879,7 @@
                 "ventureedu/ventureedu_details/ventureedu_detail_00004",
                 "layout"
               ],
+              "ident": "D:\\BigAccount\\bigAccount\\node_modules\\webpack\\lib\\optimize\\CommonsChunkPlugin.js1",
               "ident": "/Users/chenzuying/Documents/bigAccount/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js1",
               "__plugin__": "CommonsChunkPlugin",
               "__lable__": "commonsChunk"
@@ -748,7 +895,7 @@
               "opts": {
                 "basePath": "",
                 "absPath": "",
-                "fileName": "../config/manifest.json",
+                "fileName": "..\\config\\manifest.json",
                 "commonsChunk": [
                   "runtime",
                   "common"
@@ -761,6 +908,14 @@
                 "map": null,
                 "generate": null,
                 "sort": null,
+                "baseDir": "D:\\BigAccount\\bigAccount",
+                "host": "http://127.0.0.1:9000",
+                "proxy": true,
+                "buildPath": "D:\\BigAccount\\bigAccount\\public",
+                "publicPath": "http://127.0.0.1:9000/public/",
+                "localPublicPath": "/public/",
+                "assets": false,
+                "filepath": "D:\\BigAccount\\bigAccount\\config\\manifest.json",
                 "baseDir": "/Users/chenzuying/Documents/bigAccount",
                 "host": "http://10.43.8.217:9000",
                 "proxy": true,
@@ -778,6 +933,7 @@
                     ]
                   }
                 ],
+                "dllDir": "C:\\Users\\admin\\AppData\\Local\\Temp/easywebpack/bigAccountB/dev"
                 "dllDir": "/var/folders/mm/x__q5s250hx0xt0y48r6wxcm0000gn/T/easywebpack/bigAccountB/dev"
               },
               "__plugin__": "webpack-manifest-resource-plugin",
@@ -800,6 +956,7 @@
             },
             {
               "options": {
+                "context": "D:\\BigAccount\\bigAccount",
                 "context": "/Users/chenzuying/Documents/bigAccount",
                 "manifest": {
                   "name": "vendor",
@@ -905,6 +1062,23 @@
           ]
         },
         {
+          "context": "D:\\BigAccount\\bigAccount",
+          "entry": {
+            "about/about": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\about\\about.jsx",
+            "ant/tab/tab": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\ant\\tab\\tab.jsx",
+            "companynew/new": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\companynew\\new.jsx",
+            "css/module/module": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module\\module.jsx",
+            "hello/component": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\hello\\component.jsx",
+            "hello/element": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\hello\\element.jsx",
+            "home/home": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\home\\home.jsx",
+            "index/index": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\index\\index.jsx",
+            "info/new": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\info\\new.jsx",
+            "recharge/charge": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\recharge\\charge.jsx",
+            "spa/client": "D:\\BigAccount\\bigAccount\\app\\web\\page\\spa\\client.jsx",
+            "spa/redux": "D:\\BigAccount\\bigAccount\\app\\web\\page\\spa\\redux.jsx",
+            "spa/ssr": "D:\\BigAccount\\bigAccount\\app\\web\\page\\spa\\ssr.jsx",
+            "ventureedu/new": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\ventureedu\\new.jsx",
+            "layout": "D:\\BigAccount\\bigAccount\\app\\web\\framework\\layout\\layout.jsx"
           "context": "/Users/chenzuying/Documents/bigAccount",
           "entry": {
             "about/about": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/about/about.jsx",
@@ -942,6 +1116,8 @@
           "output": {
             "libraryTarget": "commonjs2",
             "filename": "[name].js",
+            "path": "D:\\BigAccount\\bigAccount\\app\\view",
+            "publicPath": "http://127.0.0.1:9000/public/"
             "path": "/Users/chenzuying/Documents/bigAccount/app/view",
             "publicPath": "http://10.43.8.217:9000/public/"
           },
@@ -951,6 +1127,10 @@
               ".jsx"
             ],
             "alias": {
+              "asset": "D:\\BigAccount\\bigAccount\\app\\web\\asset",
+              "component": "D:\\BigAccount\\bigAccount\\app\\web\\component",
+              "framework": "D:\\BigAccount\\bigAccount\\app\\web\\framework",
+              "store": "D:\\BigAccount\\bigAccount\\app\\web\\store"
               "asset": "/Users/chenzuying/Documents/bigAccount/app/web/asset",
               "component": "/Users/chenzuying/Documents/bigAccount/app/web/component",
               "framework": "/Users/chenzuying/Documents/bigAccount/app/web/framework",
@@ -962,6 +1142,9 @@
           ],
           "resolveLoader": {
             "modules": [
+              "D:\\BigAccount\\bigAccount\\node_modules",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\node_modules",
+              "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack-react\\node_modules"
               "/Users/chenzuying/Documents/bigAccount/node_modules",
               "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/node_modules",
               "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack-react/node_modules"
@@ -1011,6 +1194,7 @@
                   }
                 ],
                 "exclude": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -1035,6 +1219,7 @@
                   }
                 ],
                 "exclude": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -1062,6 +1247,7 @@
                   }
                 ],
                 "exclude": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -1109,6 +1295,7 @@
                   }
                 ],
                 "include": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -1135,6 +1322,7 @@
                   }
                 ],
                 "include": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               },
@@ -1164,6 +1352,7 @@
                   }
                 ],
                 "include": [
+                  "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
                   "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
                 ]
               }
@@ -1189,6 +1378,8 @@
                 "EASY_ENV_IS_BROWSER": false,
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
+                "EASY_ENV_PUBLIC_PATH": "\"http://127.0.0.1:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
                 "EASY_ENV_PUBLIC_PATH": "\"http://10.43.8.217:9000/public/\"",
                 "EASY_ENV_HOST_URL": "\"http://10.43.8.217:9000\""
               },
@@ -1231,6 +1422,8 @@
         "fix": "eslint --fix ."
       },
       "dependencies": {
+        "echarts": "^4.0.4",
+        "echarts-for-react": "^2.0.6",
         "egg": "^2.1.0",
         "egg-cors": "^2.0.0",
         "egg-logger": "^1.5.0",
@@ -1263,6 +1456,7 @@
         "directory-named-webpack-plugin": "^2.2.3",
         "easywebpack-cli": "^3.5.0",
         "easywebpack-react": "^3.5.0",
+        "echarts-for-react": "^2.0.6",
         "egg-webpack": "^3.2.4",
         "egg-webpack-react": "^2.0.0",
         "eslint": "^4.6.1",
@@ -1286,6 +1480,9 @@
         "sass-loader": "^6.0.6",
         "stylus": "^0.54.5",
         "stylus-loader": "^3.0.1",
+        "theme": {
+          "primary-color": "#ff5953"
+        },
         "uglifyjs-webpack-plugin": "^1.1.2",
         "vconsole": "^3.0.0",
         "webpack-manifest-resource-plugin": "^2.0.2"
@@ -1304,6 +1501,9 @@
       "license": "MIT",
       "homepage": "https://github.com/hubcarl/egg-react-webpack-boilerplate"
     },
+    "baseDir": "D:\\BigAccount\\bigAccount",
+    "HOME": "C:\\Users\\admin",
+    "rundir": "D:\\BigAccount\\bigAccount\\run",
     "baseDir": "/Users/chenzuying/Documents/bigAccount",
     "HOME": "/Users/chenzuying",
     "rundir": "/Users/chenzuying/Documents/bigAccount/run",
@@ -1337,6 +1537,7 @@
       "returnRawBody": true
     },
     "logger": {
+      "dir": "D:\\BigAccount\\bigAccount\\logs",
       "dir": "/Users/chenzuying/Documents/bigAccount/logs",
       "encoding": "utf8",
       "env": "local",
@@ -1447,6 +1648,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-session",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session",
       "version": "3.1.0"
@@ -1460,6 +1663,8 @@
         "session"
       ],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security",
       "version": "2.0.0"
@@ -1473,6 +1678,8 @@
         "security"
       ],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-jsonp",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-jsonp",
       "version": "2.0.0"
@@ -1486,6 +1693,8 @@
         "jsonp"
       ],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-onerror",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-onerror",
       "version": "2.0.0"
@@ -1497,6 +1706,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-i18n",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n",
       "version": "2.0.0"
@@ -1508,6 +1719,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher",
       "version": "3.0.0"
@@ -1519,6 +1732,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart",
       "version": "2.0.0"
@@ -1534,6 +1749,8 @@
       "env": [
         "local"
       ],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-development",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-development",
       "version": "2.2.0"
@@ -1545,6 +1762,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-schedule",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-schedule",
       "version": "3.2.1"
@@ -1558,6 +1777,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator",
       "version": "3.0.1"
@@ -1569,6 +1790,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-static",
       "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-static",
       "version": "2.1.0"
@@ -1580,6 +1803,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view",
       "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view",
       "version": "2.0.0"
@@ -1591,6 +1816,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\config\\plugin.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr",
       "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr",
       "version": "2.2.2"
@@ -1602,6 +1829,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+      "from": "D:\\BigAccount\\bigAccount\\config\\plugin.local.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-cors",
       "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-cors",
       "version": "2.0.0"
@@ -1615,6 +1844,8 @@
       "env": [
         "local"
       ],
+      "from": "D:\\BigAccount\\bigAccount\\config\\plugin.local.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack",
       "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack",
       "version": "3.3.2"
@@ -1628,6 +1859,8 @@
       "env": [
         "local"
       ],
+      "from": "D:\\BigAccount\\bigAccount\\config\\plugin.local.js",
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack-react",
       "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
       "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack-react",
       "version": "2.0.1"
