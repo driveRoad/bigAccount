@@ -1,0 +1,1111 @@
+2018-02-28 13:24:30,418 ERROR 508 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 508
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 13:43:12,090 ERROR 4424 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 4424
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 14:07:52,643 ERROR 10952 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 10952
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 14:17:59,207 ERROR 11716 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 11716
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 14:18:16,763 ERROR 2704 [-/127.0.0.1/-/10ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2704
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 14:26:04,963 ERROR 7148 [-/127.0.0.1/-/8ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7148
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 14:29:55,062 ERROR 6988 [-/127.0.0.1/-/6ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6988
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 14:29:55,811 ERROR 6988 [-/127.0.0.1/-/4ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6988
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 14:29:55,970 ERROR 6988 [-/127.0.0.1/-/2ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6988
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 15:20:58,825 ERROR 1080 [-/::1/-/7ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1080
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 15:44:03,051 ERROR 12256 [-/127.0.0.1/-/7ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12256
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 15:49:35,431 ERROR 9684 [-/127.0.0.1/-/7ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9684
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 15:54:39,470 ERROR 6408 [-/127.0.0.1/-/295ms GET /info.html] nodejs.ReferenceError: document is not defined
+    at LookImg.render (evalmachine.<anonymous>:26110:30)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 6408
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 15:54:56,594 ERROR 9332 [-/127.0.0.1/-/298ms GET /info.html] nodejs.ReferenceError: document is not defined
+    at LookImg.render (evalmachine.<anonymous>:26110:30)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 9332
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 16:01:12,245 ERROR 14772 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-02-28 18:43:08,872 ERROR 12224 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 12224
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 18:45:45,543 ERROR 6820 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 6820
+hostname: DESKTOP-S37NBDK
+
+2018-02-28 18:48:17,304 ERROR 9088 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-02-28 18:48:17,305 ERROR 9148 A client (::1:49834) error [ECONNRESET] occurred: read ECONNRESET
+2018-02-28 18:48:17,318 ERROR 9148 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-02-28 18:48:17,304 ERROR 6784 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-02-28 19:37:25,306 ERROR 9292 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 9292
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 09:28:17,168 ERROR 5892 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 5892
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 10:48:53,517 ERROR 9440 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 11:01:27,387 ERROR 3708 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 3708
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 11:01:41,421 ERROR 7028 [-/::1/-/8ms GET /info.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\layout.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7028
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 11:01:44,380 ERROR 7028 [-/127.0.0.1/-/4ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7028
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 11:03:32,929 ERROR 7744 [-/127.0.0.1/-/5ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7744
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 11:18:48,882 ERROR 7740 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 7740
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 11:21:53,402 ERROR 3316 A client (::1:57319) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 11:42:46,686 ERROR 2700 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 12:35:19,705 ERROR 2700 nodejs.ClusterClientNoResponseError: client no response in 1250812ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 12:35:19,737 ERROR 2700 nodejs.ClusterClientNoResponseError: client no response in 1250773ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 12:35:19,738 ERROR 2700 nodejs.ClusterClientNoResponseError: client no response in 1250757ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 12:35:19,739 ERROR 2700 nodejs.ClusterClientNoResponseError: client no response in 1250671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 13:26:18,835 ERROR 2700 nodejs.ClusterClientNoResponseError: client no response in 378896ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 13:26:18,984 ERROR 2700 nodejs.ClusterClientNoResponseError: client no response in 378922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 13:26:19,061 ERROR 2700 nodejs.ClusterClientNoResponseError: client no response in 378911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 13:26:19,070 ERROR 2700 nodejs.ClusterClientNoResponseError: client no response in 378904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 2700
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 14:07:19,569 ERROR 2624 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 2624
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 14:25:43,942 ERROR 12348 A client (::ffff:127.0.0.1:60142) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 14:25:43,958 ERROR 12348 [-/127.0.0.1/-/59ms GET /public/js/info/new.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 12348
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 14:25:46,683 ERROR 12348 A client (::ffff:127.0.0.1:60144) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 14:25:46,710 ERROR 12348 [-/127.0.0.1/-/29ms GET /public/js/common.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 12348
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 14:25:46,847 ERROR 12348 A client (::ffff:127.0.0.1:60146) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 14:25:46,889 ERROR 12348 [-/127.0.0.1/-/48ms GET /public/js/common.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 12348
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 14:25:47,164 ERROR 12348 A client (::ffff:127.0.0.1:60151) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 14:25:47,181 ERROR 12348 [-/127.0.0.1/-/20ms GET /public/js/common.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 12348
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 14:25:47,282 ERROR 12348 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 14:29:51,547 ERROR 12348 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 14:51:41,047 ERROR 12348 A client (::ffff:127.0.0.1:61724) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 14:51:41,052 ERROR 12348 [-/127.0.0.1/-/9ms GET /public/css/info/new.css] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 12348
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 15:58:29,778 ERROR 5396 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 5396
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 16:57:50,900 ERROR 7536 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 7536
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 16:58:30,990 ERROR 1360 [-/127.0.0.1/-/14ms GET /info.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\layout.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1360
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 16:58:46,272 ERROR 1360 [-/127.0.0.1/-/13ms GET /index.html] nodejs.Error: read webpack memory file[D:\BigAccount\bigAccount\app\view\index\index.js] content is empty, please check if the file exists
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1360
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 17:01:57,224 ERROR 14068 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 14068
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 17:03:45,595 ERROR 4992 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 4992
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 17:17:07,041 ERROR 9640 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 17:17:07,045 ERROR 9640 [-/undefined/-/5ms GET /info.html] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 9640
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 17:22:16,000 ERROR 12412 A client (::ffff:127.0.0.1:53247) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-01 17:22:16,001 ERROR 12412 [-/127.0.0.1/-/98ms GET /public/js/info/new.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 12412
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:18:58,920 ERROR 5720 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 5720
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:42:11,945 ERROR 12144 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 12144
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:42:54,353 ERROR 13364 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 13364
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:44:09,267 ERROR 8064 [-/127.0.0.1/-/350ms GET /info.html] nodejs.ReferenceError: document is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:23)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 8064
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:45:21,169 ERROR 11648 [-/127.0.0.1/-/157ms GET /info.html] nodejs.ReferenceError: document is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:23)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 11648
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:45:27,356 ERROR 10460 [-/127.0.0.1/-/376ms GET /info.html] nodejs.ReferenceError: document is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:23)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 10460
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:45:30,889 ERROR 10460 [-/127.0.0.1/-/100ms GET /info.html] nodejs.ReferenceError: document is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:23)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 10460
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:53:43,317 ERROR 8064 [-/127.0.0.1/-/188ms GET /info.html] nodejs.ReferenceError: window is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:23)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 8064
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 18:58:11,989 ERROR 8064 [-/127.0.0.1/-/174ms GET /info.html] nodejs.ReferenceError: document is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:23)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 8064
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 19:07:01,629 ERROR 516 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 516
+hostname: DESKTOP-S37NBDK
+
+2018-03-01 19:25:27,092 ERROR 13512 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 13512
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 09:57:08,265 ERROR 10364 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 10364
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 09:58:16,434 ERROR 2148 [-/127.0.0.1/-/310ms GET /info.html] nodejs.ReferenceError: document is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:23)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 2148
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 10:33:34,932 ERROR 540 [-/127.0.0.1/-/155ms GET /info.html] nodejs.ReferenceError: Hei is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:27)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 540
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 10:34:11,155 ERROR 1840 [-/127.0.0.1/-/174ms GET /info.html] nodejs.ReferenceError: Hei is not defined
+    at LookImg.render (evalmachine.<anonymous>:26131:27)
+    at resolve (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2149:18)
+    at ReactDOMServerRenderer.render (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2260:22)
+    at ReactDOMServerRenderer.read (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2234:19)
+    at Object.renderToString (D:\BigAccount\bigAccount\node_modules\react-dom\cjs\react-dom-server.node.development.js:2501:25)
+    at Engine.renderToString (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:62:27)
+    at Engine.renderElement (D:\BigAccount\bigAccount\node_modules\egg-view-react-ssr\lib\engine.js:45:35)
+    at D:\BigAccount\bigAccount\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\BigAccount\bigAccount\node_modules\co\index.js:65:19)
+
+pid: 1840
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:20:03,856 ERROR 540 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:20:03,839 ERROR 7376 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:20:03,864 ERROR 7376 [-/undefined/-/46ms GET /public/js/info/new.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 7376
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:20:03,884 ERROR 7376 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:20:03,886 ERROR 7376 [-/undefined/-/10ms GET /public/js/LookImg.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 7376
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:20:51,631 ERROR 540 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:20:51,647 ERROR 540 [-/undefined/-/93ms GET /info.html] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 540
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:20:51,778 ERROR 1840 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:20:51,812 ERROR 1840 [-/undefined/-/115ms GET /info.html] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 1840
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:20:51,500 ERROR 7376 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:20:51,515 ERROR 7376 [-/undefined/-/85ms GET /info.html] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 7376
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:42:53,554 ERROR 540 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:42:53,555 ERROR 540 [-/undefined/-/58ms GET /info.html] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 540
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:42:54,179 ERROR 540 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:42:54,215 ERROR 540 [-/undefined/-/62ms GET /public/js/info/new.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 540
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:42:54,529 ERROR 540 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:42:54,548 ERROR 540 [-/undefined/-/329ms GET /info.html] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 540
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 11:42:54,688 ERROR 540 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-02 11:42:54,731 ERROR 540 [-/undefined/-/112ms GET /info.html] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 540
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 13:57:31,477 ERROR 8380 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 8380
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 14:05:03,679 ERROR 5592 A client (undefined:NaN) error [ECONNRESET] occurred: write ECONNRESET
+2018-03-02 14:24:25,530 ERROR 1548 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 1548
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 14:41:58,757 ERROR 12628 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 12628
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 14:55:34,231 ERROR 11508 A client (::ffff:10.43.8.222:51410) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-03-02 14:55:34,238 ERROR 11508 A client (::ffff:10.43.8.222:51411) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-03-02 17:47:34,588 ERROR 3848 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 3848
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 17:50:15,252 ERROR 3848 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 3848
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 17:50:15,359 ERROR 3848 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 3848
+hostname: DESKTOP-S37NBDK
+
+2018-03-02 18:15:03,663 ERROR 3916 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 3916
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 11:43:21,790 ERROR 11160 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 12:18:09,674 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 205933ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 12:18:09,678 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 205918ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 12:18:09,679 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 205911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 12:18:09,680 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 205885ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:11:24,818 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 1375070ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:11:24,922 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 1375067ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:11:25,011 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 1375074ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:11:25,030 ERROR 11160 nodejs.ClusterClientNoResponseError: client no response in 1375086ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\BigAccount\bigAccount\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 11160
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:41:30,257 ERROR 11048 nodejs.ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+ENOENTError: ENOENT: no such file or directory, lstat 'D:\BigAccount\bigAccount\config\manifest.json'
+errno: -4058
+code: 'ENOENT'
+syscall: 'lstat'
+path: 'D:\\BigAccount\\bigAccount\\config\\manifest.json'
+dir: 'D:\\BigAccount\\bigAccount\\config'
+name: 'ENOENTError'
+pid: 11048
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:41:56,691 ERROR 1056 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-05 13:41:56,729 ERROR 1056 [-/undefined/-/243ms GET /public/js/vendor.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 1056
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:41:56,730 ERROR 1056 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-05 13:41:56,730 ERROR 1056 [-/undefined/-/258ms GET /public/js/LookImg.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 1056
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:41:56,695 ERROR 5364 A client (::ffff:127.0.0.1:58157) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-05 13:41:56,729 ERROR 5364 [-/127.0.0.1/-/230ms GET /public/js/common.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 5364
+hostname: DESKTOP-S37NBDK
+
+2018-03-05 13:41:56,695 ERROR 9052 A client (::ffff:127.0.0.1:58155) error [ECONNRESET] occurred: read ECONNRESET
+2018-03-05 13:41:56,728 ERROR 9052 [-/127.0.0.1/-/260ms GET /public/js/info/new.js] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:726:18)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.Writable.end (_stream_writable.js:553:10)
+    at Socket.end (net.js:496:31)
+    at Application.onClientError (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:82:12)
+    at Server.server.on (D:\BigAccount\bigAccount\node_modules\egg\lib\application.js:97:52)
+headerSent: true
+pid: 9052
+hostname: DESKTOP-S37NBDK
+

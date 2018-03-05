@@ -12,17 +12,9 @@
     }
   },
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
     "new-cap": "off",
     "newline-after-var": "off",
     "no-invalid-this": "off",
-    "quotes": [
-      "error",
-      "single"
-    ],
     "guard-for-in": "off",
     "no-console": "off",
     "no-undefined": "off",
@@ -32,10 +24,6 @@
     "func-style": [
       "error",
       "expression"
-    ],
-    "comma-dangle": [
-      "error",
-      "never"
     ]
   },
   "plugins": [

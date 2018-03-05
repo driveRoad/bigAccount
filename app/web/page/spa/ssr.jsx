@@ -12,6 +12,7 @@ import routes from 'component/spa/ssr/routes'
 import './spa.css';
 
 const clientRender = () => {
+  console.log('client');
   const store = create(window.__INITIAL_STATE__);
   const url = store.getState().url;
   ReactDOM.render(
@@ -28,6 +29,7 @@ const clientRender = () => {
 };
 
 const serverRender = (context, options)=> {
+  console.log('server');
   const url = context.state.url;
   const branch = matchRoutes(routes, url);
   const promises = branch.map(({route}) => {
