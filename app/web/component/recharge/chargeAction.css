@@ -1,0 +1,116 @@
+.charge-action-container {
+  background-color: grey;
+  height: 1000px;
+}
+.charge-action-container .charge-show {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.charge-action-container .charge-show section:nth-child(1) {
+  margin-top: 73px;
+  position: relative;
+  width: 318px;
+  height: 718px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.charge-action-container .charge-show section:nth-child(1) .user {
+  position: absolute;
+  top:100px;
+  left: 100px;
+  color:white;
+  text-align: center;
+}
+.charge-action-container .charge-show section:nth-child(1) .user span {
+  display: block;
+  text-align: center;
+  margin-top: 42px;
+}
+.charge-action-container .charge-show section:nth-child(1) .user span:nth-child(1) {
+  font-size: 28px;
+}
+.charge-action-container .charge-show section:nth-child(1) .user span:nth-child(2) {
+  font-size: 22px;
+}
+.charge-action-container .charge-show section:nth-child(1) .user span:nth-child(3) {
+  font-size: 18px;
+}
+
+.charge-action-container .charge-show section:nth-child(2) {
+  width: 780px;
+  height: 700px;
+  background-color: #ffffff;
+  margin-top: 80px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.charge-action-container .charge-show .charge-notice {
+  margin-top: 187px;
+  margin-left: 168px;
+}
+.charge-action-container .charge-show .charge-notice .charge-left,.charge-total {
+  display: inline-block;
+  font-size: 22px;
+  width: 146px;
+  text-align: center;
+}
+.charge-action-container .charge-show .charge-notice .charge-total span {
+  margin-left: 10px;
+}
+.charge-action-container .charge-show .charge-notice .charge-left span {
+  margin-left: 10px;
+}
+.charge-action-container .charge-show .charge-notice .charge-total {
+  margin-left: 167px;
+  font-size: 22px;
+}
+.charge-action-container .charge-show .charge-nummber {
+  margin-top:37px;
+}
+.charge-action-container .charge-show .recharge-action {
+  margin-left: 40%;
+  margin-top:110px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background-color: grey;
+  color: #ffffff;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 10px;
+}
+.charge-action-container .recharge-action {
+  margin-left: 50%;
+  margin-top: 60px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background-color: red;
+  color: #ffffff;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 10px;
+}
+.charge-action-container .charge-show .bottom-pic {
+  position:absolute;
+  bottom:0px;
+}
+/**
+输入框样式
+**/
+.charge-show .charge-input .common-input {
+  margin-left: 178px;
+  margin-top: 49px;
+  position: relative;
+}
+.charge-show .charge-input .common-input .unit {
+  position: absolute;
+}
+
+.charge-show .charge-input .common-input .error-input {
+  color:red;
+  margin-top: 10px;
+}

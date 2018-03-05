@@ -5,12 +5,6 @@ import waiter from '../../asset/images/waiter.png';
 import './footer.css';
 
 export default class Footer extends Component {
-  componentWillMount() {
-    console.log('----------will mount footer---------');
-  }
-  componentDidMount() {
-    console.log('-----------did mount footer----------');
-  }
   render() {
     return <footer className="footer">	
 		  <div className="company-info">

@@ -9,6 +9,8 @@
   "ventureedu/new.css": "/public/css/ventureedu/new.css",
   "companynew/new.js": "/public/js/companynew/new.js",
   "companynew/new.css": "/public/css/companynew/new.css",
+  "recharge/charge.js": "/public/js/recharge/charge.js",
+  "recharge/charge.css": "/public/css/recharge/charge.css",
   "spa/client.js": "/public/js/spa/client.js",
   "spa/client.css": "/public/css/spa/client.css",
   "companynew/news_detail.js": "/public/js/companynew/news_detail.js",
@@ -19,6 +21,8 @@
   "ventureedu/ventureedu_detail.css": "/public/css/ventureedu/ventureedu_detail.css",
   "recharge/charge.js": "/public/js/recharge/charge.js",
   "recharge/charge.css": "/public/css/recharge/charge.css",
+  "ventureedu/new.js": "/public/js/ventureedu/new.js",
+  "ventureedu/new.css": "/public/css/ventureedu/new.css",
   "info/new.js": "/public/js/info/new.js",
   "info/new.css": "/public/css/info/new.css",
   "about/about.js": "/public/js/about/about.js",
@@ -47,13 +51,18 @@
   "ventureedu/ventureedu_details/ventureedu_detail_00001.js": "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00001.js",
   "layout.js": "/public/js/layout.js",
   "common.js": "/public/js/common.js",
+<<<<<<< HEAD
   "img/accountlogo.png": "/public/img/accountlogo.png",
+=======
+  "img/accountload.png": "/public/img/accountload.png",
+>>>>>>> 3b73613547bcdb1f8b16283dcdf0bd82b103ecd1
   "img/header.png": "/public/img/header.png",
   "img/index1.png": "/public/img/index1.png",
   "img/index2.png": "/public/img/index2.png",
   "img/index3.png": "/public/img/index3.png",
   "img/loading.gif": "/public/img/loading.gif",
   "img/logo.png": "/public/img/logo.png",
+<<<<<<< HEAD
   "img/list_ico_hot.png": "/public/img/list_ico_hot.png",
   "img/list_ico_next_r.png": "/public/img/list_ico_next_r.png",
   "img/list_ico_pre_l.png": "/public/img/list_ico_pre_l.png",
@@ -94,6 +103,14 @@
   "img/weixin.png": "/public/img/weixin.png",
   "img/appdownload.png": "/public/img/appdownload.png",
   "img/票据.png": "/public/img/票据.png",
+=======
+  "img/bottom.png": "/public/img/bottom.png",
+  "img/bottomwen.png": "/public/img/bottomwen.png",
+  "img/user.png": "/public/img/user.png",
+  "img/waiter.png": "/public/img/waiter.png",
+  "img/weixin.png": "/public/img/weixin.png",
+  "img/appdownload.png": "/public/img/appdownload.png",
+>>>>>>> 3b73613547bcdb1f8b16283dcdf0bd82b103ecd1
   "vendor.js": "/public/js/vendor.js",
   "deps": {
     "spa/ssr.js": {
@@ -126,6 +143,7 @@
         "/public/css/ant/tab/tab.css"
       ]
     },
+<<<<<<< HEAD
     "ventureedu/new.js": {
       "js": [
         "/public/js/vendor.js",
@@ -144,6 +162,16 @@
       ],
       "css": [
         "/public/css/companynew/new.css"
+=======
+    "recharge/charge.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/recharge/charge.js"
+      ],
+      "css": [
+        "/public/css/recharge/charge.css"
+>>>>>>> 3b73613547bcdb1f8b16283dcdf0bd82b103ecd1
       ]
     },
     "spa/client.js": {
@@ -184,16 +212,6 @@
       ],
       "css": [
         "/public/css/ventureedu/ventureedu_detail.css"
-      ]
-    },
-    "recharge/charge.js": {
-      "js": [
-        "/public/js/vendor.js",
-        "/public/js/common.js",
-        "/public/js/recharge/charge.js"
-      ],
-      "css": [
-        "/public/css/recharge/charge.css"
       ]
     },
     "info/new.js": {

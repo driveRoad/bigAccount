@@ -12,6 +12,7 @@
     }
   },
   "rules": {
+    
     "new-cap": "off",
     "newline-after-var": "off",
     "no-invalid-this": "off",
