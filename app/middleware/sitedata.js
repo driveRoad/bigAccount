@@ -18,6 +18,7 @@
   * 
   */
  function getSiteDataContext(ctx) {
+    
     if(!ctx || !ctx.query) {
         return;
     }

@@ -5,14 +5,14 @@
   "spa/redux.css": "/public/css/spa/redux.css",
   "ant/tab/tab.js": "/public/js/ant/tab/tab.js",
   "ant/tab/tab.css": "/public/css/ant/tab/tab.css",
+  "recharge/charge.js": "/public/js/recharge/charge.js",
+  "recharge/charge.css": "/public/css/recharge/charge.css",
   "spa/client.js": "/public/js/spa/client.js",
   "spa/client.css": "/public/css/spa/client.css",
   "index/index.js": "/public/js/index/index.js",
   "index/index.css": "/public/css/index/index.css",
   "ventureedu/new.js": "/public/js/ventureedu/new.js",
   "ventureedu/new.css": "/public/css/ventureedu/new.css",
-  "recharge/charge.js": "/public/js/recharge/charge.js",
-  "recharge/charge.css": "/public/css/recharge/charge.css",
   "info/new.js": "/public/js/info/new.js",
   "info/new.css": "/public/css/info/new.css",
   "companynew/new.js": "/public/js/companynew/new.js",
@@ -29,15 +29,19 @@
   "hello/component.css": "/public/css/hello/component.css",
   "layout.js": "/public/js/layout.js",
   "common.js": "/public/js/common.js",
-  "img/appdownload.png": "/public/img/appdownload.png",
+  "img/accountload.png": "/public/img/accountload.png",
+  "img/header.png": "/public/img/header.png",
   "img/index1.png": "/public/img/index1.png",
   "img/index2.png": "/public/img/index2.png",
   "img/index3.png": "/public/img/index3.png",
   "img/loading.gif": "/public/img/loading.gif",
   "img/logo.png": "/public/img/logo.png",
+  "img/bottom.png": "/public/img/bottom.png",
+  "img/bottomwen.png": "/public/img/bottomwen.png",
+  "img/user.png": "/public/img/user.png",
   "img/waiter.png": "/public/img/waiter.png",
   "img/weixin.png": "/public/img/weixin.png",
-  "img/header.png": "/public/img/header.png",
+  "img/appdownload.png": "/public/img/appdownload.png",
   "vendor.js": "/public/js/vendor.js",
   "deps": {
     "spa/ssr.js": {
@@ -70,6 +74,16 @@
         "/public/css/ant/tab/tab.css"
       ]
     },
+    "recharge/charge.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/recharge/charge.js"
+      ],
+      "css": [
+        "/public/css/recharge/charge.css"
+      ]
+    },
     "spa/client.js": {
       "js": [
         "/public/js/vendor.js",
@@ -98,16 +112,6 @@
       ],
       "css": [
         "/public/css/ventureedu/new.css"
-      ]
-    },
-    "recharge/charge.js": {
-      "js": [
-        "/public/js/vendor.js",
-        "/public/js/common.js",
-        "/public/js/recharge/charge.js"
-      ],
-      "css": [
-        "/public/css/recharge/charge.css"
       ]
     },
     "info/new.js": {

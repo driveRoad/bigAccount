@@ -5,7 +5,6 @@ module.exports = () => {
   const skipExt = [ '.png', '.jpeg', '.jpg', '.ico', '.gif' ];
   return function* (next) {
     const start = new Date().getTime();
-    
     yield* next;
 
     const rs = Math.ceil(new Date().getTime() - start);
