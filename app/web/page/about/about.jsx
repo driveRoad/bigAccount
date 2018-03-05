@@ -107,7 +107,7 @@ export default class About extends Component {
   
   render() {
     return <div>
-      <Header menuactive={this.props.menuActive}></Header>{this.props.message}
+      <Header menuactive={this.props.menuActive}></Header>
       <Banner options={this.options}/>
       <div className="about">
         <IntroduceBanner title="公司简介"/>

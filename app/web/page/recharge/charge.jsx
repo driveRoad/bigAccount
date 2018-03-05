@@ -13,7 +13,7 @@ export default class Charge extends Component {
   render() {
     return <div>
       <Header menuactive={this.props.menuActive}></Header>
-      <ChargeSuccess/>
+      <MobileScan/>
       <Footer></Footer>
     </div>;
   }

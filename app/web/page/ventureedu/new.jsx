@@ -6,7 +6,6 @@ import BannerImage from '../../asset/images/banner/newBanner.png';
 import './ventureedu.css'
 
 class VentureEdu extends Component {
-  
   render() {
     let ventureEdu = this.props.ventureEdu;
     let index = this.props.index;
