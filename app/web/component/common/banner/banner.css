@@ -1,0 +1,15 @@
+.banner-top {
+  height: 300px;
+  position: relative;
+}
+.banner-top img{
+  margin: 0 auto;
+  min-width: 100%;
+  display: block;
+  height: 100%;
+}
+.banner-top span {
+  position: absolute;
+  left: 50%;
+  color: white;
+}
