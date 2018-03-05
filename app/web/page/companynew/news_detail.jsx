@@ -73,27 +73,27 @@ class NextNewsCom extends Component {
 var hotList = [
   {
     title: '大账户两周年庆...',
-    url: '/companynew/newsdetail_00001.html'
+    url: '/companynew/news_detail_00001.html'
   },
 
   {
     title: '投资闲话：狮子吃羚羊...',
-    url: '/companynew/newsdetail_00004.html'
+    url: '/companynew/news_detail_00004.html'
   },
 
   {
     title: '大账户首届投资人线下...',
-    url: '/companynew/newsdetail_00005.html'
+    url: '/companynew/news_detail_00005.html'
   },
 
   {
     title: '国家科技部及浙江省科技...',
-    url: '/companynew/newsdetail_00006.html'
+    url: '/companynew/news_detail_00006.html'
   },
 
   {
     title: '大账户APP正式上线...',
-    url: '/companynew/newsdetail_00010.html'
+    url: '/companynew/news_detail_00010.html'
   }
 ];
 
