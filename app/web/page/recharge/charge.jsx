@@ -8,12 +8,10 @@ import ChargeSuccess from 'component/recharge/chargeSuccess.jsx';
 import './charge.css';
 
 export default class Charge extends Component {
-  
-
   render() {
     return <div>
       <Header menuactive={this.props.menuActive}></Header>
-      <MobileScan/>
+      <ChargeInput/>
       <Footer></Footer>
     </div>;
   }

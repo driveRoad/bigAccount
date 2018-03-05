@@ -24,14 +24,14 @@ module.exports = {
   cssModule: {
     include: 'app/web/page/css/module'
   },
-  dll: ['react', 'react-dom'],
+  dll: ['eventsource-polyfill','react', 'react-dom'],
   loaders: {
-
+    
   },
   plugins: {
-
+    hot:false
   },
-
+  hot:false,
   done() {
     console.log('---webpack compile finish---');
   }
