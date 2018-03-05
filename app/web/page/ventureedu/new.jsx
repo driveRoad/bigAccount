@@ -4,8 +4,7 @@ import Footer from 'component/footer/footer.jsx';
 import Banner from 'component/common/banner/banner.jsx';
 import BannerImage from '../../asset/images/banner/newBanner.png';
 import './ventureedu.css'
-export default class New extends Component {
-  
+class VentureEdu extends Component {  
   render() {
     let ventureEdu = this.props.ventureEdu;
     let index = this.props.index;
