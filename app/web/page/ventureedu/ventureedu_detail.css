@@ -1,0 +1,31 @@
+
+
+.ventureedu-detail-main {
+    width: 1196px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ventureedu-content {
+
+}
+
+.ventureedu-content h3 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.ventureedu-content p {
+    font-size: 16px;
+    color: #666666;
+}
+.ventureedu-nav {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.ventureedu-nav .edu-link {
+    color: #666666;
+}
+

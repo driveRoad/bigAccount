@@ -32,8 +32,38 @@
       "GET"
     ],
     "paramNames": [],
+    "path": {
+      "keys": []
+    },
+    "regexp": "/^\\/companynew\\/news_detail_[0-9]{5}.html$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/ventureedu.html",
     "regexp": "/^\\/ventureedu\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": {
+      "keys": []
+    },
+    "regexp": "/^\\/ventureedu\\/ventureedu_detail_[0-9]{5}.html$/",
     "stack": [
       "wrappedController"
     ]
@@ -73,6 +103,30 @@
     "paramNames": [],
     "path": "/about.html",
     "regexp": "/^\\/about\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": 0,
+        "prefix": "",
+        "delimiter": "/",
+        "optional": true,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "\\/.+"
+      }
+    ],
+    "path": "/spa(/.+)?",
+    "regexp": "/^\\/spa(?:((?:\\/.+)))?(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

@@ -12,14 +12,13 @@
     }
   },
   "rules": {
+<<<<<<< HEAD
+=======
     
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
     "new-cap": "off",
     "newline-after-var": "off",
     "no-invalid-this": "off",
-    "quotes": [
-      "error",
-      "single"
-    ],
     "guard-for-in": "off",
     "no-console": "off",
     "no-undefined": "off",
@@ -29,10 +28,6 @@
     "func-style": [
       "error",
       "expression"
-    ],
-    "comma-dangle": [
-      "error",
-      "never"
     ]
   },
   "plugins": [

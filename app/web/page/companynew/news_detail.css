@@ -1,0 +1,148 @@
+
+.newsBody {
+    width: 800px;
+}
+
+
+
+.newsBody p {
+    font-size: 16px;
+    font-family: "PingFang SC Regular";
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #666666;
+}
+
+.newsBody h3 {
+    font-size: 16px;
+    font-family: "PingFang SC Medium";
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+
+.news-main {
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.news-main .nav-link {
+    color: #000000;
+}
+
+.news-main .news-title {
+    font-size: 32px;
+    font-family: "PingFang SC Medium";
+    text-align: left;
+    color: #000000;
+    margin-top: 110px;
+}
+
+.news-main .news-date {
+    font-size: 20px;
+    font-family: "PingFang SC Medium";
+    text-align: left;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.news-main .divider {
+    height: 1px;
+    background-color: #dddddd;
+}
+
+.news-detail-section {
+    width: 800px;
+    display: inline-block;
+}
+
+
+
+.next-news-com {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.next-news-com .next-img-section {
+    display: inline-block;
+}
+
+.next-img-section .next-img{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+}
+
+.next-news-com .next-title-section {
+    display: inline-block;
+    text-align: right;
+}
+
+.next-news-com .next-title-section .title-link{
+    color: #999999;
+}
+
+
+.pre-news-com {
+    margin-top: 50px;
+}
+
+.pre-news-com .pre-img-section {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pre-news-com .pre-img-section .pre-img{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+.pre-news-com .pre-title-section {
+    display: inline-block;
+}
+
+.pre-news-com .pre-title-section .title-link {
+    color: #999999;
+}
+
+.hot-com {
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+
+.hot-com .hot-img {
+    display: inline-block;
+    margin: 5px 5px 0 15px;
+}
+
+.hot-com .hot-header {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+    color: #000000;
+}
+
+.hot-com .divider {
+    margin: 15px 0 28px 0;
+}
+
+.hot-com .hot-item {
+    margin: 15px 0 0 0;
+}
+
+.hot-com .hot-title {
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 20px;
+    color: #dddddd;
+}

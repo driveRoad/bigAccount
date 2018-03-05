@@ -7,6 +7,7 @@
  module.exports = () => {
      return function*(next){
         let ctx = this;
+        console.log(ctx);
         getSiteDataContext(ctx);
         yield*  next;
      }
@@ -18,16 +19,19 @@
   * 
   */
  function getSiteDataContext(ctx) {
-    
-    if(!ctx || !ctx.query) {
+    if(!ctx ) {
         return;
     }
+
     let pageName = ctx.query.pageName;
     let url = ctx.request && ctx.request.url;
-    if(pageName) {
+    if(!pageName) {
         pageName = parseUrl(url);
         ctx.query.pageName = pageName;
+
     }
+   ctx.pageName = pageName;
+
  }
 
  /**
@@ -41,6 +45,5 @@ function parseUrl(url) {
     let start = url.lastIndexOf("/");
     let end = url.indexOf(".html");
     let pageName = url.substring(start+1,end);
-    
     return pageName;
 }

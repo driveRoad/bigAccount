@@ -1,49 +1,166 @@
 {
+  "info/new.js": "/public/js/info/new.js",
+  "info/new.css": "/public/css/info/new.css",
   "spa/ssr.js": "/public/js/spa/ssr.js",
   "spa/ssr.css": "/public/css/spa/ssr.css",
   "spa/redux.js": "/public/js/spa/redux.js",
   "spa/redux.css": "/public/css/spa/redux.css",
   "ant/tab/tab.js": "/public/js/ant/tab/tab.js",
   "ant/tab/tab.css": "/public/css/ant/tab/tab.css",
+  "ventureedu/new.js": "/public/js/ventureedu/new.js",
+  "ventureedu/new.css": "/public/css/ventureedu/new.css",
+  "companynew/new.js": "/public/js/companynew/new.js",
+  "companynew/new.css": "/public/css/companynew/new.css",
   "recharge/charge.js": "/public/js/recharge/charge.js",
   "recharge/charge.css": "/public/css/recharge/charge.css",
   "spa/client.js": "/public/js/spa/client.js",
   "spa/client.css": "/public/css/spa/client.css",
+  "companynew/news_detail.js": "/public/js/companynew/news_detail.js",
+  "companynew/news_detail.css": "/public/css/companynew/news_detail.css",
   "index/index.js": "/public/js/index/index.js",
   "index/index.css": "/public/css/index/index.css",
+  "ventureedu/ventureedu_detail.js": "/public/js/ventureedu/ventureedu_detail.js",
+  "ventureedu/ventureedu_detail.css": "/public/css/ventureedu/ventureedu_detail.css",
+  "recharge/charge.js": "/public/js/recharge/charge.js",
+  "recharge/charge.css": "/public/css/recharge/charge.css",
+  "companynew/new.js": "/public/js/companynew/new.js",
+  "companynew/new.css": "/public/css/companynew/new.css",
   "ventureedu/new.js": "/public/js/ventureedu/new.js",
   "ventureedu/new.css": "/public/css/ventureedu/new.css",
   "info/new.js": "/public/js/info/new.js",
   "info/new.css": "/public/css/info/new.css",
-  "companynew/new.js": "/public/js/companynew/new.js",
-  "companynew/new.css": "/public/css/companynew/new.css",
   "about/about.js": "/public/js/about/about.js",
   "about/about.css": "/public/css/about/about.css",
   "home/home.js": "/public/js/home/home.js",
   "home/home.css": "/public/css/home/home.css",
   "css/module/module.js": "/public/js/css/module/module.js",
   "css/module/module.css": "/public/css/css/module/module.css",
+  "companynew/news_details/news_detail_00007.js": "/public/js/companynew/news_details/news_detail_00007.js",
   "hello/element.js": "/public/js/hello/element.js",
   "hello/element.css": "/public/css/hello/element.css",
   "hello/component.js": "/public/js/hello/component.js",
   "hello/component.css": "/public/css/hello/component.css",
+  "companynew/news_details/news_detail_00006.js": "/public/js/companynew/news_details/news_detail_00006.js",
+  "companynew/news_details/news_detail_00005.js": "/public/js/companynew/news_details/news_detail_00005.js",
+  "companynew/news_details/news_detail_00010.js": "/public/js/companynew/news_details/news_detail_00010.js",
+  "companynew/news_details/news_detail_00009.js": "/public/js/companynew/news_details/news_detail_00009.js",
+  "companynew/news_details/news_detail_00008.js": "/public/js/companynew/news_details/news_detail_00008.js",
+  "companynew/news_details/news_detail_00004.js": "/public/js/companynew/news_details/news_detail_00004.js",
+  "companynew/news_details/news_detail_00003.js": "/public/js/companynew/news_details/news_detail_00003.js",
+  "companynew/news_details/news_detail_00002.js": "/public/js/companynew/news_details/news_detail_00002.js",
+  "companynew/news_details/news_detail_00001.js": "/public/js/companynew/news_details/news_detail_00001.js",
+  "ventureedu/ventureedu_details/ventureedu_detail_00004.js": "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00004.js",
+  "ventureedu/ventureedu_details/ventureedu_detail_00003.js": "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00003.js",
+  "ventureedu/ventureedu_details/ventureedu_detail_00002.js": "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00002.js",
+  "ventureedu/ventureedu_details/ventureedu_detail_00001.js": "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00001.js",
   "layout.js": "/public/js/layout.js",
   "common.js": "/public/js/common.js",
+<<<<<<< HEAD
+  "img/fxfangfan.png": "/public/img/fxfangfan.png",
+  "img/bg.png": "/public/img/bg.png",
+=======
+<<<<<<< HEAD
+  "img/accountlogo.png": "/public/img/accountlogo.png",
+=======
   "img/accountload.png": "/public/img/accountload.png",
+>>>>>>> 3b73613547bcdb1f8b16283dcdf0bd82b103ecd1
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
   "img/header.png": "/public/img/header.png",
   "img/index1.png": "/public/img/index1.png",
   "img/index2.png": "/public/img/index2.png",
   "img/index3.png": "/public/img/index3.png",
   "img/loading.gif": "/public/img/loading.gif",
   "img/logo.png": "/public/img/logo.png",
+<<<<<<< HEAD
+  "img/list_ico_hot.png": "/public/img/list_ico_hot.png",
+  "img/list_ico_next_r.png": "/public/img/list_ico_next_r.png",
+  "img/list_ico_pre_l.png": "/public/img/list_ico_pre_l.png",
+  "img/list_ico_right.png": "/public/img/list_ico_right.png",
+  "img/list_ico_triangle.png": "/public/img/list_ico_triangle.png",
+  "img/图1.png": "/public/img/图1.png",
+  "img/图10.png": "/public/img/图10.png",
+  "img/图2.png": "/public/img/图2.png",
+  "img/图3.png": "/public/img/图3.png",
+  "img/图4.png": "/public/img/图4.png",
+  "img/图5.png": "/public/img/图5.png",
+  "img/图6.png": "/public/img/图6.png",
+  "img/图7.png": "/public/img/图7.png",
+  "img/图8.png": "/public/img/图8.png",
+  "img/图9.png": "/public/img/图9.png",
+  "img/新闻详情1-图.png": "/public/img/新闻详情1-图.png",
+  "img/新闻详情10-图.png": "/public/img/新闻详情10-图.png",
+  "img/新闻详情2-图.png": "/public/img/新闻详情2-图.png",
+  "img/新闻详情3-图.png": "/public/img/新闻详情3-图.png",
+  "img/新闻详情4-图.png": "/public/img/新闻详情4-图.png",
+  "img/新闻详情5-图1.png": "/public/img/新闻详情5-图1.png",
+  "img/新闻详情5-图2.png": "/public/img/新闻详情5-图2.png",
+  "img/新闻详情6-图1.png": "/public/img/新闻详情6-图1.png",
+  "img/新闻详情6-图2.png": "/public/img/新闻详情6-图2.png",
+  "img/新闻详情7-图1.png": "/public/img/新闻详情7-图1.png",
+  "img/新闻详情7-图2.png": "/public/img/新闻详情7-图2.png",
+  "img/新闻详情7-图3.png": "/public/img/新闻详情7-图3.png",
+  "img/新闻详情7-图4.png": "/public/img/新闻详情7-图4.png",
+  "img/新闻详情7-图5.png": "/public/img/新闻详情7-图5.png",
+  "img/新闻详情8-图.png": "/public/img/新闻详情8-图.png",
+  "img/新闻详情9-图.png": "/public/img/新闻详情9-图.png",
+  "img/list_icon_right_black.png": "/public/img/list_icon_right_black.png",
+  "img/商票介绍.png": "/public/img/商票介绍.png",
+  "img/大账户小课堂.png": "/public/img/大账户小课堂.png",
+  "img/大账户小课堂2.png": "/public/img/大账户小课堂2.png",
+  "img/车贷介绍.png": "/public/img/车贷介绍.png",
+  "img/waiter.png": "/public/img/waiter.png",
+  "img/weixin.png": "/public/img/weixin.png",
+<<<<<<< HEAD
+  "img/Qualification_dianxin.jpeg": "/public/img/Qualification_dianxin.jpeg",
+  "img/Qualification_yinye.png": "/public/img/Qualification_yinye.png",
+  "img/Qualification_yuming.jpeg": "/public/img/Qualification_yuming.jpeg",
+  "img/money_deposit_agreement1.png": "/public/img/money_deposit_agreement1.png",
+  "img/money_deposit_agreement10.png": "/public/img/money_deposit_agreement10.png",
+  "img/money_deposit_agreement11.png": "/public/img/money_deposit_agreement11.png",
+  "img/money_deposit_agreement12.png": "/public/img/money_deposit_agreement12.png",
+  "img/money_deposit_agreement13.png": "/public/img/money_deposit_agreement13.png",
+  "img/money_deposit_agreement2.png": "/public/img/money_deposit_agreement2.png",
+  "img/money_deposit_agreement3.png": "/public/img/money_deposit_agreement3.png",
+  "img/money_deposit_agreement4.png": "/public/img/money_deposit_agreement4.png",
+  "img/money_deposit_agreement5.png": "/public/img/money_deposit_agreement5.png",
+  "img/money_deposit_agreement6.png": "/public/img/money_deposit_agreement6.png",
+  "img/money_deposit_agreement7.png": "/public/img/money_deposit_agreement7.png",
+  "img/money_deposit_agreement8.png": "/public/img/money_deposit_agreement8.png",
+  "img/money_deposit_agreement9.png": "/public/img/money_deposit_agreement9.png",
+  "img/audit.png": "/public/img/audit.png",
+  "img/icon_card.png": "/public/img/icon_card.png",
+  "img/icon_dun.png": "/public/img/icon_dun.png",
+  "img/icon_home.png": "/public/img/icon_home.png",
+  "img/icon_left.png": "/public/img/icon_left.png",
+  "img/icon_right.png": "/public/img/icon_right.png",
+  "img/fkliucheng.png": "/public/img/fkliucheng.png",
+  "img/appdownload.png": "/public/img/appdownload.png",
+  "img/hhguanli.png": "/public/img/hhguanli.png",
+  "img/mid.png": "/public/img/mid.png",
+=======
+  "img/appdownload.png": "/public/img/appdownload.png",
+  "img/票据.png": "/public/img/票据.png",
+=======
   "img/bottom.png": "/public/img/bottom.png",
   "img/bottomwen.png": "/public/img/bottomwen.png",
   "img/user.png": "/public/img/user.png",
   "img/waiter.png": "/public/img/waiter.png",
   "img/weixin.png": "/public/img/weixin.png",
   "img/appdownload.png": "/public/img/appdownload.png",
+>>>>>>> 3b73613547bcdb1f8b16283dcdf0bd82b103ecd1
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
   "vendor.js": "/public/js/vendor.js",
   "deps": {
+    "info/new.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/info/new.js"
+      ],
+      "css": [
+        "/public/css/info/new.css"
+      ]
+    },
     "spa/ssr.js": {
       "js": [
         "/public/js/vendor.js",
@@ -74,6 +191,26 @@
         "/public/css/ant/tab/tab.css"
       ]
     },
+<<<<<<< HEAD
+    "ventureedu/new.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/ventureedu/new.js"
+      ],
+      "css": [
+        "/public/css/ventureedu/new.css"
+      ]
+    },
+    "companynew/new.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/new.js"
+      ],
+      "css": [
+        "/public/css/companynew/new.css"
+=======
     "recharge/charge.js": {
       "js": [
         "/public/js/vendor.js",
@@ -82,6 +219,7 @@
       ],
       "css": [
         "/public/css/recharge/charge.css"
+>>>>>>> 3b73613547bcdb1f8b16283dcdf0bd82b103ecd1
       ]
     },
     "spa/client.js": {
@@ -94,6 +232,19 @@
         "/public/css/spa/client.css"
       ]
     },
+    "companynew/news_detail.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_detail.js"
+      ],
+      "css": [
+        "/public/css/companynew/news_detail.css"
+      ]
+    },
+<<<<<<< HEAD
+    "companynew/new.js": {
+=======
     "index/index.js": {
       "js": [
         "/public/js/vendor.js",
@@ -104,14 +255,15 @@
         "/public/css/index/index.css"
       ]
     },
-    "ventureedu/new.js": {
+    "ventureedu/ventureedu_detail.js": {
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "js": [
         "/public/js/vendor.js",
         "/public/js/common.js",
-        "/public/js/ventureedu/new.js"
+        "/public/js/ventureedu/ventureedu_detail.js"
       ],
       "css": [
-        "/public/css/ventureedu/new.css"
+        "/public/css/ventureedu/ventureedu_detail.css"
       ]
     },
     "info/new.js": {
@@ -122,16 +274,6 @@
       ],
       "css": [
         "/public/css/info/new.css"
-      ]
-    },
-    "companynew/new.js": {
-      "js": [
-        "/public/js/vendor.js",
-        "/public/js/common.js",
-        "/public/js/companynew/new.js"
-      ],
-      "css": [
-        "/public/css/companynew/new.css"
       ]
     },
     "about/about.js": {
@@ -164,6 +306,14 @@
         "/public/css/css/module/module.css"
       ]
     },
+    "companynew/news_details/news_detail_00007.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00007.js"
+      ],
+      "css": []
+    },
     "hello/element.js": {
       "js": [
         "/public/js/vendor.js",
@@ -183,6 +333,110 @@
       "css": [
         "/public/css/hello/component.css"
       ]
+    },
+    "companynew/news_details/news_detail_00006.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00006.js"
+      ],
+      "css": []
+    },
+    "companynew/news_details/news_detail_00005.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00005.js"
+      ],
+      "css": []
+    },
+    "companynew/news_details/news_detail_00010.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00010.js"
+      ],
+      "css": []
+    },
+    "companynew/news_details/news_detail_00009.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00009.js"
+      ],
+      "css": []
+    },
+    "companynew/news_details/news_detail_00008.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00008.js"
+      ],
+      "css": []
+    },
+    "companynew/news_details/news_detail_00004.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00004.js"
+      ],
+      "css": []
+    },
+    "companynew/news_details/news_detail_00003.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00003.js"
+      ],
+      "css": []
+    },
+    "companynew/news_details/news_detail_00002.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00002.js"
+      ],
+      "css": []
+    },
+    "companynew/news_details/news_detail_00001.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/companynew/news_details/news_detail_00001.js"
+      ],
+      "css": []
+    },
+    "ventureedu/ventureedu_details/ventureedu_detail_00004.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00004.js"
+      ],
+      "css": []
+    },
+    "ventureedu/ventureedu_details/ventureedu_detail_00003.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00003.js"
+      ],
+      "css": []
+    },
+    "ventureedu/ventureedu_details/ventureedu_detail_00002.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00002.js"
+      ],
+      "css": []
+    },
+    "ventureedu/ventureedu_details/ventureedu_detail_00001.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/ventureedu/ventureedu_details/ventureedu_detail_00001.js"
+      ],
+      "css": []
     },
     "layout.js": {
       "js": [
@@ -209,7 +463,7 @@
   },
   "info": {
     "publicPath": "/public/",
-    "buildPath": "public",
+    "buildPath": "\\public",
     "mapped": true
   }
 }

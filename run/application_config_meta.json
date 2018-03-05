@@ -1,0 +1,680 @@
+{
+  "siteFile": {
+    "/favicon.ico": "D:\\BigAccount\\bigAccount\\config\\config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "D:\\BigAccount\\bigAccount\\config\\config.default.js",
+    "dir": "D:\\BigAccount\\bigAccount\\config\\config.default.js",
+    "encoding": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\BigAccount\\bigAccount\\config\\config.default.js",
+    "dir": "D:\\BigAccount\\bigAccount\\config\\config.default.js",
+    "maxAge": "D:\\BigAccount\\bigAccount\\config\\config.local.js",
+    "dynamic": "D:\\BigAccount\\bigAccount\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\BigAccount\\bigAccount\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\BigAccount\\bigAccount\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\BigAccount\\bigAccount\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "keys": "D:\\BigAccount\\bigAccount\\config\\config.default.js",
+  "middleware": "D:\\BigAccount\\bigAccount\\config\\config.default.js",
+  "development": {
+    "watchDirs": "D:\\BigAccount\\bigAccount\\config\\config.local.js",
+    "ignoreDirs": "D:\\BigAccount\\bigAccount\\config\\config.local.js",
+    "fastReady": "D:\\BigAccount\\bigAccount\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\BigAccount\\bigAccount\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\BigAccount\\bigAccount\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "reactssr": {
+    "injectCss": "D:\\BigAccount\\bigAccount\\config\\config.local.js",
+    "doctype": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "layout": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "manifest": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectHeadRegex": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectBodyRegex": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectJs": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "crossorigin": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectRes": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "fallbackToClient": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "afterRender": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js"
+  },
+  "webpack": {
+    "webpackConfigList": "D:\\BigAccount\\bigAccount\\config\\config.local.js",
+    "port": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxy": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxyMapping": {
+      "js": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack\\config\\config.default.js",
+      "css": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack\\config\\config.default.js",
+      "json": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack\\config\\config.default.js",
+      "html": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack\\config\\config.default.js",
+      "map": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "domainWhiteList": "D:\\BigAccount\\bigAccount\\config\\config.local.js",
+    "protocolWhiteList": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\BigAccount\\bigAccount\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\BigAccount\\bigAccount\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\BigAccount\\bigAccount\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\BigAccount\\bigAccount\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\BigAccount\\bigAccount\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\BigAccount\\bigAccount\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\BigAccount\\bigAccount\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\BigAccount\\bigAccount\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\BigAccount\\bigAccount\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\BigAccount\\bigAccount\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\BigAccount\\bigAccount\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\BigAccount\\bigAccount\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\BigAccount\\bigAccount\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\BigAccount\\bigAccount\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\BigAccount\\bigAccount\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\BigAccount\\bigAccount\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": {
+      ".js": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+      ".jsx": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr\\config\\config.default.js"
+    }
+  },
+  "cors": "D:\\BigAccount\\bigAccount\\node_modules\\egg-cors\\config\\config.default.js",
+  "webpackreact": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack-react\\config\\config.default.js",
+  "env": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "build": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "build:test": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "build:prod": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "start": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "start:test": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "start:prod": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "kill-port": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "fix": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "echarts": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "echarts-for-react": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "egg-logger": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-react-ssr": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "extend": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "history": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "react": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "react-dom": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "react-router": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "react-router-config": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "antd": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "autoprefixer": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-core": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-loader": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-add-module-exports": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-import": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-syntax-dynamic-import": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-assign": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-rest-spread": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-preset-env": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "babel-preset-react": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "directory-named-webpack-plugin": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-cli": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-react": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "echarts-for-react": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack-react": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "eslint-loader": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "eslint-plugin-react": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "history": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "html-webpack-plugin": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "imagemin-webpack-plugin": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "ip": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "less": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "less-loader": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "node-sass": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "postcss-loader": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "progress-bar-webpack-plugin": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "react-redux": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "react-router": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "react-router-dom": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "react-router-redux": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "redux": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "sass-loader": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "stylus": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "stylus-loader": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "theme": {
+        "primary-color": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+      },
+      "uglifyjs-webpack-plugin": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "vconsole": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "webpack-manifest-resource-plugin": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "/Users/chenzuying/Documents/bigAccount/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/chenzuying/Documents/bigAccount/config/config.default.js",
+    "dir": "/Users/chenzuying/Documents/bigAccount/config/config.default.js",
+    "encoding": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "env": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "level": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/chenzuying/Documents/bigAccount/config/config.default.js",
+    "dir": "/Users/chenzuying/Documents/bigAccount/config/config.default.js",
+    "maxAge": "/Users/chenzuying/Documents/bigAccount/config/config.local.js",
+    "dynamic": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/chenzuying/Documents/bigAccount/config/config.default.js",
+  "middleware": "/Users/chenzuying/Documents/bigAccount/config/config.default.js",
+  "development": {
+    "watchDirs": "/Users/chenzuying/Documents/bigAccount/config/config.local.js",
+    "ignoreDirs": "/Users/chenzuying/Documents/bigAccount/config/config.local.js",
+    "fastReady": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-development/config/config.default.js"
+  },
+  "reactssr": {
+    "injectCss": "/Users/chenzuying/Documents/bigAccount/config/config.local.js",
+    "doctype": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "layout": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "manifest": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectJs": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "crossorigin": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectRes": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+    "afterRender": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js"
+  },
+  "webpack": {
+    "webpackConfigList": "/Users/chenzuying/Documents/bigAccount/config/config.local.js",
+    "port": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack/config/config.default.js",
+    "proxy": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack/config/config.default.js",
+    "proxyMapping": {
+      "js": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack/config/config.default.js",
+      "css": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack/config/config.default.js",
+      "json": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack/config/config.default.js",
+      "html": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack/config/config.default.js",
+      "map": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack/config/config.default.js"
+    }
+  },
+  "security": {
+    "domainWhiteList": "/Users/chenzuying/Documents/bigAccount/config/config.local.js",
+    "protocolWhiteList": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js",
+      ".jsx": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr/config/config.default.js"
+    }
+  },
+  "cors": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-cors/config/config.default.js",
+  "webpackreact": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack-react/config/config.default.js",
+  "env": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "name": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "version": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "description": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "build": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "build:test": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "build:prod": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "start": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "start:test": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "start:prod": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "kill-port": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "lint": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "fix": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "egg-view-react-ssr": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "extend": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "history": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "moment": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "react": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "react-router-config": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "antd": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-plugin-add-module-exports": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-plugin-syntax-dynamic-import": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-assign": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-rest-spread": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "babel-preset-react": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "directory-named-webpack-plugin": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "easywebpack-cli": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "easywebpack-react": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "egg-webpack-react": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "history": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "imagemin-webpack-plugin": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "ip": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "less": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "progress-bar-webpack-plugin": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "react-redux": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "react-router-redux": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "redux": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "stylus": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "stylus-loader": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "vconsole": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "webpack-manifest-resource-plugin": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "url": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "license": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "strict": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "depth": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+    "logging": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "port": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/config.default.js"
+  }
+}
