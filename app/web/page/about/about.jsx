@@ -49,6 +49,48 @@ var memberArr = [
   }
 ];
 
+var partnerArr = [
+  {
+    name: '江南壹伍叁伍',
+    thumb: 'about/合作伙伴/重庆富民银行.png',
+    achieves: ["国内首家运用互联网思维运作的创投公司", "共参与300多家企业的创业孵化", "拥有五亿元天使基金和近万名股东的资源支持", "曾荣获“杭州市级示范创投空间”称号"]
+  },
+
+  {
+    name: '聚募',
+    thumb: 'about/合作伙伴/聚募.png',
+
+    achieves: ['浙江省最大的互联网非公开股权融资平台', '2016年2月以1.5亿估值获得千万级A轮融资', '曾荣获“2014年浙江省十大创新新锐企业”称号', '入围省经信委百强企业名单']
+  },
+
+  {
+    name: '富友金融',
+    thumb: 'about/合作伙伴/富友金融.png',
+
+    achieves: ['2008年创立，注册资本金2.0007亿元，实收资本金3.8亿元', '同时拥有6张支付及金融服务牌照', '上海市网络信贷服务业企业联盟”成员 ，为目前国家已颁布牌照第三方支付公司中仅4家公司之一']
+  },
+
+  {
+    name: '金运通支付',
+    thumb: 'about/合作伙伴/金运通支付.png',
+    achieves: ['国内首家建立在实体批发市场基础上的互联网支付公司', '2014年7月获得中国人民银行颁发的全国互联网支付业务许可证（编号：Z2026437000017）', '坐落在上海浦东新区陆家嘴金融世纪广场']
+  },
+
+  {
+    name: '江南票号',
+    thumb: 'about/合作伙伴/江南票号.png',
+
+    achieves: ['专注于供应链金融（商业承兑汇票）的互联网平台', '开票企业只挑选央企、国企、上市公司等知名企业，资产真实可靠，偿还能力强', '推动企业信用货币化、电子化，提高信用货币流动性']
+  },
+
+  {
+    name: '淘当铺',
+    thumb: 'about/合作伙伴/淘当铺.png',
+
+    achieves: ['创新性互联网金融服务平台', '获知名风投数千万美元投资', '提供各类典当和抵押贷款服务']
+  }
+];
+
 class IntroduceBanner extends Component {
   render() {
     return (
@@ -94,6 +136,24 @@ class MediumCard extends Component {
   }
 }
 
+
+class PartnerCard extends Component {
+  render() {
+    let partner = this.props.partner;
+    let achieves = partner.achieves;
+    return (
+      <div className="partner-card">
+        <img className="partner-thumb" src={require('../../asset/images/' + partner.thumb)} alt="partner"/>
+        <p className="partner-name">{partner.name}</p>
+        {
+          partner.achieves.map((achieve, index) => {
+            return <p className="partner-achieve">{achieve}</p>;
+          })
+        }
+      </div>
+    )
+  }
+}
 
 
 export default class About extends Component {
@@ -141,6 +201,13 @@ export default class About extends Component {
         </div>
 
         <IntroduceBanner title="合作伙伴介绍"/>
+        <div className="partner-list">
+          {
+            partnerArr.map((partner, index) => {
+              return <PartnerCard partner={partner}/>
+            })
+          }
+        </div>
       </div>
       <Footer></Footer>
     </div>;
