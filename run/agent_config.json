@@ -10,6 +10,7 @@
       "domainWhiteList": [
         "http://localhost:9000",
         "http://127.0.0.1:9000",
+
         "http://10.43.4.83:9000",
         "http://localhost:9001",
         "http://127.0.0.1:9001",
@@ -17,6 +18,14 @@
         "http://localhost:9002",
         "http://127.0.0.1:9002",
         "http://10.43.4.83:9002"
+
+        "http://10.43.8.217:9000",
+        "http://localhost:9001",
+        "http://127.0.0.1:9001",
+        "http://10.43.8.217:9001",
+        "http://localhost:9002",
+        "http://127.0.0.1:9002",
+        "http://10.43.8.217:9002"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -85,8 +94,13 @@
     "watcher": {
       "type": "development",
       "eventSources": {
+<<<<<<< HEAD
         "default": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher\\lib\\event-sources\\default",
         "development": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+=======
+        "default": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher/lib/event-sources/development"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       }
     },
     "multipart": {
@@ -116,7 +130,11 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
+<<<<<<< HEAD
         "file": "D:\\BigAccount\\bigAccount\\logs\\bigAccountB\\egg-schedule.log"
+=======
+        "file": "/Users/chenzuying/Documents/bigAccount/logs/bigAccountB/egg-schedule.log"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       }
     },
     "logrotator": {
@@ -130,7 +148,11 @@
     },
     "static": {
       "prefix": "/public/",
+<<<<<<< HEAD
       "dir": "D:\\BigAccount\\bigAccount\\public",
+=======
+      "dir": "/Users/chenzuying/Documents/bigAccount/public",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -138,7 +160,11 @@
       "maxAge": 0
     },
     "view": {
+<<<<<<< HEAD
       "root": "D:\\BigAccount\\bigAccount\\app\\view",
+=======
+      "root": "/Users/chenzuying/Documents/bigAccount/app/view",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -149,8 +175,13 @@
     },
     "reactssr": {
       "doctype": "<!doctype html>",
+<<<<<<< HEAD
       "layout": "D:\\BigAccount\\bigAccount\\app\\view\\layout.js",
       "manifest": "D:\\BigAccount\\bigAccount\\config\\manifest.json",
+=======
+      "layout": "/Users/chenzuying/Documents/bigAccount/app/view/layout.js",
+      "manifest": "/Users/chenzuying/Documents/bigAccount/config/manifest.json",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": true,
@@ -173,6 +204,7 @@
       },
       "webpackConfigList": [
         {
+<<<<<<< HEAD
           "context": "D:\\BigAccount\\bigAccount",
           "entry": {
             "about/about": [
@@ -264,13 +296,207 @@
               "D:\\BigAccount\\bigAccount\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\utils\\hot.js",
               "D:\\BigAccount\\bigAccount\\app\\web\\framework\\layout\\layout.jsx"
+=======
+          "context": "/Users/chenzuying/Documents/bigAccount",
+          "entry": {
+            "about/about": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/about/about.jsx"
+            ],
+            "ant/tab/tab": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ant/tab/tab.jsx"
+            ],
+            "companynew/new": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/new.jsx"
+            ],
+            "companynew/news_detail": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_detail.jsx"
+            ],
+            "companynew/news_details/news_detail_00001": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00001.jsx"
+            ],
+            "companynew/news_details/news_detail_00002": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00002.jsx"
+            ],
+            "companynew/news_details/news_detail_00003": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00003.jsx"
+            ],
+            "companynew/news_details/news_detail_00004": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00004.jsx"
+            ],
+            "companynew/news_details/news_detail_00005": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00005.jsx"
+            ],
+            "companynew/news_details/news_detail_00006": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00006.jsx"
+            ],
+            "companynew/news_details/news_detail_00007": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00007.jsx"
+            ],
+            "companynew/news_details/news_detail_00008": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00008.jsx"
+            ],
+            "companynew/news_details/news_detail_00009": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00009.jsx"
+            ],
+            "companynew/news_details/news_detail_00010": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00010.jsx"
+            ],
+            "css/module/module": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/css/module/module.jsx"
+            ],
+            "hello/component": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/hello/component.jsx"
+            ],
+            "hello/element": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/hello/element.jsx"
+            ],
+            "home/home": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/home/home.jsx"
+            ],
+            "index/index": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/index/index.jsx"
+            ],
+            "info/new": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/info/new.jsx"
+            ],
+            "recharge/charge": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/recharge/charge.jsx"
+            ],
+            "spa/client": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/client.jsx"
+            ],
+            "spa/redux": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/redux.jsx"
+            ],
+            "spa/ssr": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/ssr.jsx"
+            ],
+            "ventureedu/new": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/new.jsx"
+            ],
+            "ventureedu/ventureedu_detail": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_detail.jsx"
+            ],
+            "ventureedu/ventureedu_details/ventureedu_detail_00001": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00001.jsx"
+            ],
+            "ventureedu/ventureedu_details/ventureedu_detail_00002": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00002.jsx"
+            ],
+            "ventureedu/ventureedu_details/ventureedu_detail_00003": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00003.jsx"
+            ],
+            "ventureedu/ventureedu_details/ventureedu_detail_00004": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/client-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00004.jsx"
+            ],
+            "layout": [
+              "react-hot-loader/patch",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/webpack-hot-middleware/client?path=http://10.43.8.217:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/utils/hot.js",
+              "/Users/chenzuying/Documents/bigAccount/app/web/framework/layout/layout.jsx"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
             ]
           },
           "output": {
             "filename": "js/[name].js",
             "chunkFilename": "js/chunk/[name].js",
+<<<<<<< HEAD
             "path": "D:\\BigAccount\\bigAccount\\public",
             "publicPath": "http://127.0.0.1:9000/public/"
+=======
+            "path": "/Users/chenzuying/Documents/bigAccount/public",
+            "publicPath": "http://10.43.8.217:9000/public/"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
           },
           "resolve": {
             "extensions": [
@@ -278,18 +504,31 @@
               ".jsx"
             ],
             "alias": {
+<<<<<<< HEAD
               "asset": "D:\\BigAccount\\bigAccount\\app\\web\\asset",
               "component": "D:\\BigAccount\\bigAccount\\app\\web\\component",
               "framework": "D:\\BigAccount\\bigAccount\\app\\web\\framework",
               "store": "D:\\BigAccount\\bigAccount\\app\\web\\store"
+=======
+              "asset": "/Users/chenzuying/Documents/bigAccount/app/web/asset",
+              "component": "/Users/chenzuying/Documents/bigAccount/app/web/component",
+              "framework": "/Users/chenzuying/Documents/bigAccount/app/web/framework",
+              "store": "/Users/chenzuying/Documents/bigAccount/app/web/store"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
             }
           },
           "externals": [],
           "resolveLoader": {
             "modules": [
+<<<<<<< HEAD
               "D:\\BigAccount\\bigAccount\\node_modules",
               "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\node_modules",
               "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack-react\\node_modules"
+=======
+              "/Users/chenzuying/Documents/bigAccount/node_modules",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/node_modules",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack-react/node_modules"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
             ]
           },
           "target": "web",
@@ -318,7 +557,11 @@
                 "test": {},
                 "use": [
                   {
+<<<<<<< HEAD
                     "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
+=======
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -339,14 +582,22 @@
                   }
                 ],
                 "exclude": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
                 "test": {},
                 "use": [
                   {
+<<<<<<< HEAD
                     "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
+=======
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -370,14 +621,22 @@
                   }
                 ],
                 "exclude": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
                 "test": {},
                 "use": [
                   {
+<<<<<<< HEAD
                     "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
+=======
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -404,7 +663,11 @@
                   }
                 ],
                 "exclude": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
@@ -435,7 +698,11 @@
                 "test": {},
                 "use": [
                   {
+<<<<<<< HEAD
                     "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
+=======
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -458,14 +725,22 @@
                   }
                 ],
                 "include": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
                 "test": {},
                 "use": [
                   {
+<<<<<<< HEAD
                     "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
+=======
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -491,14 +766,22 @@
                   }
                 ],
                 "include": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
                 "test": {},
                 "use": [
                   {
+<<<<<<< HEAD
                     "loader": "D:\\BigAccount\\bigAccount\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js",
+=======
+                    "loader": "/Users/chenzuying/Documents/bigAccount/node_modules/extract-text-webpack-plugin/dist/loader.js",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                     "options": {
                       "omit": 1,
                       "remove": true
@@ -527,7 +810,11 @@
                   }
                 ],
                 "include": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               }
             ]
@@ -557,8 +844,13 @@
                 "EASY_ENV_IS_BROWSER": true,
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
+<<<<<<< HEAD
                 "EASY_ENV_PUBLIC_PATH": "\"http://127.0.0.1:9000/public/\"",
                 "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
+=======
+                "EASY_ENV_PUBLIC_PATH": "\"http://10.43.8.217:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://10.43.8.217:9000\""
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -571,6 +863,17 @@
                 "about/about",
                 "ant/tab/tab",
                 "companynew/new",
+                "companynew/news_detail",
+                "companynew/news_details/news_detail_00001",
+                "companynew/news_details/news_detail_00002",
+                "companynew/news_details/news_detail_00003",
+                "companynew/news_details/news_detail_00004",
+                "companynew/news_details/news_detail_00005",
+                "companynew/news_details/news_detail_00006",
+                "companynew/news_details/news_detail_00007",
+                "companynew/news_details/news_detail_00008",
+                "companynew/news_details/news_detail_00009",
+                "companynew/news_details/news_detail_00010",
                 "css/module/module",
                 "hello/component",
                 "hello/element",
@@ -582,9 +885,18 @@
                 "spa/redux",
                 "spa/ssr",
                 "ventureedu/new",
+                "ventureedu/ventureedu_detail",
+                "ventureedu/ventureedu_details/ventureedu_detail_00001",
+                "ventureedu/ventureedu_details/ventureedu_detail_00002",
+                "ventureedu/ventureedu_details/ventureedu_detail_00003",
+                "ventureedu/ventureedu_details/ventureedu_detail_00004",
                 "layout"
               ],
+<<<<<<< HEAD
               "ident": "D:\\BigAccount\\bigAccount\\node_modules\\webpack\\lib\\optimize\\CommonsChunkPlugin.js1",
+=======
+              "ident": "/Users/chenzuying/Documents/bigAccount/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js1",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
               "__plugin__": "CommonsChunkPlugin",
               "__lable__": "commonsChunk"
             },
@@ -612,6 +924,7 @@
                 "map": null,
                 "generate": null,
                 "sort": null,
+<<<<<<< HEAD
                 "baseDir": "D:\\BigAccount\\bigAccount",
                 "host": "http://127.0.0.1:9000",
                 "proxy": true,
@@ -620,6 +933,16 @@
                 "localPublicPath": "/public/",
                 "assets": false,
                 "filepath": "D:\\BigAccount\\bigAccount\\config\\manifest.json",
+=======
+                "baseDir": "/Users/chenzuying/Documents/bigAccount",
+                "host": "http://10.43.8.217:9000",
+                "proxy": true,
+                "buildPath": "/Users/chenzuying/Documents/bigAccount/public",
+                "publicPath": "http://10.43.8.217:9000/public/",
+                "localPublicPath": "/public/",
+                "assets": false,
+                "filepath": "/Users/chenzuying/Documents/bigAccount/config/manifest.json",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 "dllConfig": [
                   {
                     "name": "vendor",
@@ -629,7 +952,11 @@
                     ]
                   }
                 ],
+<<<<<<< HEAD
                 "dllDir": "C:\\Users\\admin\\AppData\\Local\\Temp/easywebpack/bigAccountB/dev"
+=======
+                "dllDir": "/var/folders/mm/x__q5s250hx0xt0y48r6wxcm0000gn/T/easywebpack/bigAccountB/dev"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
               },
               "__plugin__": "webpack-manifest-resource-plugin",
               "__lable__": "manifest"
@@ -651,7 +978,11 @@
             },
             {
               "options": {
+<<<<<<< HEAD
                 "context": "D:\\BigAccount\\bigAccount",
+=======
+                "context": "/Users/chenzuying/Documents/bigAccount",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 "manifest": {
                   "name": "vendor",
                   "content": {
@@ -756,6 +1087,7 @@
           ]
         },
         {
+<<<<<<< HEAD
           "context": "D:\\BigAccount\\bigAccount",
           "entry": {
             "about/about": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\about\\about.jsx",
@@ -773,12 +1105,52 @@
             "spa/ssr": "D:\\BigAccount\\bigAccount\\app\\web\\page\\spa\\ssr.jsx",
             "ventureedu/new": "babel-loader!D:\\BigAccount\\bigAccount\\app\\web\\framework\\entry\\server-loader.js!D:\\BigAccount\\bigAccount\\app\\web\\page\\ventureedu\\new.jsx",
             "layout": "D:\\BigAccount\\bigAccount\\app\\web\\framework\\layout\\layout.jsx"
+=======
+          "context": "/Users/chenzuying/Documents/bigAccount",
+          "entry": {
+            "about/about": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/about/about.jsx",
+            "ant/tab/tab": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ant/tab/tab.jsx",
+            "companynew/new": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/new.jsx",
+            "companynew/news_detail": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_detail.jsx",
+            "companynew/news_details/news_detail_00001": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00001.jsx",
+            "companynew/news_details/news_detail_00002": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00002.jsx",
+            "companynew/news_details/news_detail_00003": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00003.jsx",
+            "companynew/news_details/news_detail_00004": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00004.jsx",
+            "companynew/news_details/news_detail_00005": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00005.jsx",
+            "companynew/news_details/news_detail_00006": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00006.jsx",
+            "companynew/news_details/news_detail_00007": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00007.jsx",
+            "companynew/news_details/news_detail_00008": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00008.jsx",
+            "companynew/news_details/news_detail_00009": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00009.jsx",
+            "companynew/news_details/news_detail_00010": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/companynew/news_details/news_detail_00010.jsx",
+            "css/module/module": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/css/module/module.jsx",
+            "hello/component": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/hello/component.jsx",
+            "hello/element": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/hello/element.jsx",
+            "home/home": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/home/home.jsx",
+            "index/index": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/index/index.jsx",
+            "info/new": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/info/new.jsx",
+            "recharge/charge": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/recharge/charge.jsx",
+            "spa/client": "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/client.jsx",
+            "spa/redux": "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/redux.jsx",
+            "spa/ssr": "/Users/chenzuying/Documents/bigAccount/app/web/page/spa/ssr.jsx",
+            "ventureedu/new": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/new.jsx",
+            "ventureedu/ventureedu_detail": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_detail.jsx",
+            "ventureedu/ventureedu_details/ventureedu_detail_00001": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00001.jsx",
+            "ventureedu/ventureedu_details/ventureedu_detail_00002": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00002.jsx",
+            "ventureedu/ventureedu_details/ventureedu_detail_00003": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00003.jsx",
+            "ventureedu/ventureedu_details/ventureedu_detail_00004": "babel-loader!/Users/chenzuying/Documents/bigAccount/app/web/framework/entry/server-loader.js!/Users/chenzuying/Documents/bigAccount/app/web/page/ventureedu/ventureedu_details/ventureedu_detail_00004.jsx",
+            "layout": "/Users/chenzuying/Documents/bigAccount/app/web/framework/layout/layout.jsx"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
           },
           "output": {
             "libraryTarget": "commonjs2",
             "filename": "[name].js",
+<<<<<<< HEAD
             "path": "D:\\BigAccount\\bigAccount\\app\\view",
             "publicPath": "http://127.0.0.1:9000/public/"
+=======
+            "path": "/Users/chenzuying/Documents/bigAccount/app/view",
+            "publicPath": "http://10.43.8.217:9000/public/"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
           },
           "resolve": {
             "extensions": [
@@ -786,10 +1158,17 @@
               ".jsx"
             ],
             "alias": {
+<<<<<<< HEAD
               "asset": "D:\\BigAccount\\bigAccount\\app\\web\\asset",
               "component": "D:\\BigAccount\\bigAccount\\app\\web\\component",
               "framework": "D:\\BigAccount\\bigAccount\\app\\web\\framework",
               "store": "D:\\BigAccount\\bigAccount\\app\\web\\store"
+=======
+              "asset": "/Users/chenzuying/Documents/bigAccount/app/web/asset",
+              "component": "/Users/chenzuying/Documents/bigAccount/app/web/component",
+              "framework": "/Users/chenzuying/Documents/bigAccount/app/web/framework",
+              "store": "/Users/chenzuying/Documents/bigAccount/app/web/store"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
             }
           },
           "externals": [
@@ -797,9 +1176,15 @@
           ],
           "resolveLoader": {
             "modules": [
+<<<<<<< HEAD
               "D:\\BigAccount\\bigAccount\\node_modules",
               "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack\\node_modules",
               "D:\\BigAccount\\bigAccount\\node_modules\\easywebpack-react\\node_modules"
+=======
+              "/Users/chenzuying/Documents/bigAccount/node_modules",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack/node_modules",
+              "/Users/chenzuying/Documents/bigAccount/node_modules/easywebpack-react/node_modules"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
             ]
           },
           "target": "node",
@@ -846,7 +1231,11 @@
                   }
                 ],
                 "exclude": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
@@ -870,7 +1259,11 @@
                   }
                 ],
                 "exclude": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
@@ -897,7 +1290,11 @@
                   }
                 ],
                 "exclude": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
@@ -944,7 +1341,11 @@
                   }
                 ],
                 "include": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
@@ -970,7 +1371,11 @@
                   }
                 ],
                 "include": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               },
               {
@@ -999,7 +1404,11 @@
                   }
                 ],
                 "include": [
+<<<<<<< HEAD
                   "D:\\BigAccount\\bigAccount\\app\\web\\page\\css\\module"
+=======
+                  "/Users/chenzuying/Documents/bigAccount/app/web/page/css/module"
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
                 ]
               }
             ]
@@ -1024,8 +1433,13 @@
                 "EASY_ENV_IS_BROWSER": false,
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
+<<<<<<< HEAD
                 "EASY_ENV_PUBLIC_PATH": "\"http://127.0.0.1:9000/public/\"",
                 "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
+=======
+                "EASY_ENV_PUBLIC_PATH": "\"http://10.43.8.217:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://10.43.8.217:9000\""
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -1145,9 +1559,15 @@
       "license": "MIT",
       "homepage": "https://github.com/hubcarl/egg-react-webpack-boilerplate"
     },
+<<<<<<< HEAD
     "baseDir": "D:\\BigAccount\\bigAccount",
     "HOME": "C:\\Users\\admin",
     "rundir": "D:\\BigAccount\\bigAccount\\run",
+=======
+    "baseDir": "/Users/chenzuying/Documents/bigAccount",
+    "HOME": "/Users/chenzuying",
+    "rundir": "/Users/chenzuying/Documents/bigAccount/run",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
     "dump": {
       "ignore": "<Set>"
     },
@@ -1177,7 +1597,11 @@
       }
     },
     "logger": {
+<<<<<<< HEAD
       "dir": "D:\\BigAccount\\bigAccount\\logs",
+=======
+      "dir": "/Users/chenzuying/Documents/bigAccount/logs",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -1265,8 +1689,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-session",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-session",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "3.1.0"
     },
     "security": {
@@ -1278,8 +1707,13 @@
         "session"
       ],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-security",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-security",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.0.0"
     },
     "jsonp": {
@@ -1291,8 +1725,13 @@
         "security"
       ],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-jsonp",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-jsonp",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.0.0"
     },
     "onerror": {
@@ -1304,8 +1743,13 @@
         "jsonp"
       ],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-onerror",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-onerror",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.0.0"
     },
     "i18n": {
@@ -1315,8 +1759,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-i18n",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-i18n",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.0.0"
     },
     "watcher": {
@@ -1326,8 +1775,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-watcher",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-watcher",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "3.0.0"
     },
     "multipart": {
@@ -1337,8 +1791,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-multipart",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-multipart",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.0.0"
     },
     "development": {
@@ -1352,8 +1811,13 @@
       "env": [
         "local"
       ],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-development",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-development",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.2.0"
     },
     "schedule": {
@@ -1363,8 +1827,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-schedule",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-schedule",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "3.2.1"
     },
     "logrotator": {
@@ -1376,8 +1845,13 @@
       ],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-logrotator",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-logrotator",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "3.0.1"
     },
     "static": {
@@ -1387,8 +1861,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-static",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-static",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.1.0"
     },
     "view": {
@@ -1398,8 +1877,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/node_modules/egg/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.0.0"
     },
     "reactssr": {
@@ -1409,8 +1893,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\config\\plugin.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-view-react-ssr",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-view-react-ssr",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.2.2"
     },
     "cors": {
@@ -1420,8 +1909,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\config\\plugin.local.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-cors",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-cors",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.0.0"
     },
     "webpack": {
@@ -1433,8 +1927,13 @@
       "env": [
         "local"
       ],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\config\\plugin.local.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "3.3.2"
     },
     "webpackreact": {
@@ -1446,8 +1945,13 @@
       "env": [
         "local"
       ],
+<<<<<<< HEAD
       "from": "D:\\BigAccount\\bigAccount\\config\\plugin.local.js",
       "path": "D:\\BigAccount\\bigAccount\\node_modules\\egg-webpack-react",
+=======
+      "from": "/Users/chenzuying/Documents/bigAccount/config/plugin.local.js",
+      "path": "/Users/chenzuying/Documents/bigAccount/node_modules/egg-webpack-react",
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
       "version": "2.0.1"
     }
   }

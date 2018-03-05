@@ -1,0 +1,99 @@
+
+.news * {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC Medium";
+}
+
+.news-list {
+    width: 996px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news {
+    height: 276px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news .left {
+    float: left;
+    width: 308px;
+    height: 275px;
+}
+
+.news .thumb {
+    margin: 68px 34px 68px 64px;
+}
+
+.news .right {
+    position: relative;
+    margin-left: 308px;
+    width: 688px;
+    height: 275px;
+}
+
+.news .title {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    color: #000000;
+}
+
+.news .title-link {
+    color: #000000;
+}
+
+.news .summary {
+    text-align: left;
+    font-size: 18px;
+    color: #999999;
+    margin-bottom: 10px;
+    font-family: "PingFang SC Regular";
+}
+
+
+.news .date {
+    text-align: left;
+    font-size: 18px;
+    color: #cccccc;
+    display: inline;
+
+    position: absolute;
+    right: 146px;
+    bottom: 35px;
+}
+
+.news .viewDetails {
+    text-align: left;
+    font-size: 18px;
+    color: rgba(255, 89, 83, 0.8);
+    display: inline;
+
+    position: absolute;
+    right: 24px;
+    bottom: 35px;
+}
+
+.news .detail-link {
+    color: rgba(255, 89, 83, 0.8);
+}
+
+.news .imgDetails {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+}
+
+.news .bottomLine {
+    width: 932px;
+    height: 1px;
+    overflow:hidden;
+    background-color: #dddddd;
+    position: relative;
+    left: 64px;
+}

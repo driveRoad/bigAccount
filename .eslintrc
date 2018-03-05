@@ -12,6 +12,10 @@
     }
   },
   "rules": {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> b1fc450dade09398df03f31ca569fc005d3d4135
     "new-cap": "off",
     "newline-after-var": "off",
     "no-invalid-this": "off",
