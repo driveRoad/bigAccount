@@ -21,12 +21,11 @@ module.exports = app => {
   app.get('/ventureedu.html', app.controller.ventureedu.ventureedu.new);
   app.get(/^\/ventureedu\/ventureedu_detail_[0-9]{5}.html$/, app.controller.ventureedu.ventureedu.ventureedu_detail);
   app.get('/info.html', app.controller.info.info.new);
-  app.get('/recharge.html', app.controller.recharge.recharge.charge);
   app.get('/about.html', app.controller.about.about.about);
+  app.get('/recharge/mobileScan.html', app.controller.recharge.recharge.charge);
+  app.get('/recharge/chargeSuccess.html',app.controller.recharge.recharge.success);
+  app.get('/recharge/chargeInput.html',app.controller.recharge.recharge.input);
+  app.get('/recharge/chargeSelect.html',app.controller.recharge.recharge.select);
+  app.get('/recharge/chargeHelp.html',app.controller.recharge.recharge.help);
   
-
-  app.get('/spa(/.+)?', app.controller.spa.spa.ssr);
-
-  
-
 };

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BottomBanner from '../../asset/images/recharge/tuiBanner.png';
-export default class Mobilescan extends Component {
+export default class ChargeSuccess extends Component {
   constructor(props) {
     super(props);
   }
