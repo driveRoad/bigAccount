@@ -33,7 +33,6 @@ class VentureEduDetailPage extends Component {
   }
 
   getVentureEdu(pageName) {
-    console.log('xxxxxxx' + pageName);
     const con = require('./ventureedu_details/' + pageName).default;
     return React.createElement(con);
   }
