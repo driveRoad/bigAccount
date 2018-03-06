@@ -1,0 +1,87 @@
+.charge-help-container {
+  display: flex;
+}
+.charge-action-container .charge-help {
+  width: 1111px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.charge-action-container .charge-help .user-info {
+ margin-top: 100px; 
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ height: 185px;
+}
+.charge-action-container .charge-help .user-info .user-image {
+  margin-left: 30px;
+}
+.charge-action-container .charge-help .user-info .info {
+  margin-left: 30px;
+  color: white
+}
+.charge-action-container .charge-help .user-info .info p:nth-child(1) {
+  font-size: 26px;
+}
+.charge-action-container .charge-help .user-info .info p:nth-child(2) {
+  color: #c5c5c5;
+}
+.charge-action-container .charge-help .user-info .info p:nth-child(3) {
+  width: 86px;
+  height: 29px;
+  text-align: center;
+  line-height: 29px;
+  background-color: grey;
+  color:#c5c5c5;
+  border-radius: 7px;
+  margin-top:22px;
+}
+
+.charge-action-container .charge-help .charge-question {
+  background-color: #ffffff;
+  margin-top:20px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+.charge-action-container .charge-help .charge-question .section-one,.section-two {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.charge-action-container .charge-help .charge-question .section-one .question-title {
+  font-size: 22px;
+}
+.charge-action-container .charge-help .charge-question .section-one .question-content p:nth-child(1){
+  color: #888888;
+  font-size: 20px;
+}
+.charge-action-container .charge-help .charge-question .section-one .question-content p:nth-child(2) {
+  color:red;
+  font-size: 14px;
+}
+.charge-action-container .charge-help .charge-question .section-two .question-title{
+  font-size: 18px;
+}
+
+.charge-action-container .charge-help .charge-question .section-two .question-content {
+  margin-top: 22px;
+}
+
+.charge-action-container .charge-help .charge-question .section-two .question-content li {
+  color: #999999;
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+.charge-action-container .charge-help .charge-question .section-two .question-content li span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #dddddd;
+  border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:505;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}

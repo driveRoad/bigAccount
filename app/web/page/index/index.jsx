@@ -6,25 +6,40 @@ import Index1 from '../../asset/images/index1.png';
 import Index2 from '../../asset/images/index2.png';
 import Index3 from '../../asset/images/index3.png';
 import Qrcode from '../../asset/images/qrcode.png';
+import appDownload from '../../asset/images/appdownload.png';
 import './index.css';
 
 export default class Charge extends Component {
-  componentDidMount(){
-    console.log('----componentDidMount-----');
-  }
-
-  componentWillMount() {
-  	console.log('----componentWillMount------');
+  constructor(props) {
+    super(props)
+    this.imgDownloadStyle = {
+      display:'none'
+    }
+    this.bannerImgStyle = {
+      backgroundImage: `url(${headerImage})`,
+      height:'710px',
+      backgroundRepeat:'no-repeat',
+      backgroundPosition:'center center'
+    }
   }
 
   render() {
     return <div>
+      <script src='/public/js/indexImg.js'></script>
       <Header menuactive={this.props.menuActive}></Header>
       <div className="main">
         <div className="page-container page-component">
           <section>
             <div className="section-common">
-              <img src={headerImage}/>
+              <div className='index-bgImage' >
+                <div className="header-image">
+                  <img src={headerImage} />
+                  <div id="hover-area"></div>
+                  <img id='img-download' src={appDownload} style={this.imgDownloadStyle}/>
+                </div>
+              </div>
+              <div className='download-area'>
+              </div>
             </div>
           </section>
           <section>

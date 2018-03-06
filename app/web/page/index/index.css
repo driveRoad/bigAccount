@@ -2,14 +2,35 @@
 }
 .main .page-component section:nth-child(1) .section-common {
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+.main .page-component section:nth-child(1) .section-common .index-bgImage {
+  background-color:#2a74fc;
+  height: 571px;
+}
+.main .page-component section:nth-child(1) .section-common .index-bgImage .header-image {
   position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+.main .page-component section:nth-child(1) .section-common .index-bgImage .header-image #hover-area {
+  width: 183px;
+  height: 53px;
+  position: absolute;
+  top:298px;
+  left:359px;
 }
 .main .page-component section:nth-child(1) img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
-  max-height: 100%;
-  
+}
+.main .page-component section:nth-child(1) #img-download {
+  position: absolute;
+  top: 351px;
+  left: 382px;
+}
+.main .page-component section:nth-child(1) .hover-area:hover {
+  display: block;
 }
 .main .page-component section:nth-child(1) .bigaccount-download {
   position: absolute;
