@@ -12,10 +12,10 @@ class VentureEduNav extends Component {
     return (
       <div className="ventureedu-nav">
         <a  className="edu-link" href={this.props.indexUrl}>首页</a>
-        <span>{' > '}</span>
+        <span className="edu-link">{' > '}</span>
         <a className="edu-link" href={this.props.ventureEduListUrl}>风险教育</a>
-        <span>{' > '}</span>
-        <span>{this.props.ventureEduTitle}</span>
+        <span className="edu-link">{' > '}</span>
+        <span className="edu-link">{this.props.ventureEduTitle}</span>
       </div>
     )
   }
@@ -46,7 +46,7 @@ class VentureEduDetailPage extends Component {
         <Banner options={this.options}/>
         <div className="ventureedu-detail-main">
           <VentureEduNav indexUrl={this.props.indexUrl} ventureEduListUrl={this.props.ventureEduListUrl} ventureEduTitle={ventureEdu.title}/>
-          <div className="ventureedu-content">
+          <div className="ventureedu-detail">
           {
             this.getVentureEdu(this.props.pageName)
           }

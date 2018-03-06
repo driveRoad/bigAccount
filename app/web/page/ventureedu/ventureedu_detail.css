@@ -2,30 +2,39 @@
 
 .ventureedu-detail-main {
     width: 1196px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 30px auto 200px auto;
+    line-height: 1.0;
 }
 
-.ventureedu-content {
-
+.ventureedu-detail {
 }
 
-.ventureedu-content h3 {
-    font-size: 32px;
+.ventureedu-detail h3 {
+    font-size: 24px;
     color: #000000;
+    margin: 50px 0;
 }
 
-.ventureedu-content p {
-    font-size: 16px;
+.ventureedu-detail h4 {
+    font-size: 20px;
     color: #666666;
+    margin: 10px 0;
 }
-.ventureedu-nav {
+
+.ventureedu-detail p {
     font-size: 16px;
     color: #666666;
-    margin-top: 30px;
+    text-align: justify;
+    margin: 10px 0;
+    line-height: 2.0;
+}
+
+.ventureedu-nav {
     margin-bottom: 120px;
 }
 .ventureedu-nav .edu-link {
+    color: #666666;
+    font-size: 16px;
     color: #666666;
 }
 
