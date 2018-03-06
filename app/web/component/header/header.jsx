@@ -39,7 +39,7 @@ export default class Header extends Component {
           <li className="nav-item"><a className={companynewMenu?'nav-active':'nav-inactive'} href="/companynew.html">公司新闻</a></li>
           <li className="nav-item"><a className={ventureMenu?'nav-active':'nav-inactive'} href="/ventureedu.html">风险教育</a></li>
           <li className="nav-item"><a className={infoMenu?'nav-active':'nav-inactive'} href="/info.html">信息披露</a></li>
-          <li className="nav-item"><a className={rechargeMenu?'nav-active':'nav-inactive'} href="/recharge.html">在线充值</a></li>
+          <li className="nav-item"><a className={rechargeMenu?'nav-active':'nav-inactive'} href="/recharge/mobileScan.html">在线充值</a></li>
           <li className="nav-item"><a className={aboutMenu?'nav-active':'nav-inactive'} href="/about.html">关于我们</a></li>
         </ul>
       </div>
