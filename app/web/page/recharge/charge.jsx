@@ -13,7 +13,7 @@ export default class Charge extends Component {
       return React.createElement(pageModule);
   }
   render() {
-    return <div>
+    return <div id="charge-page">
       <Header menuactive={this.props.menuActive}></Header>
       {
         this.getPage(this.props.pageName)

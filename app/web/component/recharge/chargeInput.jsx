@@ -79,6 +79,7 @@ class ChargeInput extends Component {
             isOpen={this.state.modalIsOpen}
             style={customStyles}
             contentLabel="Charge Select Modal"
+            overlayClassName="Overlay"
           >
             <ChargeSelect onClickClose={this.closeModal}/>
           </ReactModal>
