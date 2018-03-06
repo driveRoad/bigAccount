@@ -32,20 +32,19 @@
 }
 
 .charge-success-card .top-section .check-account {
+    display: block;
     border-radius: 6px;
     border: 1px solid #ff5953;
     width: 240px;
-    height: 50px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     top: 300px;
-}
 
-.charge-success-card .top-section .check-account p {
     color: #ff5953;
     font-size: 22px;
     text-align: center;
     height: 50px;
     line-height: 50px;
 }
+
