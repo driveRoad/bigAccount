@@ -147,7 +147,7 @@ class PartnerCard extends Component {
         <p className="partner-name">{partner.name}</p>
         {
           partner.achieves.map((achieve, index) => {
-            return <p className="partner-achieve">{achieve}</p>;
+            return <p className="partner-achieve" key={index.toString()}>{achieve}</p>;
           })
         }
       </div>
@@ -204,7 +204,7 @@ export default class About extends Component {
         <div className="partner-list">
           {
             partnerArr.map((partner, index) => {
-              return <PartnerCard partner={partner}/>
+              return <PartnerCard partner={partner} key={index.toString()}/>
             })
           }
         </div>

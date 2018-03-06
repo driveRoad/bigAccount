@@ -34,8 +34,8 @@ class NewsList extends Component {
       <div className="news-list">
         {newsList.map((news, index) => {
           return (
-            <div>
-              <NewsItem news={news} key={index.toString()}/>
+            <div key={index.toString()}>
+              <NewsItem news={news} />
               <div className="divider"/>
             </div>
           );

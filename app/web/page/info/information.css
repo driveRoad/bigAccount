@@ -3,12 +3,12 @@
     height: 200px;
     background-image: url('./images/information/bg.png');
     overflow: hidden;
-    letter-spacing: 20px;
+    letter-spacing: 5px;
 }
 .top_title{
     color: white;
     text-align: center;
-    font-size: 34px;
+    font-size: 32px;
     margin-top: 83px;
 }
 .Con_box{
