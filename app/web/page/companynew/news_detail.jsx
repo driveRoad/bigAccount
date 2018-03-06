@@ -109,7 +109,7 @@ class HotCom extends Component {
         {
           hotList.map((item, index) => {
             return (
-              <div className="hot-item">
+              <div className="hot-item" key={index.toString()}>
                 <img className="hot-tri-img" src={require('../../asset/images/news/list_ico_triangle.png')}
                      alt={item.title}/>
                 <a className="hot-title" href={item.url}>{item.title}</a>
