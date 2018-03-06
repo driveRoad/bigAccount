@@ -6,7 +6,7 @@ export default () => {
   return (
     <div>
       <p>大家期待已久的周年庆终于来了，我们准备了很多惊喜</p>
-      <img src={require('../../../asset/images/news/新闻详情1-图.png')} alt="00_00"/>
+      <img src={require('../../../asset/images/news/news_detail_1.png')} alt="00_00"/>
       <h3 className="red">【天降红包】</h3>
       <p>7月21日，11点，天降双红包</p>
       <p>现金及抵用券准点空降，最高获 666 现金，仅限前100名</p>
