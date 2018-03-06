@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 
 import Header from 'component/header/header.jsx';
 import Footer from 'component/footer/footer.jsx';
+import Banner from 'component/common/banner/banner.jsx';
+import BannerImage from '../../asset/images/banner/newBanner.png';
 
 import './ventureedu_detail.css'
 
@@ -10,10 +12,10 @@ class VentureEduNav extends Component {
     return (
       <div className="ventureedu-nav">
         <a  className="edu-link" href={this.props.indexUrl}>首页</a>
-        <span>{' > '}</span>
+        <span className="edu-link">{' > '}</span>
         <a className="edu-link" href={this.props.ventureEduListUrl}>风险教育</a>
-        <span>{' > '}</span>
-        <span>{this.props.ventureEduTitle}</span>
+        <span className="edu-link">{' > '}</span>
+        <span className="edu-link">{this.props.ventureEduTitle}</span>
       </div>
     )
   }
@@ -21,8 +23,16 @@ class VentureEduNav extends Component {
 
 class VentureEduDetailPage extends Component {
 
+  constructor(props) {
+    super(props);
+    this.options = {
+      bannerImage: BannerImage,
+      bannerText: props.ventureEdu.title,
+      height:200
+    }
+  }
+
   getVentureEdu(pageName) {
-    console.log('xxxxxxx' + pageName);
     const con = require('./ventureedu_details/' + pageName).default;
     return React.createElement(con);
   }
@@ -32,9 +42,10 @@ class VentureEduDetailPage extends Component {
     return (
       <div>
         <Header menuactive={this.props.menuActive}></Header>
+        <Banner options={this.options}/>
         <div className="ventureedu-detail-main">
           <VentureEduNav indexUrl={this.props.indexUrl} ventureEduListUrl={this.props.ventureEduListUrl} ventureEduTitle={ventureEdu.title}/>
-          <div className="ventureedu-content">
+          <div className="ventureedu-detail">
           {
             this.getVentureEdu(this.props.pageName)
           }

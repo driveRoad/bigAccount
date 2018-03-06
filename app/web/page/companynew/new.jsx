@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Header from 'component/header/header.jsx';
 import Footer from 'component/footer/footer.jsx';
 import Banner from 'component/common/banner/banner.jsx';
@@ -10,19 +10,18 @@ class NewsItem extends Component {
     const news = this.props.news;
     return (
       <div className="news">
-        <div className="left">
-          <img className="thumb" src={require('../../asset/images/'+ news.thumb)} alt={news.title}/>
+        <div className="thumb-section">
+          <img className="thumb" src={require('../../asset/images/' + news.thumb)} alt={news.title}/>
         </div>
-        <div className="right">
-          <p className="title"><a className="title-link" href={news.url}>{news.title}</a></p>
+        <div className="content-section">
+          <a className="title" href={news.url}>{news.title}</a>
           <p className="summary">{news.summary}</p>
-          <div className="dateAndDetails">
-            <div className="date">{news.date}</div>
-            <div className="viewDetails"><a className="detail-link" href={news.url}>查看详情</a></div>
-            <img className="imgDetails" src={require('../../asset/images/news/list_ico_right.png')} alt={news.title}/>
+          <div className="date-detail-wrapper">
+            <span className="date">{news.date}</span>
+            <a className="view-detail" href={news.url}>查看详情</a>
+            <img className="right-img" src={require('../../asset/images/news/list_ico_right.png')} alt={news.title}/>
           </div>
         </div>
-        <div className="bottomLine"/>
       </div>
     );
   }
@@ -34,7 +33,12 @@ class NewsList extends Component {
     return (
       <div className="news-list">
         {newsList.map((news, index) => {
-          return (<NewsItem news={news} key={index.toString()}/>);
+          return (
+            <div>
+              <NewsItem news={news} key={index.toString()}/>
+              <div className="divider"/>
+            </div>
+          );
         })}
       </div>
     );
@@ -46,11 +50,11 @@ export default class NewsPage extends Component {
     super(props);
     this.options = {
       bannerImage: BannerImage,
-      bannerText:'公司新闻',
-      height:200
+      bannerText: '公司新闻',
+      height: 200
     }
   }
-  
+
   render() {
     return <div>
       <Header menuactive={this.props.menuActive}></Header>

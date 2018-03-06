@@ -6,7 +6,6 @@ module.exports = app => {
   return class AppController extends app.Controller {
 
     async new() {
-      console.log('xxxxxxx'+newsList);
       const {ctx} = this;
       await ctx.render('companynew/new.js', {
           menuActive: 'companynew',

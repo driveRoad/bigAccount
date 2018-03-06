@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Header from 'component/header/header.jsx';
 import Footer from 'component/footer/footer.jsx';
-
+import Banner from 'component/common/banner/banner.jsx';
+import BannerImage from '../../asset/images/banner/newBanner.png';
 import './news_detail.css'
 
 //import NewsContent_01 from './news_details/newscontent_01'
@@ -20,55 +21,6 @@ import './news_detail.css'
 //
 // }
 //
-
-class NewsNav extends Component {
-  render() {
-    return (
-      <div>
-        <span><a className="nav-link" href={this.props.indexUrl}>首页</a></span>
-        <span>{' > '}</span>
-        <span><a className="nav-link" href={this.props.newsListUrl}>公司新闻</a></span>
-        <span>{' > '}</span>
-        <span>{this.props.newsTitle}</span>
-      </div>
-    )
-  }
-}
-
-class PreNewsCom extends Component {
-  render() {
-    let news = this.props.news;
-    return (
-      <div className="pre-news-com">
-        <div className="pre-img-section">
-          <img className="pre-img" src={require('../../asset/images/news/list_ico_pre_l.png')} alt="pre-img"/>
-        </div>
-        <div className="pre-title-section">
-          <p>上一篇</p>
-          <p><a className="title-link" href={news.url}>{news.title}</a></p>
-        </div>
-      </div>
-    )
-  }
-}
-
-class NextNewsCom extends Component {
-  render() {
-    let news = this.props.news;
-    return (
-      <div className="next-news-com">
-        <div className="next-title-section">
-          <p>下一篇</p>
-          <p><a className="title-link" href={news.url}>{news.title}</a></p>
-        </div>
-        <div className="next-img-section">
-          <img className="next-img" src={require('../../asset/images/news/list_ico_next_r.png')} alt="next-img"/>
-        </div>
-      </div>
-    )
-  }
-}
-
 
 var hotList = [
   {
@@ -97,6 +49,56 @@ var hotList = [
   }
 ];
 
+
+class NewsNav extends Component {
+  render() {
+    return (
+      <div className="news-nav">
+        <a className="nav-item" href={this.props.indexUrl}>首页</a>
+        <span className="nav-item">{' > '}</span>
+        <a className="nav-item" href={this.props.newsListUrl}>公司新闻</a>
+        <span className="nav-item">{' > '}</span>
+        <span className="nav-item">{this.props.newsTitle}</span>
+      </div>
+    )
+  }
+}
+
+class PreNewsCom extends Component {
+  render() {
+    let news = this.props.news;
+    return (
+      <div className="pre-news-com">
+        <div className="pre-img-section">
+          <img className="pre-img" src={require('../../asset/images/news/list_ico_pre_l.png')} alt="pre-img"/>
+        </div>
+        <div className="pre-title-section">
+          <p className="pre-page">上一篇</p>
+          <a className="title-link" href={news.url}>{news.title}</a>
+        </div>
+      </div>
+    )
+  }
+}
+
+class NextNewsCom extends Component {
+  render() {
+    let news = this.props.news;
+    return (
+      <div className="next-news-com">
+        <div className="next-title-section">
+          <p className="next-page">下一篇</p>
+          <a className="title-link" href={news.url}>{news.title}</a>
+        </div>
+        <div className="next-img-section">
+          <img className="next-img" src={require('../../asset/images/news/list_ico_next_r.png')} alt="next-img"/>
+        </div>
+      </div>
+    )
+  }
+}
+
+
 class HotCom extends Component {
   render() {
     return (
@@ -108,7 +110,8 @@ class HotCom extends Component {
           hotList.map((item, index) => {
             return (
               <div className="hot-item">
-                <img className="hot-tri-img" src={require('../../asset/images/news/list_ico_triangle.png')} alt={item.title}/>
+                <img className="hot-tri-img" src={require('../../asset/images/news/list_ico_triangle.png')}
+                     alt={item.title}/>
                 <a className="hot-title" href={item.url}>{item.title}</a>
               </div>
             );
@@ -126,6 +129,15 @@ class NewsDetailPage extends Component {
     return React.createElement(con);
   }
 
+  constructor(props) {
+    super(props);
+    this.options = {
+      bannerImage: BannerImage,
+      bannerText: '最新动态',
+      height: 200
+    }
+  }
+
   render() {
     let news = this.props.news;
     let preNews = this.props.preNews;
@@ -134,15 +146,18 @@ class NewsDetailPage extends Component {
     return (
       <div>
         <Header menuactive={this.props.menuActive}></Header>
+        <Banner options={this.options}/>
         <div className="news-main">
           <div className="news-detail-section">
             <NewsNav indexUrl={this.props.indexUrl} newsListUrl={this.props.newsListUrl} newsTitle={news.title}/>
             <h1 className="news-title">{news.title}</h1>
             <p className="news-date">{news.date}</p>
             <div className="divider"/>
+            <div className="news-detail">
             {
               this.getNews(this.props.pageName)
             }
+            </div>
             <div className="divider"/>
             {
               nextNews !== null ? <NextNewsCom news={nextNews}/> : <PreNewsCom news={preNews}/>
