@@ -1,98 +1,103 @@
 
-.news * {
-    margin: 0;
-    padding: 0;
-    font-family: "PingFang SC Medium";
-}
+
 
 .news-list {
     width: 996px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 150px auto;
+}
+
+.news * {
+    margin: 0;
+    padding: 0;
 }
 
 .news {
-    height: 276px;
+    height: 275px;
+    width: 996px;
+}
+
+.blank {
+    height: 10px;
+    width: 996px;
+    background-color: red;
     margin-left: auto;
     margin-right: auto;
 }
 
-.news .left {
-    float: left;
+.news .thumb-section {
     width: 308px;
     height: 275px;
+    display: inline-block;
+    float: left;
 }
 
-.news .thumb {
-    margin: 68px 34px 68px 64px;
+.news .thumb-section .thumb {
+    width: 210px;
+    height: 140px;
+    display: inline-block;
+    margin-left: 64px;
+    margin-top: 68px;
 }
 
-.news .right {
-    position: relative;
-    margin-left: 308px;
+.news .content-section {
     width: 688px;
     height: 275px;
+    display: inline-block;
+    float: left;
+    position: relative;
 }
 
-.news .title {
+.news .content-section .title {
     text-align: left;
     font-size: 22px;
-    margin-bottom: 20px;
-    padding-top: 80px;
     color: #000000;
+    line-height: 1.0;
+    display: inline-block;
+    margin-top: 80px;
 }
 
-.news .title-link {
-    color: #000000;
-}
-
-.news .summary {
-    text-align: left;
+.news .content-section .summary {
+    text-align: justify;
     font-size: 18px;
     color: #999999;
-    margin-bottom: 10px;
-    font-family: "PingFang SC Regular";
+    line-height: 1.5;
+    margin-top: 21px;
 }
 
+.news  .content-section .date-detail-wrapper {
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    position: absolute;
+    bottom: 45px;
+}
 
-.news .date {
-    text-align: left;
-    font-size: 18px;
+.news  .content-section .date-detail-wrapper .date {
+    font-size: 17px;
     color: #cccccc;
     display: inline;
-
-    position: absolute;
-    right: 146px;
-    bottom: 35px;
+    vertical-align: middle;
+    margin-right: 49px;
+    line-height: 1.0;
 }
 
-.news .viewDetails {
-    text-align: left;
+.news .content-section .date-detail-wrapper .view-detail {
     font-size: 18px;
     color: rgba(255, 89, 83, 0.8);
     display: inline;
-
-    position: absolute;
-    right: 24px;
-    bottom: 35px;
+    vertical-align: middle;
+    margin-right: 14px;
+    line-height: 1.0;
 }
 
-.news .detail-link {
-    color: rgba(255, 89, 83, 0.8);
+.news .content-section .date-detail-wrapper .right-img {
+    display: inline;
+    vertical-align: middle;
 }
 
-.news .imgDetails {
-    width: 10px;
-    height: 16px;
-    position: absolute;
-    right: 0;
-    bottom: 40px;
-}
-
-.news .bottomLine {
+.divider {
     width: 932px;
     height: 1px;
-    overflow:hidden;
     background-color: #dddddd;
     position: relative;
     left: 64px;

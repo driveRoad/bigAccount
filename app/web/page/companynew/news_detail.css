@@ -1,57 +1,15 @@
 
-.newsBody {
-    width: 800px;
-}
-
-
-
-.newsBody p {
-    font-size: 16px;
-    font-family: "PingFang SC Regular";
-    text-align: justify;
-    letter-spacing: 2px;
-    color: #666666;
-}
-
-.newsBody h3 {
-    font-size: 16px;
-    font-family: "PingFang SC Medium";
-    text-align: left;
-    letter-spacing: 2px;
-}
-
 
 .news-main {
     position: relative;
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto 200px auto;
 }
 
-
-.news-main .nav-link {
-    color: #000000;
-}
-
-.news-main .news-title {
-    font-size: 32px;
-    font-family: "PingFang SC Medium";
-    text-align: left;
-    color: #000000;
-    margin-top: 110px;
-}
-
-.news-main .news-date {
-    font-size: 20px;
-    font-family: "PingFang SC Medium";
-    text-align: left;
-    color: #666666;
-    margin-bottom: 30px;
-}
-
-.news-main .divider {
-    height: 1px;
-    background-color: #dddddd;
+.news-main * {
+    margin: 0;
+    padding: 0;
+    line-height: 1.0;
 }
 
 .news-detail-section {
@@ -60,57 +18,138 @@
 }
 
 
+.news-detail-section .news-nav .nav-item {
+    font-size: 16px;
+    color: #666666;
+}
 
-.next-news-com {
+.news-detail-section .news-title {
+    font-size: 32px;
+    text-align: left;
+    color: #000000;
+    margin-top: 110px;
+}
+
+.news-detail-section .news-date {
+    font-size: 20px;
+    text-align: left;
+    color: #666666;
+    margin-top: 15px;
+    margin-bottom: 32px;
+}
+
+.news-detail-section .divider {
+    height: 1px;
+    background-color: #dddddd;
+}
+
+.news-main .news-detail-section .news-detail {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.news-main .news-detail-section .news-detail p {
+    font-size: 16px;
+    line-height: 2.0;
+    color: #666666;
+    text-align: justify;
+}
+
+.news-main .news-detail-section .news-detail h3 {
+    font-size: 22px;
+    color: #000000;
+    margin: 50px 0;
+}
+
+.news-main .news-detail-section .news-detail h3.red {
+    color: #ff5953;
+}
+
+.news-main .news-detail-section .news-detail a {
+    color: #ff5953;
+}
+
+.news-main .news-detail-section .news-detail img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.news-detail-section .next-news-com {
     margin-top: 50px;
     text-align: right;
+    height: 45px;
+    width: 800px;
+}
+
+
+.next-news-com .next-title-section {
+    float: left;
+    height: 45px;
+    width: 776px;
+}
+
+.next-news-com .next-title-section .next-page {
+    font-size: 20px;
+    color: #666666;
+}
+
+.next-news-com .next-title-section .title-link{
+    margin-top: 7px;
+    font-size: 18px;
+    color: #999999;
+    display: block;
 }
 
 .next-news-com .next-img-section {
-    display: inline-block;
+    float: left;
+    height: 45px;
+    width: 24px;
 }
 
 .next-img-section .next-img{
     display: inline-block;
-    position: relative;
-    bottom: 15px;
-    left: 10px;
-}
-
-.next-news-com .next-title-section {
-    display: inline-block;
-    text-align: right;
-}
-
-.next-news-com .next-title-section .title-link{
-    color: #999999;
+    margin-top: 10px;
 }
 
 
-.pre-news-com {
+
+
+.news-detail-section  .pre-news-com {
     margin-top: 50px;
+    text-align: left;
+    height: 45px;
+    width: 800px;
 }
 
 .pre-news-com .pre-img-section {
-    display: inline-block;
-    margin-right: 10px;
+    float: left;
+    height: 45px;
+    width: 24px;
 }
 
 .pre-news-com .pre-img-section .pre-img{
     display: inline-block;
-    position: relative;
-    bottom: 15px;
+    margin-top: 10px;
 }
 
 .pre-news-com .pre-title-section {
-    display: inline-block;
+    float: left;
+    height: 45px;
+    width: 776px;
+}
+
+.pre-news-com .pre-title-section .pre-page {
+    font-size: 20px;
+    color: #666666;
 }
 
 .pre-news-com .pre-title-section .title-link {
+    margin-top: 7px;
+    font-size: 18px;
     color: #999999;
+    display: block;
 }
 
-.hot-com {
+.news-main .hot-com {
     display: inline-block;
     width: 280px;
     height: 280px;
@@ -120,29 +159,29 @@
     top: 90px;
 }
 
-.hot-com .hot-img {
+.news-main .hot-com .hot-img {
     display: inline-block;
-    margin: 5px 5px 0 15px;
+    margin-right: 5px;
 }
 
-.hot-com .hot-header {
+.news-main .hot-com .hot-header {
     display: inline-block;
     vertical-align: top;
     font-size: 22px;
     color: #000000;
 }
 
-.hot-com .divider {
+.news-main.hot-com .divider {
     margin: 15px 0 28px 0;
 }
 
-.hot-com .hot-item {
+.news-main .hot-com .hot-item {
     margin: 15px 0 0 0;
 }
 
-.hot-com .hot-title {
+.news-main .hot-com .hot-title {
     display: inline-block;
     margin-left: 18px;
     font-size: 20px;
-    color: #dddddd;
+    color: #666666;
 }
