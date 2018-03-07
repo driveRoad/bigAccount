@@ -4,7 +4,15 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
+
+.about * {
+    margin: 0;
+    padding: 0;
+    line-height: 1.0;
+}
+
 .introduce-banner {
     margin-top: 100px;
 }
@@ -18,22 +26,20 @@
 }
 
 .introduce-banner .title {
-    font-family: "PingFang SC Regular";
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 8px;
     margin-right: 8px;
 }
 
 .about>.introduce {
     width: 1000px;
-    font-family: "PingFang SC Regular";
-    font-size: 16px;
+    font-size: 14px;
     color: #000000;
     line-height: 24px;
     letter-spacing: 2px;
     display: inline-block;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 .member-list {
@@ -55,7 +61,7 @@
     margin-top: 2px;
     margin-left: 2px;
     margin-right: 52px;
-    box-shadow:0px 0px 2px 2px rgba(99, 99, 99, 0.2);
+    box-shadow:0 0 2px 2px rgba(99, 99, 99, 0.2);
 }
 
 .senior-card .name-position-section {
@@ -65,24 +71,26 @@
     text-align: left;
 }
 .senior-card .name {
-    font-size: 28px;
+    font-size: 20px;
     color: #000000;
     margin-right: 20px;
     vertical-align: bottom;
-    line-height: 1.0;
+    letter-spacing: 3px;
 }
 .senior-card .position {
     font-size: 20px;
+    letter-spacing: 3px;
     color: #888888;
     vertical-align: bottom;
-    line-height: 1.0;
 }
 
 .senior-card .resume {
     margin-left: 45px;
     margin-right: 45px;
-    text-align: left;
-    font-size: 20px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
     color: #555555;
 }
 
@@ -116,24 +124,26 @@
     text-align: left;
 }
 .medium-card .name {
-    font-size: 28px;
+    font-size: 20px;
+    letter-spacing: 3px;
     color: #000000;
     margin-right: 20px;
     vertical-align: bottom;
-    line-height: 1.0;
 }
 .medium-card .position {
     font-size: 20px;
+    letter-spacing: 3px;
     color: #888888;
     vertical-align: bottom;
-    line-height: 1.0;
 }
 
 .medium-card .resume {
     margin-left: 20px;
     margin-right: 20px;
-    text-align: left;
-    font-size: 20px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
     color: #555555;
 }
 
@@ -157,9 +167,9 @@
 }
 
 .partner-card .partner-name {
-    font-size: 22px;
+    font-size: 20px;
+    letter-spacing: 2px;
     color: #000000;
-    line-height: 1.0;
     margin-top: 30px;
     margin-bottom: 24px;
 }
@@ -171,6 +181,7 @@
     width: 350px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 24px;
     color: #999999;
 }

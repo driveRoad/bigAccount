@@ -25,6 +25,7 @@
 
 .news-detail-section .news-title {
     font-size: 32px;
+    line-height: 1.5;
     text-align: left;
     color: #000000;
     margin-top: 110px;
@@ -48,17 +49,21 @@
     margin-bottom: 80px;
 }
 
-.news-main .news-detail-section .news-detail p {
+.news-main .news-detail-section .news-detail p,span {
     font-size: 16px;
     line-height: 2.0;
     color: #666666;
     text-align: justify;
 }
 
+.news-main .news-detail-section .news-detail p {
+    margin: 40px 0;
+}
+
 .news-main .news-detail-section .news-detail h3 {
     font-size: 22px;
     color: #000000;
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .news-main .news-detail-section .news-detail h3.red {
@@ -70,8 +75,6 @@
 }
 
 .news-main .news-detail-section .news-detail img {
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 .news-detail-section .next-news-com {
     margin-top: 50px;
@@ -182,14 +185,15 @@
     margin: 15px 0 0 0;
 }
 
-.news-main .hot-com .hot-title {
-    display: inline-block;
-    margin-left: 18px;
-    font-size: 20px;
-    color: #666666;
-}
-
-.news-main .hot-com .hot-tri-img {
+.news-main .hot-com .hot-item .hot-tri-img {
     position: relative;
     bottom: 2px;
 }
+
+.news-main .hot-com .hot-item .hot-title {
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 16px;
+    color: #666666;
+}
+
