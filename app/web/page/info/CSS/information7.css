@@ -23,3 +23,9 @@
     font-size: 12px;
     margin-bottom: 50px;
 }
+.btn_read{
+  color: #999;
+}
+.btn_read:hover{
+  text-decoration-line: underline;
+}

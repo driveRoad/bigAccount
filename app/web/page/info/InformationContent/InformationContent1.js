@@ -78,14 +78,16 @@ class InformationContent1 extends React.Component{
     lookImg(){
        this.setState({
            visible:"block",
-           scroll:document.documentElement.scrollTop,
+           scroll:document.documentElement.scrollTop!=0 ?document.documentElement.scrollTop : document.body.scrollTop,
        },()=>{
         document.documentElement.scrollTop = 0;
+        document.body.scrollTop =0;
         document.documentElement.style.overflowY = 'hidden' ;
        })
     }
     close(){
       document.documentElement.scrollTop = this.state.scroll;
+      document.body.scrollTop = this.state.scroll;
       document.documentElement.style.overflowY = 'visible' ;
     }
     render(){

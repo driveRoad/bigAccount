@@ -7,7 +7,7 @@ import './news.css'
 
 class NewsItem extends Component {
   render() {
-    const news = this.props.news;
+    const news = this.props.news; 
     return (
       <div className="news">
         <div className="thumb-section">
