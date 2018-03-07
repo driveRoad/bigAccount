@@ -131,14 +131,12 @@ closeLook(){
     })
 }
     render(){
-        const Hei=document.body.clientHeight;
-        const img_Hei =Hei-92;
         const index = this.state.imgIndex;
-        const window_wid =document.body.clientWidth+17;
         const imgSrcArr=['','Qualification_dianxin.jpeg','Qualification_yinye.png','Qualification_yuming.jpeg'];
         return(
             <div style={{display:this.state.visible}}>
-              <div className="bookimg" style={{width:window_wid,top:'92px',height:img_Hei}} onClick={this.closeLook.bind(this)}>
+               <script src="../../../../../public/js/LookImg1.js"/>
+              <div id="imgBox" className="bookimg" style={{top:'92px'}} onClick={this.closeLook.bind(this)}>
                   <img onClick={this.toLeft.bind(this)} src={require('../images/icon_left.png')} alt="icon"/>
                   <img className="img_agreement" src={require('../images/Qualification/'+imgSrcArr[index])} width="500" alt='资金存管服务协议'/>
                   <img onClick={this.toRight.bind(this)} src={require('../images/icon_right.png')} alt="icon"/>
