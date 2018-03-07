@@ -1,6 +1,6 @@
 'use strict';
 
-let newsList = require('../../mocks/news_list_json');
+let newsList = require('./news_list_json');
 
 module.exports = app => {
   return class AppController extends app.Controller {

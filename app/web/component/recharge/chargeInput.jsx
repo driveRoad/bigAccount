@@ -37,10 +37,12 @@ class ChargeInput extends Component {
     };
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
-
+    this.onSucccess = this.onSucccess.bind(this);
+    this.onFail = this.onFail.bind(this);
   }
 
   openModal() {
+    ReactModal.setAppElement('#app');
     this.setState({modalIsOpen: true});
   }
 
@@ -48,6 +50,15 @@ class ChargeInput extends Component {
     this.setState({modalIsOpen: false});
   }
 
+  onSucccess() {
+    console.log('success');
+    this.closeModal();
+  }
+
+  onFail() {
+    console.log('fail');
+    this.closeModal();
+  }
 
   render() {
     return <div className="charge-action-container">
@@ -81,7 +92,7 @@ class ChargeInput extends Component {
             contentLabel="Charge Select Modal"
             overlayClassName="Overlay"
           >
-            <ChargeSelect onClickClose={this.closeModal}/>
+            <ChargeSelect onClickClose={this.closeModal} onClickSuccess={this.onSucccess} onClickFail={this.onFail}/>
           </ReactModal>
 
           <div className="bottom-pic">
