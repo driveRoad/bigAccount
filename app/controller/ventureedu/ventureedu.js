@@ -1,6 +1,6 @@
 'use strict';
 
-let ventureEduList = require('../../mocks/ventureedu_list_json');
+let ventureEduList = require('./ventureedu_list_json');
 
 module.exports = app => {
   return class AppController extends app.Controller {

@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 export default () => {
   return (
     <div>
-      <p>大家期待已久的周年庆终于来了，我们准备了很多惊喜</p>
+      <p>大家期待已久的周年庆终于来了，我们准备了很多惊喜！</p>
       <img src={require('../../../asset/images/news/news_detail_1.png')} alt="00_00"/>
       <h3 className="red">【天降红包】</h3>
       <p>7月21日，11点，天降双红包</p>
