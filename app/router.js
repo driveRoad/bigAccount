@@ -20,7 +20,10 @@ module.exports = app => {
   app.get(/^\/companynew\/news_detail_[0-9]{5}.html$/, app.controller.companynew.companynew.news_detail);
   app.get('/ventureedu.html', app.controller.ventureedu.ventureedu.new);
   app.get(/^\/ventureedu\/ventureedu_detail_[0-9]{5}.html$/, app.controller.ventureedu.ventureedu.ventureedu_detail);
+    
   app.get('/info.html', app.controller.info.info.new);
+  app.get(/^\/info\/info_detail[0-9]{1}.html$/,app.controller.info.info.detail);
+
   app.get('/about.html', app.controller.about.about.about);
   app.get('/recharge/mobileScan.html', app.controller.recharge.recharge.charge);
   app.get('/recharge/chargeSuccess.html',app.controller.recharge.recharge.success);

@@ -88,8 +88,10 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/recharge.html",
-    "regexp": "/^\\/recharge\\.html(?:\\/(?=$))?$/",
+    "path": {
+      "keys": []
+    },
+    "regexp": "/^\\/info\\/info_detail[0-9]{1}.html$/",
     "stack": [
       "wrappedController"
     ]
@@ -113,20 +115,61 @@
       "HEAD",
       "GET"
     ],
-    "paramNames": [
-      {
-        "name": 0,
-        "prefix": "",
-        "delimiter": "/",
-        "optional": true,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "\\/.+"
-      }
+    "paramNames": [],
+    "path": "/recharge/mobileScan.html",
+    "regexp": "/^\\/recharge\\/mobileScan\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
     ],
-    "path": "/spa(/.+)?",
-    "regexp": "/^\\/spa(?:((?:\\/.+)))?(?:\\/(?=$))?$/",
+    "paramNames": [],
+    "path": "/recharge/chargeSuccess.html",
+    "regexp": "/^\\/recharge\\/chargeSuccess\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/recharge/chargeInput.html",
+    "regexp": "/^\\/recharge\\/chargeInput\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/recharge/chargeSelect.html",
+    "regexp": "/^\\/recharge\\/chargeSelect\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/recharge/chargeHelp.html",
+    "regexp": "/^\\/recharge\\/chargeHelp\\.html(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

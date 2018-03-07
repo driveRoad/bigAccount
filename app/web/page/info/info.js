@@ -20,7 +20,7 @@ render(){
               <div className="top_title">信息披露</div>
             </div>
             <div className="Con_box">
-              <Information_Con/>
+              <Information_Con msg ={this.props.msg}/>
             </div>
         </div>
         <LookImg />
@@ -30,10 +30,33 @@ render(){
 }
 
 class Information_Con extends React.Component{
+constructor(props){
+    super(props)
+    this.state={
+      flag:false
+    }
+}
+
+componentWillMount(){
+  var str = this.props.msg;
+  var index = this.props.msg .lastIndexOf("\/");
+  var index2 = this.props.msg .lastIndexOf(".");
+  str  = str .substring(index + 1, index2);
+  if(str.match('_')){
+    // 包含
+    this.setState({
+      flag:true
+    })
+  }else{
+    this.setState({
+      flag:false
+    })
+  }
+}
 render(){
-    const TabPane = Tabs.TabPane;
+    const TabPane = Tabs.TabPane
     return(
-        <Tabs defaultActiveKey="1" ref="Tabs"  tabPosition="left" defaultActiveKey="information1">
+        <Tabs defaultActiveKey="1" ref="Tabs"  tabPosition="left" defaultActiveKey={this.state.flag ? "information7" : "information1"}>
             <TabPane tab="银行存管" key="information1"><InformationContent1/></TabPane>
             <TabPane tab="平台数据" key="information2"><InformationContent2/></TabPane>
             <TabPane tab="备案信息" key="information3">

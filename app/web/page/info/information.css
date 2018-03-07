@@ -21,4 +21,28 @@
 .ant-tabs-vertical.ant-tabs-left > .ant-tabs-content{
     border-left: none;
 }
-
+.contentBox{
+  width: 100%;
+  background: #f6f6f6;
+}
+.content{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.nav{
+  font-size: 14px;
+  margin: 40px 0;
+  color: #999;
+}
+.world{
+  background: white;
+  padding: 70px 50px;
+}
+a{
+  color: #999;
+  text-decoration-line: underline;
+}
+a:hover{
+  color: #999;
+}
