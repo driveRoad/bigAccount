@@ -157,6 +157,7 @@
     position: absolute;
     right: 0;
     top: 90px;
+    background-color: yellow;
 }
 
 .news-main .hot-com .hot-img {
@@ -171,16 +172,23 @@
     color: #000000;
 }
 
-.news-main.hot-com .divider {
-    margin: 15px 0 28px 0;
+.news-main .hot-com .hot-divider {
+    width: 280px;
+    height: 1px;
+    background-color: #dddddd;
+    margin: 18px 0 40px 0;
 }
 
 .news-main .hot-com .hot-item {
     margin: 15px 0 0 0;
 }
 
-.news-main .hot-com .hot-title {
-    display: inline-block;
+.hot-com .hot-item .hot-tri-img {
+    position: relative;
+    bottom: 2px;
+}
+
+.hot-com .hot-item .hot-title {
     margin-left: 18px;
     font-size: 20px;
     color: #666666;
