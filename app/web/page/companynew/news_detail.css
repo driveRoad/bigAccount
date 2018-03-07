@@ -171,11 +171,12 @@
     color: #000000;
 }
 
-.news-main .hot-com .hot-divider {
-    width: 280px;
+
+.news-main .hot-com .divider {
+    margin: 15px 0 28px 0;
     height: 1px;
+    width: 100%;
     background-color: #dddddd;
-    margin: 18px 0 40px 0;
 }
 
 .news-main .hot-com .hot-item {
@@ -191,4 +192,9 @@
     margin-left: 18px;
     font-size: 20px;
     color: #666666;
+}
+
+.news-main .hot-com .hot-tri-img {
+    position: relative;
+    bottom: 2px;
 }
