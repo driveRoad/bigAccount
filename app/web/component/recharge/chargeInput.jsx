@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
+import ReactModal from 'react-modal';
+
 import Bootom from '../../asset/images/recharge/bottom.png';
 import BootomWen from '../../asset/images/recharge/bottomwen.png';
 import Charge from '../../asset/images/recharge/charge.png';
 import User from '../../asset/images/recharge/user.png';
 import Input from '../../component/common/input/input.jsx';
 import ChargeSelect from './chargeSelect'
-import ReactModal from 'react-modal';
 import './chargeAction.css';
 
 
-const customStyles = {
+
+const modalStyles = {
   content: {
     top: '50%',
     left: '50%',
@@ -37,17 +39,27 @@ class ChargeInput extends Component {
     };
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
-
+    this.onSuccess = this.onSuccess.bind(this);
+    this.onFail = this.onFail.bind(this);
   }
 
   openModal() {
+    ReactModal.setAppElement('#app');
     this.setState({modalIsOpen: true});
   }
 
   closeModal() {
+    //
     this.setState({modalIsOpen: false});
   }
 
+  onSuccess() {
+    console.log('success');
+  }
+
+  onFail() {
+    console.log('fail');
+  }
 
   render() {
     return <div className="charge-action-container">
@@ -77,11 +89,11 @@ class ChargeInput extends Component {
           {/*点击下一步，弹出模态对话框*/}
           <ReactModal
             isOpen={this.state.modalIsOpen}
-            style={customStyles}
+            style={modalStyles}
             contentLabel="Charge Select Modal"
             overlayClassName="Overlay"
           >
-            <ChargeSelect onClickClose={this.closeModal}/>
+            <ChargeSelect onClickClose={this.closeModal} onClickSuccess={this.onSuccess} onClickFail={this.onFail}/>
           </ReactModal>
 
           <div className="bottom-pic">

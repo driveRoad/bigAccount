@@ -29,6 +29,10 @@ class ChargeSelect extends Component {
 }
 
 /*
-  给组件设置回调函数属性onClickClose,  onClickSuccess,  onClickFail
+  ChargeSelect设置以下属性：
+
+  onClickClose :关闭按钮事件
+  onClickSuccess :点击成功按钮事件
+  onClickFail :点击失败按钮事件
  */
 export default ChargeSelect;
