@@ -4,7 +4,7 @@ export default () => {
   return (
     <div>
       <h3>什么是票据？</h3>
-      <img src={require('../../../asset/images/ventureedu/票据.png')}/>
+      <img src={require('../../../asset/images/ventureedu/ticket.png')}/>
       <p>即承兑汇票，分为两类：银行承兑汇票和商业承兑汇票。</p>
       <p>A.银行承兑汇票：指的是银行承诺到期无条件兑付的票据，也就是见票即由承兑的银行来兑付。</p>
       <p>B.商业承兑汇票：是到期之后有所承诺兑付的商业企业来承诺兑付。</p>

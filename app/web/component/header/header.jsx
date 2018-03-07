@@ -8,14 +8,7 @@ export default class Header extends Component {
       menuActive:''
     };
   }
-  componentWillMount() {
-    console.log('------Header componentWillMount----');
-  }
-
-  componentDidMount() {
-    console.log('----Header componentDidMount-----');
-  }
-
+  
   handleClick(menu) {
     this.state.menuActive = menu;
     

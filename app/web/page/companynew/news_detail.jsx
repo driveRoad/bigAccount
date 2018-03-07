@@ -151,7 +151,7 @@ class NewsDetailPage extends Component {
           <div className="news-detail-section">
             <NewsNav indexUrl={this.props.indexUrl} newsListUrl={this.props.newsListUrl} newsTitle={news.title}/>
             <h1 className="news-title">{news.title}</h1>
-            <p className="news-date">{news.date}</p>
+            <p className="news-date">{news.date.replace(/-/g, '.')}</p>
             <div className="divider"/>
             <div className="news-detail">
             {

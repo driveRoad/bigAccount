@@ -12,7 +12,7 @@ export default () => {
       </p>
       <p>接下来，公司董事会将着手理清资产负债表，并评估所有可用的选项，以找到各方都能接受的解决方案。
       </p>
-      <img src={require('../../../asset/images/news/新闻详情8-图.png')} alt="00_00"/>
+      <img src={require('../../../asset/images/news/news_detail_8.png')} alt="00_00"/>
       <p>TrustBuddy的新管理层团队在2015年9月到位，为了重新梳理工作内容，他们启动了一项针对前任管理层工作的调查，结果调查
         指向了若干违反内部或外部监管的问题。目前为止调查仍在进行中。
       </p>

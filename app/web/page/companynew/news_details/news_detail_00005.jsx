@@ -5,11 +5,11 @@ export default () => {
     <div>
       <p>九月的杭州，钱塘江畔，伴着磅礴涌潮的余热，大账户首届投资人见面会如期举行，感谢各位投资者对大账户的大力支持！
       </p>
-      <img src={require('../../../asset/images/news/新闻详情5-图/新闻详情5-图1.png')} alt="00_00"/>
+      <img src={require('../../../asset/images/news/news_detail_5/news_detail_5_1.png')} alt="00_00"/>
       <p>CEO孙总简单的开场白后，我们的官方非正式分享交流会（俗称”茶话会“）就正式进入主题了。席间大家悠闲地吃着水果、点心，
         轻轻松松地谈笑风生，交流分享个人的一些投资心得。
       </p>
-      <img src={require('../../../asset/images/news/新闻详情5-图/新闻详情5-图2.png')} alt="00_00"/>
+      <img src={require('../../../asset/images/news/news_detail_5/news_detail_5_2.png')} alt="00_00"/>
       <p>云石资本合伙人、凯雷投资前资深董事吴云先生。首先亲切回忆了自己与大账户的不解之缘，接着简单分享了个人的一些成功投资经验
         和失败教训；之后切入主题，跟与会投资人分享畅谈大娱乐行业投资的现状及市场方向。投资人也是兴致盎然，踊跃提问。
       </p>

@@ -10,7 +10,7 @@ import './about.css'
 var memberArr = [
   {
     name: '万明杰',
-    photo: 'about/团队介绍/万明杰.png',
+    photo: 'about/team_members/wanmingjie.png',
     position: 'CEO',
     resume: '前夸克金融市场部总监，于2015年组建团队打造互联网品牌“才米公社”，两年交易额突破37亿，在平台的搭建及金融产品' +
     '的开发方面具有丰富的经验。'
@@ -18,7 +18,7 @@ var memberArr = [
 
   {
     name: '孙建荣',
-    photo: 'about/团队介绍/孙建荣.png',
+    photo: 'about/team_members/sunjianrong.png',
     position: 'COO',
     resume: '毕业于北京理工大学计算机系，拥有丰富的创业经历，对创业有着自己独特的见解。在技术和金融都有较深的研究和实践经验。' +
     '善于互联网探索，精于把握时代脉搏，抱着用技术手段改变投资方式的信念将金融与互联网有机融合。'
@@ -26,7 +26,7 @@ var memberArr = [
 
   {
     name: '徐颖颖',
-    photo: 'about/团队介绍/徐颖颖.png',
+    photo: 'about/team_members/xuyingying.png',
     position: '风控总监',
     resume: '历任招商银行信用卡中心政策规划专家、平安普惠信贷分析专家、中国大地财产保险股份有限公司风控经理，' +
     '对信贷数据的模型及风险数据架构规划有着极深的理解。'
@@ -34,7 +34,7 @@ var memberArr = [
 
   {
     name: '劳书成',
-    photo: 'about/团队介绍/劳书成.png',
+    photo: 'about/team_members/laoshucheng.png',
     position: '首席技术官  CTO',
     resume: '对技术架构和技术团队管理有丰富的从业经验，曾是北京冰封互动的核心程序员。2012年作为高级架构师加入杭州乐港科技，' +
     '主导开发了魔晶幻想2及热门手游德州。在互联网研发及企业管理上有着深厚的理解。'
@@ -42,7 +42,7 @@ var memberArr = [
 
   {
     name: '姜一新',
-    photo: 'about/团队介绍/姜一新.png',
+    photo: 'about/team_members/jiangyixin.png',
     position: '首席运营官',
     resume: '专注互联网运营，原百度外卖区运营主管。深入活动策划和项目资源管理各方面领域，擅长运营人员的拆解和分配。' +
     '个人还有多年的创业经历，对自我驱动、结果导向的互联网价值观有强烈的认同。'
@@ -52,40 +52,40 @@ var memberArr = [
 var partnerArr = [
   {
     name: '江南壹伍叁伍',
-    thumb: 'about/合作伙伴/重庆富民银行.png',
+    thumb: 'about/partners/fumin_bank.png',
     achieves: ["国内首家运用互联网思维运作的创投公司", "共参与300多家企业的创业孵化", "拥有五亿元天使基金和近万名股东的资源支持", "曾荣获“杭州市级示范创投空间”称号"]
   },
 
   {
     name: '聚募',
-    thumb: 'about/合作伙伴/聚募.png',
+    thumb: 'about/partners/muju.png',
 
     achieves: ['浙江省最大的互联网非公开股权融资平台', '2016年2月以1.5亿估值获得千万级A轮融资', '曾荣获“2014年浙江省十大创新新锐企业”称号', '入围省经信委百强企业名单']
   },
 
   {
     name: '富友金融',
-    thumb: 'about/合作伙伴/富友金融.png',
+    thumb: 'about/partners/fuyou_finance.png',
 
     achieves: ['2008年创立，注册资本金2.0007亿元，实收资本金3.8亿元', '同时拥有6张支付及金融服务牌照', '上海市网络信贷服务业企业联盟”成员 ，为目前国家已颁布牌照第三方支付公司中仅4家公司之一']
   },
 
   {
     name: '金运通支付',
-    thumb: 'about/合作伙伴/金运通支付.png',
+    thumb: 'about/partners/jytpay.png',
     achieves: ['国内首家建立在实体批发市场基础上的互联网支付公司', '2014年7月获得中国人民银行颁发的全国互联网支付业务许可证（编号：Z2026437000017）', '坐落在上海浦东新区陆家嘴金融世纪广场']
   },
 
   {
     name: '江南票号',
-    thumb: 'about/合作伙伴/江南票号.png',
+    thumb: 'about/partners/jiangnan_ticket.png',
 
     achieves: ['专注于供应链金融（商业承兑汇票）的互联网平台', '开票企业只挑选央企、国企、上市公司等知名企业，资产真实可靠，偿还能力强', '推动企业信用货币化、电子化，提高信用货币流动性']
   },
 
   {
     name: '淘当铺',
-    thumb: 'about/合作伙伴/淘当铺.png',
+    thumb: 'about/partners/taodangpu.png',
 
     achieves: ['创新性互联网金融服务平台', '获知名风投数千万美元投资', '提供各类典当和抵押贷款服务']
   }
@@ -147,7 +147,7 @@ class PartnerCard extends Component {
         <p className="partner-name">{partner.name}</p>
         {
           partner.achieves.map((achieve, index) => {
-            return <p className="partner-achieve">{achieve}</p>;
+            return <p className="partner-achieve" key={index.toString()}>{achieve}</p>;
           })
         }
       </div>
@@ -204,7 +204,7 @@ export default class About extends Component {
         <div className="partner-list">
           {
             partnerArr.map((partner, index) => {
-              return <PartnerCard partner={partner}/>
+              return <PartnerCard partner={partner} key={index.toString()}/>
             })
           }
         </div>
