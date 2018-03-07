@@ -5,11 +5,11 @@ import React, {Component} from 'react';
 export default () => {
   return (
     <div>
-      <p>大家期待已久的周年庆终于来了，我们准备了很多惊喜</p>
+      <p>大家期待已久的周年庆终于来了，我们准备了很多惊喜！</p>
       <img src={require('../../../asset/images/news/news_detail_1.png')} alt="00_00"/>
       <h3 className="red">【天降红包】</h3>
       <p>7月21日，11点，天降双红包</p>
-      <p>现金及抵用券准点空降，最高获 666 现金，仅限前100名</p>
+      <p>现金及抵用券准点空降，最高获 666 现金，仅限前100名。</p>
       <h3 className="red">【集字抽奖】</h3>
       <p>活动时间：7月18日-8月8日</p>
       <p>①周年庆期间集齐：大，账，户，二，周，年，庆，7张字卡后，合成卡片，便可获得抽奖机会，赢取大奖。</p>

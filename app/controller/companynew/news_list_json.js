@@ -3,7 +3,7 @@ let newsList = [
   {
     thumb: 'news/thumb1.png',
     title: '大账户两周年庆',
-    summary: '大家期待已久的周年庆终于来了，我们准备了很多惊喜',
+    summary: '大家期待已久的周年庆终于来了，我们准备了很多惊喜！',
     date: '2017-7-14',
     url: '/companynew/news_detail_00001.html'
   },
