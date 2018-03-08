@@ -9,7 +9,7 @@ export default class Banner extends Component {
     this.bannerText = props.options && props.options.bannerText;
     this.height = props.options && props.options.height || 300;
     this.textStyle = {
-      top: (this.height * 0.5) + 'px'
+      top: (this.height -32)*0.5 + 'px'
     }
     this.bannerStyle = {
       height: this.height+'px'

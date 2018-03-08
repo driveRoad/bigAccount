@@ -75,6 +75,7 @@
 }
 .main .page-component section:nth-child(3) .section-common .intellence-tool {
   width: 668px;
+  margin-left: 102px;
 }
 .main .page-component section:nth-child(4) .section-common {
   margin-right: 60px;
@@ -97,10 +98,10 @@
   color: #222222;
 }
 .main .page-component .common-intro span:nth-child(1) {
-  font-size: 34px;
+  font-size: 28px;
 }
 .main .page-component .common-intro >span:not(:first-child){
-  font-size: 18px;
+  font-size: 16px;
 }
 .main .page-component .common-intro span:nth-child(2) {
   margin-top: 23px;
