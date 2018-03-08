@@ -1,25 +1,50 @@
 @import "../../asset/css/global.css";
 .footer .company-info {
   display: flex;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -mz-flex;
+  display: -ms-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;  
+  -moz-flex-direction: column;  
+  -ms-flex-direction: column;  
+  -o-flex-direction: column;  
   align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items:center;
+  -ms-align-items:center;
+  -o-align-items:center;
   height: 222px;
   background-color: #e6e6e6;
 }
 .footer .company-info .info-top {
   display: flex;
   flex-direction: row;
+  -webkit-flex-direction: row;  
+  -moz-flex-direction: row;  
+  -ms-flex-direction: row;  
+  -o-flex-direction: row;  
   justify-content: space-around;
+  -webkit-justify-content: space-around;  
+  -moz-justify-content: space-around;  
+  -ms-justify-content: space-around;  
+  -o-justify-content: space-around;  
   margin-top: 21px;
   width: 1220px;
+}
+.footer .company-info .info-top .baseinfo span {
+  display: block;
 }
 .footer .company-info .info-top section {
   display: flex;
   justify-content: space-around;
+  -webkit-justify-content: space-around;  
+  -moz-justify-content: space-around;  
+  -ms-justify-content: space-around;  
+  -o-justify-content: space-around;  
   align-items: flex-start;
+  -webkit-align-items: flex-start;
+  -moz-align-items:flex-start;
+  -ms-align-items:flex-start;
+  -o-align-items:flex-start;
 }
 .footer .company-info .info-top .baseinfo {
   flex-direction: column;
@@ -43,6 +68,9 @@
   flex-direction: row;
   border-left: 1px solid #bcbcbc;
 }
+.footer .company-info .info-top .waiter span {
+  display: block;
+}
 .footer .company-info .info-top .waiter div {
   display: flex;
   flex-direction: column;
@@ -57,13 +85,15 @@
 .footer .company-info .info-bottom {
   display: flex;
   flex-direction: row;
+  -ms-flex-direction: row;  
   width: 1186px;
   justify-content: space-around;
-  margin-top: 43px;
+  -ms-justify-content: space-around;  
   margin-bottom: 15px;
 }
 .footer .company-info .info-bottom span {
   font-size: 16px;
+  display: inline-block;
 }
 .footer .company-record {
   background-color: #808080;
@@ -74,4 +104,7 @@
   justify-content: center;
   line-height: 36px;
   color: #ffffff;
+}
+.footer .company-record span {
+  display: block;
 }

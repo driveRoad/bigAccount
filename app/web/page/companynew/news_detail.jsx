@@ -105,7 +105,7 @@ class HotCom extends Component {
       <div className="hot-com">
         <img className="hot-img" src={require('../../asset/images/news/list_ico_hot.png')} alt="hot-img"/>
         <p className="hot-header">热门动态</p>
-        <div className="divider"/>
+        <div className="hot-divider"/>
         {
           hotList.map((item, index) => {
             return (

@@ -10,7 +10,8 @@
 }
 .main .page-component section:nth-child(1) .section-common .index-bgImage .header-image {
   position: relative;
-  width: 1920px;
+  width: 100%;
+  min-width: 1240px;
   margin: 0 auto;
 }
 .main .page-component section:nth-child(1) .section-common .index-bgImage .header-image #hover-area {
@@ -23,6 +24,7 @@
 .main .page-component section:nth-child(1) img {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 .main .page-component section:nth-child(1) #img-download {
   position: absolute;
