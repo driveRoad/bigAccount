@@ -19,7 +19,7 @@
 .charge-action-container .charge-show section:nth-child(1) .user {
   position: absolute;
   top:100px;
-  left: 100px;
+  left: 93px;
   color:white;
   text-align: center;
 }
@@ -36,6 +36,9 @@
 }
 .charge-action-container .charge-show section:nth-child(1) .user span:nth-child(3) {
   font-size: 18px;
+  border: 1px solid;
+  height: 30px;
+  line-height: 30px;
 }
 
 .charge-action-container .charge-show section:nth-child(2) {
@@ -76,7 +79,7 @@
   width: 200px;
   height: 50px;
   line-height: 50px;
-  background-color: grey;
+  background-color: red;
   color: #ffffff;
   border: 1px solid;
   text-align: center;
