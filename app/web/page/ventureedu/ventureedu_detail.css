@@ -3,25 +3,34 @@
 .ventureedu-detail-main {
     width: 1196px;
     margin: 30px auto 200px auto;
-    line-height: 1.0;
 }
 
-.ventureedu-detail {
+
+.ventureedu-detail-main .ventureedu-nav {
+    margin-bottom: 120px;
+}
+.ventureedu-detail-main .ventureedu-nav .edu-link {
+    font-size: 16px;
+    color: #666666;
 }
 
-.ventureedu-detail h3 {
+
+.ventureedu-detail-main .ventureedu-detail {
+}
+
+.ventureedu-detail-main .ventureedu-detail h3 {
     font-size: 24px;
     color: #000000;
-    margin: 50px 0;
+    margin: 40px 0 20px 0;
 }
 
-.ventureedu-detail h4 {
-    font-size: 20px;
+.ventureedu-detail-main .ventureedu-detail h4 {
+    font-size: 18px;
     color: #666666;
-    margin: 10px 0;
+    margin: 20px 0 15px 0;
 }
 
-.ventureedu-detail p {
+.ventureedu-detail-main .ventureedu-detail p {
     font-size: 16px;
     color: #666666;
     text-align: justify;
@@ -29,11 +38,4 @@
     line-height: 2.0;
 }
 
-.ventureedu-nav {
-    margin-bottom: 120px;
-}
-.ventureedu-nav .edu-link {
-    font-size: 16px;
-    color: #666666;
-}
 

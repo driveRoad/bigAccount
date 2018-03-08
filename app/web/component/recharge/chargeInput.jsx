@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
+import ReactModal from 'react-modal';
+
 import Bootom from '../../asset/images/recharge/bottom.png';
 import BootomWen from '../../asset/images/recharge/bottomwen.png';
 import Charge from '../../asset/images/recharge/charge.png';
 import User from '../../asset/images/recharge/user.png';
 import Input from '../../component/common/input/input.jsx';
 import ChargeSelect from './chargeSelect'
-import ReactModal from 'react-modal';
 import './chargeAction.css';
 
 
-const customStyles = {
+
+const modalStyles = {
   content: {
     top: '50%',
     left: '50%',
@@ -38,6 +40,7 @@ class ChargeInput extends Component {
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.onSucccess = this.onSucccess.bind(this);
+
     this.onFail = this.onFail.bind(this);
   }
 
@@ -50,13 +53,12 @@ class ChargeInput extends Component {
     this.setState({modalIsOpen: false});
   }
 
+
   onSucccess() {
-    console.log('success');
     this.closeModal();
   }
 
   onFail() {
-    console.log('fail');
     this.closeModal();
   }
 
@@ -88,7 +90,7 @@ class ChargeInput extends Component {
           {/*点击下一步，弹出模态对话框*/}
           <ReactModal
             isOpen={this.state.modalIsOpen}
-            style={customStyles}
+            style={modalStyles}
             contentLabel="Charge Select Modal"
             overlayClassName="Overlay"
           >

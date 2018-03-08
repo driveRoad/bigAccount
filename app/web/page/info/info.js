@@ -39,18 +39,22 @@ constructor(props){
 
 componentWillMount(){
   var str = this.props.msg;
-  var index = this.props.msg .lastIndexOf("\/");
-  var index2 = this.props.msg .lastIndexOf(".");
-  str  = str .substring(index + 1, index2);
-  if(str.match('_')){
-    // 包含
-    this.setState({
-      flag:true
-    })
+  if(str){
+    var index = this.props.msg .lastIndexOf("\/");
+    var index2 = this.props.msg .lastIndexOf(".");
+    str  = str .substring(index + 1, index2);
+    if(str.match('_')){
+      // 包含
+      this.setState({
+        flag:true
+      })
+    }else{
+      this.setState({
+        flag:false
+      })
+    }
   }else{
-    this.setState({
-      flag:false
-    })
+    return false;
   }
 }
 render(){
