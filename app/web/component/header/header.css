@@ -1,5 +1,8 @@
 
 @import "../../asset/css/global.css";
+body {
+  overflow-x: hidden;
+}
 .header .logo {
   display: inline-block;
   width: 180px;
