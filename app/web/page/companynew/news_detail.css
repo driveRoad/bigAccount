@@ -51,13 +51,13 @@
 
 .news-main .news-detail-section .news-detail p,span {
     font-size: 16px;
-    line-height: 2.0;
+    line-height: 1.6;
     color: #666666;
     text-align: justify;
 }
 
 .news-main .news-detail-section .news-detail p {
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .news-main .news-detail-section .news-detail h3 {
