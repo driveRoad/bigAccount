@@ -70,4 +70,5 @@
 .img_agreement{
     margin: 20px;
     display: block;
+    max-height: 80%;
 }

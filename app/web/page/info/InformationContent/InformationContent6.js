@@ -135,7 +135,7 @@ closeLook(){
         const imgSrcArr=['','Qualification_dianxin.jpeg','Qualification_yinye.png','Qualification_yuming.jpeg'];
         return(
             <div style={{display:this.state.visible}}>
-              <div id="imgBox" className="bookimg" style={{top:'92px',height:'100%'}} onClick={this.closeLook.bind(this)}>
+              <div id="imgBox" className="bookimg" style={{top:'92px',bottom:'0'}} onClick={this.closeLook.bind(this)}>
                   <img onClick={this.toLeft.bind(this)} src={require('../images/icon_left.png')} alt="icon"/>
                   <div className="lookimgBox">
                     <img className="img_agreement" src={require('../images/Qualification/'+imgSrcArr[index])} alt='资金存管服务协议'/>
