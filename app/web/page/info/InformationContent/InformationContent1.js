@@ -55,10 +55,9 @@ closeLook(){
         const index = this.state.img_index;
         return(
             <div style={{display:this.state.visible}}>
-            <script src="../../../../../public/js/LookImg.js"/>
-            <div id="bookImg" className="bookimg" style={{top:'92px'}} onClick={this.closeLook.bind(this)}>
+            <div id="bookImg" className="bookimg" style={{top:'92px',height:"100%"}} onClick={this.closeLook.bind(this)}>
                 <img onClick={this.toLeft.bind(this)} src={require('../images/icon_left.png')} alt="icon"/>
-                <img id="money_deposit_agreement" className="img_agreement" src={require('../images/agreement_img/money_deposit_agreement'+index+'.png')}  alt='资金存管服务协议'/>
+                <img id="money_deposit_agreement" className="img_agreement" src={require('../images/agreement_img/money_deposit_agreement'+index+'.png')}  height="70%" alt='资金存管服务协议'/>
                 <img onClick={this.toRight.bind(this)} src={require('../images/icon_right.png')} alt="icon"/>
             </div>
             </div>
