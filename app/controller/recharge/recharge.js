@@ -22,10 +22,10 @@ module.exports = app => {
 		}
 
 		//充值成功页面
-		async success() {
+		async result() {
 			const {ctx} = this;
 			await ctx.render('recharge/charge.js',{
-				pageName:'chargeSuccess'
+				pageName:'chargeResult'
 			})
 		}
 

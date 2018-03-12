@@ -26,7 +26,7 @@ module.exports = app => {
 
   app.get('/about.html', app.controller.about.about.about);
   app.get('/recharge/mobileScan.html', app.controller.recharge.recharge.charge);
-  app.get('/recharge/chargeSuccess.html',app.controller.recharge.recharge.success);
+  app.get('/recharge/chargeResult.html',app.controller.recharge.recharge.result);
   app.get('/recharge/chargeInput.html',app.controller.recharge.recharge.input);
   app.get('/recharge/chargeSelect.html',app.controller.recharge.recharge.select);
   app.get('/recharge/chargeHelp.html',app.controller.recharge.recharge.help);

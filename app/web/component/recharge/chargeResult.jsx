@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import BottomBanner from '../../asset/images/recharge/tuiBanner.png';
-import './chargeSuccess.css'
+import './chargeResult.css'
 
-export default class ChargeSuccess extends Component {
+export default class ChargeResult extends Component {
   constructor(props) {
     super(props);
     this.onCheckAccount = this.onCheckAccount.bind(this);
@@ -15,14 +15,14 @@ export default class ChargeSuccess extends Component {
 
   render() {
     return (
-      <div className="charge-success-container">
-        <div className="charge-success-card">
+      <div className="charge-result-container">
+        <div className="charge-result-card">
           <div className="top-section">
-            <p className="success-tint">您已成功充值1000.0元!</p>
+            <p className="result-tint">您已成功充值1000.0元!</p>
 
             <button type="button" className="check-account" onClick={this.onCheckAccount}>查看我的账户</button>
           </div>
-          <img src={BottomBanner} alt="charge-seccess"/>
+          <img src={BottomBanner} alt="charge-result"/>
         </div>
       </div>
     )
