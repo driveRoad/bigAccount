@@ -32,6 +32,7 @@
 }
 .footer .company-info .info-top .baseinfo span {
   display: block;
+  font-size: 14px;
 }
 .footer .company-info .info-top section {
   display: flex;
@@ -67,6 +68,7 @@
   justify-content: flex-end;
   flex-direction: row;
   border-left: 1px solid #bcbcbc;
+  height: 127px;
 }
 .footer .company-info .info-top .waiter span {
   display: block;
@@ -77,10 +79,10 @@
   align-items: center;
 }
 .footer .company-info .info-top .waiter span:nth-child(2) {
-  font-size: 24px;
+  font-size: 20px;
 }
 .footer .company-info .info-top .waiter span:nth-child(3) {
-  font-size: 16px;
+  font-size: 14px;
 }
 .footer .company-info .info-bottom {
   display: flex;
@@ -92,12 +94,13 @@
   margin-bottom: 15px;
 }
 .footer .company-info .info-bottom span {
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
 }
 .footer .company-record {
   background-color: #808080;
   height: 113px;
+  line-height: 25px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,4 +110,5 @@
 }
 .footer .company-record span {
   display: block;
+  font-size: 12px;
 }

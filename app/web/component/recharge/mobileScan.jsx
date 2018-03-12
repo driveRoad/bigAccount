@@ -33,7 +33,7 @@ export default class Mobilescan extends Component {
           
           </section>
           <section>
-            <p>建议使用IE浏览器进行充值</p>
+            <p>建议使用Chrome浏览器进行充值</p>
             <p>请留意您的浏览器对银联和各家银行网银的拦截</p>
           </section>
         </div>

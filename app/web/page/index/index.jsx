@@ -23,9 +23,12 @@ export default class Charge extends Component {
     }
   }
 
+  componentDidMount() {
+    require('./indexImg.js');    
+  }
+
   render() {
     return <div>
-      <script src='/public/js/indexImg.js'></script>
       <Header menuactive={this.props.menuActive}></Header>
       <div className="main">
         <div className="page-container page-component">

@@ -1,15 +1,7 @@
 
 @import "../../asset/css/global.css";
-.header {
-  height: 92px;
-  background-color: #ffffff;
-  color: #000000;
-  top: 0;
-  left: 0;
-  width: 100%;
-  line-height: 92px;
-  z-index: 100;
-  position: relative
+body {
+  overflow-x: hidden;
 }
 .header .logo {
   display: inline-block;
@@ -80,7 +72,7 @@
 }
 
 .header .nav-item {
-  font-size: 22px;
+  font-size: 18px;
   margin: 0;
   float: left;
   list-style: none;
@@ -145,37 +137,4 @@
   position: fixed;
   top: 0;
   background-color: rgba(32, 160, 255, 0)
-}
-
-@media (max-width: 850px) {
-  .header .nav-logo {
-    display: none
-  }
-
-  .header .nav-logo-small {
-    display: inline-block
-  }
-
-  .header .nav-item {
-    margin-left: 6px
-  }
-
-  .header .nav-item a {
-    padding: 0 5px
-  }
-
-  .header .nav-item:last-child {
-    margin-left: 10px
-  }
-}
-
-@media (max-width: 700px) {
-  .header .container {
-    padding: 0 12px
-  }
-
-  .header .nav-item a, .header .nav-lang {
-    font-size: 12px;
-    vertical-align: top
-  }
 }
