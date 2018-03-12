@@ -114,3 +114,7 @@
   color:red;
   margin-top: 10px;
 }
+
+.charge-show .charge-form {
+  display: none;
+}
