@@ -1,6 +1,6 @@
 .charge-action-container {
   background-color: grey;
-  height: 1000px;
+  height: 900px;
 }
 .charge-action-container .charge-show {
   display: flex;
@@ -34,11 +34,12 @@
 .charge-action-container .charge-show section:nth-child(1) .user span:nth-child(2) {
   font-size: 22px;
 }
-.charge-action-container .charge-show section:nth-child(1) .user span:nth-child(3) {
+.charge-action-container .charge-show section:nth-child(1) .user .exit {
   font-size: 18px;
   border: 1px solid;
   height: 30px;
   line-height: 30px;
+  cursor: pointer;
 }
 
 .charge-action-container .charge-show section:nth-child(2) {
@@ -84,6 +85,7 @@
   border: 1px solid;
   text-align: center;
   border-radius: 10px;
+  cursor: pointer;
 }
 .charge-action-container .recharge-action {
   margin-left: 50%;
@@ -120,4 +122,12 @@
 
 .charge-show .charge-form {
   display: none;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(55, 55, 55, 0.8);
 }

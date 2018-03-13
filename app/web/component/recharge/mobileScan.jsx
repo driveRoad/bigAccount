@@ -1,9 +1,110 @@
+/**
+ * @author zll 2018/3/13
+ */
 import React, { Component } from 'react';
 import Qrcode from '../../asset/images/accountload.png';
+
 export default class Mobilescan extends Component {
   constructor(props) {
     super(props);
+    this.handleLogin = this.handleLogin.bind(this);
+    this.getLoginQrcode = this.getLoginQrcode.bind(this);
+    this.generateQrcode = this.generateQrcode.bind(this); 
+    this.refresh = this.refresh.bind(this);
   }
+
+  componentDidMount() {
+    this.handleLogin(false);
+  }
+
+  handleLogin(resetFlag) {
+    let qrcodeMaker = require('jquery-qrcode');
+    let $ =  require('jquery');
+    if(resetFlag) {
+      $('.refresh').hide('fast');
+      $('.install-qrcode canvas').remove();
+    }
+    this.getLoginQrcode(qrcodeMaker,$);
+  }
+
+  //获取登陆二维码
+  getLoginQrcode(qrcodeMaker,$) {
+    let url = 'http://craxhome.ddns.net:11100/mock/11/api/v2/client/qr_token/qrcode_tokens';
+    fetch(url,{
+      headers: new Headers({
+        "Accept": 'application/json',
+        "Origin": '*',
+        "Access-Control-Allow-Origin": '*'
+      }),
+      method: 'get'
+    }).then((res) => {
+      return res.json();
+    }).then((res => {
+      if(res.token) {
+        let token = res.token;
+        //生成二维码
+        this.generateQrcode(qrcodeMaker,$,token); 
+        
+        //开始轮询监听是否有用户进行了扫码登陆操作
+        this.checkLogin(token,$);
+      }
+    })).catch((res) => {
+
+    })
+  }
+
+
+  /**
+   * 
+   * @param {*} qrcodeMaker 
+   * @param {*} $ 
+   * @param {*} token 
+   * 根据返回的二维码token生成二维码
+   */
+  generateQrcode(qrcodeMaker,$,token) {
+    let text = 'https://www.omniaccount.com/download.html?qrcode_token=' + token;
+    $('.install-qrcode').qrcode({width: 300,height: 300,text: text});
+  }
+
+
+  //轮询查看是否有用户进行登陆
+  checkLogin(token,$) {
+    let startTime = new Date().getSeconds();
+    var interval = setInterval((token) => {
+          let url = 'http://craxhome.ddns.net:11100/mock/11/api/v2/client/qr_token/qrcode_tokens/:' + token+'/session_id';
+          fetch(url,
+            {headers: new Headers({
+              "Accept": 'application/json',
+              "Origin": '*',
+              "Access-Control-Allow-Origin": '*'
+            }),
+            method: 'get'
+          }).then((res) => {
+            return res.json();
+          }).then((res) => {
+            if(res.result) {
+              window.localStorage.setItem('sessionId',res.session_id);
+              window.location.href = '/recharge/chargeAction.html';
+              clearInterval(interval);
+            }else {
+              let currentTime = new Date().getSeconds();
+              if(currentTime - startTime > 120) {
+                clearInterval(interval);
+                //展示请刷新按钮
+                $('.refresh').show('low');
+              }
+            }
+          })
+        },2000);
+  }
+
+  refresh() {
+    //清除掉原来的二维码
+    //隐藏刷新按钮
+    let resetFlag = true;
+    this.handleLogin(resetFlag);
+  }
+
   render() {
     return <div>
       <div className="charge-online">
@@ -14,10 +115,15 @@ export default class Mobilescan extends Component {
             </div>
           </section>
           <section>
-            <div className="qrcode">
-              <img src={Qrcode}/>
-              <span>步骤</span>
+            <div className="install-qrcode qrcode">
+              <div className="refresh">
+                <div className="refresh-content">
+                  <p>二维码失效</p>
+                  <a className='refresh-action' onClick={this.refresh}>请刷新</a>
+                </div>
+              </div>
             </div>
+            <span className="step">步骤</span>
           </section>
           <section>
             <div className="sign-up">

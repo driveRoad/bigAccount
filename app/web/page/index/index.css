@@ -83,6 +83,7 @@
 }
 .main .page-component section:nth-child(4) .section-common .venture-safe {
   margin-left: 72px;
+  min-width: 400px;
 }
 .main .page-component section:nth-child(n+2) .section-common {
   width: 1270px;
