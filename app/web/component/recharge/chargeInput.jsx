@@ -9,6 +9,7 @@ import User from '../../asset/images/recharge/user.png';
 import Input from '../../component/common/input/input.jsx';
 import ChargeSelect from './chargeSelect'
 import './chargeAction.css';
+import loading from '../../asset/images/loading.gif';
 
 const modalStyles = {
     content: {
@@ -18,7 +19,9 @@ const modalStyles = {
         bottom: 'auto',
         marginRight: '-50%',
         padding: '0',
-        transform: 'translate(-50%, -50%)'
+        transform: 'translate(-50%, -50%)',
+        backgroundColor: 'rgba(255, 255, 255, 0)',
+        borderStyle: 'none'
     }
 };
 
@@ -59,8 +62,10 @@ class ChargeInput extends Component {
         this.setState({modalIsOpen: false});
     }
 
-    onCharge() {
+    onCharge(event) {
         this.openModal();
+        let chargeBtn = ReactDOM.findDOMNode(this.refs.chargeBtn);
+        chargeBtn.blur();
 
         let funSubmitForm = function (res){
             this.closeModal();
@@ -68,8 +73,8 @@ class ChargeInput extends Component {
             let formMethod = res["form_method"];
             let formData = res["form_data"];
             let chargeForm = ReactDOM.findDOMNode(this.refs.chargeForm);
-            chargeForm.action = formMethod["url"];
-            chargeForm.method = formMethod["method"];
+            // chargeForm.action = formMethod["url"];
+            // chargeForm.method = formMethod["method"];
             chargeForm.childNodes[0].value = formData["merchant_id"];
             chargeForm.childNodes[1].value = formData["encryptkey"];
             chargeForm.childNodes[2].value = formData["data"];
@@ -83,7 +88,8 @@ class ChargeInput extends Component {
 
         const packageJson = require("../../../../package.json");
         //真实地址：/api/v2/client/account/reapal/form/recharge_request
-        fetch('/api/v2/client/account/reapal/form/recharge_request', {
+        //mock地址: http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/reapal/form/recharge_request
+        fetch('http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/reapal/form/recharge_request', {
             method: 'post',
             headers: new Headers({
                 'Content-Type': 'application/x-www-form-urlencoded', // 指定提交方式为表单提交
@@ -128,7 +134,7 @@ class ChargeInput extends Component {
                         <Input updateValue={this.updateValue} options={this.options}/>
                     </div>
 
-                    <button className="recharge-action" onClick={this.onCharge}>
+                    <button className="recharge-action" onClick={this.onCharge} ref="chargeBtn">
                         <span>下一步</span>
                     </button>
 
@@ -145,6 +151,7 @@ class ChargeInput extends Component {
                         contentLabel="Charge Pending Modal"
                         overlayClassName="Overlay"
                     >
+                        <img src={loading}/>
                     </ReactModal>
 
                     <div className="bottom-pic">
