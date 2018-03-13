@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from 'component/header/header.jsx';
 import Footer from 'component/footer/footer.jsx';
-import Info from  './Info.js'
+import Info from  './info.js'
 import Banner from 'component/common/banner/banner.jsx';
 import BannerImage from '../../asset/images/banner/infoBanner.png';
 import Detail0 from './info_details/detail0.js'
