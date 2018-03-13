@@ -34,31 +34,42 @@ class ChargeInput extends Component {
         }
 
         this.state = {
-            modalIsOpen: false
+            modalIsOpen: false,
+            value: ''
         };
+        this.updateValue = this.updateValue.bind(this);
         this.openModal = this.openModal.bind(this);
         this.closeModal = this.closeModal.bind(this);
-        this.onSucccess = this.onSucccess.bind(this);
 
+        this.onCharge = this.onCharge.bind(this);
+        this.onSucccess = this.onSucccess.bind(this);
         this.onFail = this.onFail.bind(this);
     }
 
-    openModal(event) {
+    updateValue(newValue) {
+        this.setState({value: newValue});
+    }
+
+    openModal() {
         ReactModal.setAppElement('#app');
         this.setState({modalIsOpen: true});
+    }
+
+    closeModal() {
+        this.setState({modalIsOpen: false});
+    }
+
+    onCharge() {
+        this.openModal();
 
         let funSubmitForm = function (res){
-            this.setState({modalIsOpen: false});
+            this.closeModal();
             //依据获取的表单数据，提交表单，跳转富民页面
             let formMethod = res["form_method"];
             let formData = res["form_data"];
-            console.log(formMethod);
-            console.log(formData);
             let chargeForm = ReactDOM.findDOMNode(this.refs.chargeForm);
-            //chargeForm.action = formMethod["url"];
-            //chargeForm.method = formMethod["method"];
-            console.log(chargeForm.action);
-            console.log(chargeForm.method);
+            chargeForm.action = formMethod["url"];
+            chargeForm.method = formMethod["method"];
             chargeForm.childNodes[0].value = formData["merchant_id"];
             chargeForm.childNodes[1].value = formData["encryptkey"];
             chargeForm.childNodes[2].value = formData["data"];
@@ -67,12 +78,17 @@ class ChargeInput extends Component {
 
         //向服务器获取表单数据
         let searchParams = new URLSearchParams();
-        searchParams.append("money", "100");
-        searchParams.append("type", "app");
-        fetch('http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/reapal/form/recharge_request', {
+        searchParams.append("money", this.state.value);
+        searchParams.append("type", "pc");
+
+        const packageJson = require("../../../../package.json");
+        //真实地址：/api/v2/client/account/reapal/form/recharge_request
+        fetch('/api/v2/client/account/reapal/form/recharge_request', {
             method: 'post',
             headers: new Headers({
-                'Content-Type': 'application/x-www-form-urlencoded' // 指定提交方式为表单提交
+                'Content-Type': 'application/x-www-form-urlencoded', // 指定提交方式为表单提交
+                'OA-TOKEN': window.localStorage.getItem('sessionId'),
+                'CLIENT-INFO': {"version": packageJson.version, "market_vendor": 'dzh', "device": {"platform": 'web'}}
             }),
             body: searchParams.toString()
         })
@@ -81,11 +97,6 @@ class ChargeInput extends Component {
             })
             .then(funSubmitForm);
     }
-
-    closeModal() {
-        this.setState({modalIsOpen: false});
-    }
-
 
     onSucccess() {
         this.closeModal();
@@ -114,28 +125,26 @@ class ChargeInput extends Component {
             </span>
                     </div>
                     <div className="charge-input">
-                        <Input options={this.options}/>
+                        <Input updateValue={this.updateValue} options={this.options}/>
                     </div>
 
-                    <button className="recharge-action" onClick={this.openModal}>
+                    <button className="recharge-action" onClick={this.onCharge}>
                         <span>下一步</span>
                     </button>
 
-                    <form className="charge-form" action="http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/reapal/form/recharge_request"
-                          method="post" target="_blank" ref="chargeForm">
-                        <input type="text" name="merchant_id" ref="merchantId"/>
-                        <input type="text" name="encryptkey" ref="encryptKey"/>
-                        <input type="text" name="data" ref="data"/>
+                    <form className="charge-form" action="/recharge/chargeResult.html" target="_blank"
+                          method="get" ref="chargeForm">
+                        <input type="text" name="merchant_id"/>
+                        <input type="text" name="encryptkey"/>
+                        <input type="text" name="data"/>
                     </form>
-                    {/*点击下一步，弹出模态对话框*/}
+                    {/*点击下一步，弹出模态对话框，等待服务器返回表单数据*/}
                     <ReactModal
                         isOpen={this.state.modalIsOpen}
                         style={modalStyles}
-                        contentLabel="Charge Select Modal"
+                        contentLabel="Charge Pending Modal"
                         overlayClassName="Overlay"
                     >
-                        <ChargeSelect onClickClose={this.closeModal} onClickSuccess={this.onSucccess}
-                                      onClickFail={this.onFail}/>
                     </ReactModal>
 
                     <div className="bottom-pic">

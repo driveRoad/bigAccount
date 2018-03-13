@@ -10,7 +10,7 @@ export default class Charge extends Component {
   }
   getPage(pageName) {
       let pageModule = require('component/recharge/' + pageName + '.jsx').default;
-      return React.createElement(pageModule);
+      return React.createElement(pageModule, this.props.result ? {result: this.props.result} : null);
   }
   render() {
     return <div id="charge-page">

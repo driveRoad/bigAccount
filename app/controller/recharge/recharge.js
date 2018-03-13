@@ -21,11 +21,13 @@ module.exports = app => {
 			});
 		}
 
-		//充值成功页面
+		//充值结果页面
 		async result() {
 			const {ctx} = this;
+			console.log('result = ' + ctx.query.result);
 			await ctx.render('recharge/charge.js',{
-				pageName:'chargeResult'
+				pageName:'chargeResult',
+				result: ctx.query.result
 			})
 		}
 

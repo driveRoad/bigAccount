@@ -64,6 +64,7 @@ export default class Input extends Component {
       }
     });
 
+    this.props.updateValue(inputValue);
   }
   render() { 
     return <div>
