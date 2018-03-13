@@ -1,4 +1,5 @@
-       /**
+/**
+ * @author zll
 路由规则：
   首页：index和 /
   公司新闻页： /companynew
@@ -28,7 +29,12 @@ module.exports = app => {
   app.get('/recharge/mobileScan.html', app.controller.recharge.recharge.charge);
   app.get('/recharge/chargeSuccess.html',app.controller.recharge.recharge.success);
   app.get('/recharge/chargeInput.html',app.controller.recharge.recharge.input);
-  app.get('/recharge/chargeSelect.html',app.controller.recharge.recharge.select);
+  app.get('/recharge/chargeAction.html',app.controller.recharge.recharge.action);
   app.get('/recharge/chargeHelp.html',app.controller.recharge.recharge.help);
+  
+
+  /**
+   * 异步请求路由注册,待定
+   */
   
 };

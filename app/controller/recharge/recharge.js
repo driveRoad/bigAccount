@@ -29,11 +29,11 @@ module.exports = app => {
 			})
 		}
 
-		//充值选择
-		async select() {
+		//账户信息页面
+		async action() {
 			const {ctx} = this;
 			await ctx.render('recharge/charge.js',{
-				pageName:'chargeSelect'
+				pageName:'chargeAction'
 			})
 		}
 

@@ -26,16 +26,42 @@
 .charge-online .tip span {
   color:#ff5953;
 }
-.charge-online .qrcode {
+.charge-online .qrcode,.refresh {
   display: block;
   text-align: center;
+  width: 300px;
+  height: 300px;
 }
-.charge-online .qrcode span {
+.charge-online .qrcode {
+  position: relative;
+}
+.charge-online .refresh {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,.6);
+}
+.charge-online .refresh .refresh-content {
+  margin-top: 112px;
+  color: white;
+}
+.charge-online .refresh .refresh-content a {
+  display: block;
+  width: 88px;
+  height: 32px;
+  margin: 0 auto;
+  line-height: 32px;
+  background-color: #1283fc;
+  font-size: 12px;
+  cursor: pointer;
+  color:#ffffff;
+}
+.charge-online .step {
   margin-top: 65px;
   font-size: 18px;
   color:#999999;
   display: block;
   height: 18px;
+  text-align: center;
 }
 .charge-online .order {
   width: 24px;
