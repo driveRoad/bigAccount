@@ -1,0 +1,43 @@
+.titleBox{
+    border-bottom: 1px solid #a8b1c5;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: flex-end;
+}
+.tit{
+    flex: 1;
+    color: black;
+    font-size: 22px;
+}
+.time{
+    color: #a8b1c5;
+    font-size: 12px;
+}
+.recordBox{
+    overflow: hidden;
+    margin: 60px 80px 0 80px;
+}
+.record{
+    width:30%;
+    float: left;
+    margin-bottom: 50px;
+}
+.money{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "DINAlternate-Bold";
+}
+.name{
+    text-align: center;
+    font-size: 16px;
+    color: #a8b1c5;
+}
+
+.ChartBox{
+    background: #fbfcfc;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+}
