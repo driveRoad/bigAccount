@@ -7,7 +7,9 @@ import BootomWen from '../../asset/images/recharge/bottomwen.png';
 import Charge from '../../asset/images/recharge/charge.png';
 import ChargeTotal from '../../asset/images/recharge/chargeTotal.png';
 import User from '../../asset/images/recharge/user.png';
+import UrlManage from '../../util/urlManage.js';
 import './chargeAction.css';
+
 
 
 export default class ChargeAction extends Component {
@@ -51,14 +53,10 @@ export default class ChargeAction extends Component {
       window.location.href='/recharge/mobileScan.html';
       return;
     }
-
-    let url = 'http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/detail/total';
-    fetch(url,
-      {headers: new Headers({
-        "Accept": 'application/json',
-        "Origin": '*',
-        "Access-Control-Allow-Origin": '*'
-      }),
+    fetch(UrlManage.USERINFOURL,
+      {headers: new Headers(
+        Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId,})
+      ),
       method: 'get'
     }).then((res) => {
       return res.json();
@@ -66,18 +64,18 @@ export default class ChargeAction extends Component {
       //获取到的用户对象
       this.setState({
         userInfo: {
-          userName: res.cname,
-          userAccount: res.vname,
-          userExtraMoney: res.fixed_asset.normal.total_amount,
-          userTotalMoney: res.fixed_asset.normal.total_amount
+          userName: res.vname,
+          userAccount: res.phone,
+          userExtraMoney: res.cache.balance,
+          userTotalMoney: res.cache.total_amount + res.fixed_asset.normal.total_amount
         }
       })
 
       //保存用户信息到localStorage
-      this.state.userInfo.userName = res.cname;
-      this.state.userInfo.userAccount = res.vname;
-      this.state.userInfo.userExtraMoney = res.fixed_asset.normal.total_amount;
-      this.state.userInfo.userTotalMoney = res.fixed_asset.normal.total_amount;
+      this.state.userInfo.userName = res.vname;
+      this.state.userInfo.userAccount = res.phone;
+      this.state.userInfo.userExtraMoney = res.cache.balance;
+      this.state.userInfo.userTotalMoney = res.cache.total_amount + res.fixed_asset.normal.total_amount;
       
       window.localStorage.setItem('userInfo',JSON.stringify(this.state.userInfo));
       
@@ -87,13 +85,11 @@ export default class ChargeAction extends Component {
 
   //退出当前用户
   exitAccount() {
-    let exitUrl = 'http://craxhome.ddns.net:11100/mock/11/api/v1/client/sessions';
-    fetch(exitUrl,
-      {headers: new Headers({
-        "Accept": 'application/json',
-        "Origin": '*',
-        "Access-Control-Allow-Origin": '*'
-      }),
+    let sessionId = window.localStorage.getItem('sessionId');
+    fetch(UrlManage.EXITLOGINURL,
+      {headers: new Headers(
+        Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId})
+      ),
       method: 'delete'
     }).then(() => {
       window.localStorage.removeItem('sessionId');

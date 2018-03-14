@@ -7,8 +7,10 @@ import BootomWen from '../../asset/images/recharge/bottomwen.png';
 import Charge from '../../asset/images/recharge/charge.png';
 import User from '../../asset/images/recharge/user.png';
 import Input from '../../component/common/input/input.jsx';
+import UrlManage from '../../util/urlManage.js';
 import './chargeAction.css';
 import loading from '../../asset/images/loading.gif';
+
 
 const modalStyles = {
     content: {
@@ -88,15 +90,11 @@ class ChargeInput extends Component {
             window.location.href = '/recharge/mobileScan.html';
             return;
         }
-
-        let url = 'http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/detail/total';
-        fetch(url,
+        fetch(UrlManage.USERINFOURL,
             {
-                headers: new Headers({
-                    "Accept": 'application/json',
-                    "Origin": '*',
-                    "Access-Control-Allow-Origin": '*'
-                }),
+                headers: new Headers(
+                    UrlManage.REQUESTHEADER
+                ),
                 method: 'get'
             }).then((res) => {
             return res.json();
@@ -172,20 +170,17 @@ class ChargeInput extends Component {
      * 退出登陆账户，清楚localstorage:sessionId,跳转到扫码页面
      */
     exitAccount() {
-        let exitUrl = 'http://craxhome.ddns.net:11100/mock/11/api/v1/client/sessions';
-        fetch(exitUrl,
-            {
-                headers: new Headers({
-                    "Accept": 'application/json',
-                    "Origin": '*',
-                    "Access-Control-Allow-Origin": '*'
-                }),
-                method: 'delete'
-            }).then(() => {
+      let sessionId = window.localStorage.getItem('sessionId');
+      fetch(UrlManage.EXITLOGINURL,{
+            headers: new Headers(
+              Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId})
+            ),
+            method: 'delete'
+          }).then(() => {
             window.localStorage.removeItem('sessionId');
             window.localStorage.removeItem('userInfo');
             window.location.href = 'mobileScan.html';
-        })
+          })
     }
 
     render() {

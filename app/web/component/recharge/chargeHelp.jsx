@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import User from '../../asset/images/recharge/user.png';
 import BootomWen from '../../asset/images/recharge/bottomwen2.png';
+import UrlManage from '../../util/urlManage.js';
 import './chargeHelp.css'
 
 class UserInfo extends Component {
@@ -58,13 +59,10 @@ class UserInfo extends Component {
       return;
     }
 
-    let url = 'http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/detail/total';
-    fetch(url,
-      {headers: new Headers({
-        "Accept": 'application/json',
-        "Origin": '*',
-        "Access-Control-Allow-Origin": '*'
-      }),
+    fetch(UrlManage.USERINFOURL,
+      {headers: new Headers(
+        Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId,})
+      ),
       method: 'get'
     }).then((res) => {
       return res.json();
@@ -82,13 +80,11 @@ class UserInfo extends Component {
   }
 
   exitAccount() {
-    let exitUrl = 'http://craxhome.ddns.net:11100/mock/11/api/v1/client/sessions';
-    fetch(exitUrl,
-      {headers: new Headers({
-        "Accept": 'application/json',
-        "Origin": '*',
-        "Access-Control-Allow-Origin": '*'
-      }),
+    let sessionId = window.localStorage.getItem('sessionId');
+    fetch(UrlManage.EXITLOGINURL,
+      {headers: new Headers(
+        Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId})
+      ),
       method: 'delete'
     }).then(() => {
       window.localStorage.removeItem('sessionId');

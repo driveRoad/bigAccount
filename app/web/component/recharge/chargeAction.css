@@ -58,7 +58,6 @@
 .charge-action-container .charge-show .charge-notice .charge-left,.charge-total {
   display: inline-block;
   font-size: 22px;
-  width: 146px;
   text-align: center;
 }
 .charge-action-container .charge-show .charge-notice .charge-total span {

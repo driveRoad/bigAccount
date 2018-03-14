@@ -3,6 +3,7 @@
  */
 import React, { Component } from 'react';
 import Qrcode from '../../asset/images/accountload.png';
+import UrlManage from '../../util/urlManage.js';
 
 export default class Mobilescan extends Component {
   constructor(props) {
@@ -29,18 +30,16 @@ export default class Mobilescan extends Component {
 
   //获取登陆二维码
   getLoginQrcode(qrcodeMaker,$) {
-    let url = 'http://craxhome.ddns.net:11100/mock/11/api/v2/client/qr_token/qrcode_tokens';
-    fetch(url,{
-      headers: new Headers({
-        "Accept": 'application/json',
-        "Origin": '*',
-        "Access-Control-Allow-Origin": '*'
-      }),
+    fetch(UrlManage.QRCODETOKENURL,{
+      headers: new Headers(
+        UrlManage.REQUESTHEADER
+      ),
       method: 'get'
     }).then((res) => {
       return res.json();
     }).then((res => {
       if(res.token) {
+
         let token = res.token;
         //生成二维码
         this.generateQrcode(qrcodeMaker,$,token); 
@@ -62,40 +61,42 @@ export default class Mobilescan extends Component {
    * 根据返回的二维码token生成二维码
    */
   generateQrcode(qrcodeMaker,$,token) {
-    let text = 'https://www.omniaccount.com/download.html?qrcode_token=' + token;
+    let text = UrlManage.QRCODEGENERATEURL + token;
     $('.install-qrcode').qrcode({width: 300,height: 300,text: text});
   }
 
 
-  //轮询查看是否有用户进行登陆
+  /**
+   * 
+   * @param {*} token 
+   * @param {*} $ 
+   * 轮询检查是否有用户登陆
+   */
   checkLogin(token,$) {
-    let startTime = new Date().getSeconds();
-    var interval = setInterval((token) => {
-          let url = 'http://craxhome.ddns.net:11100/mock/11/api/v2/client/qr_token/qrcode_tokens/:' + token+'/session_id';
-          fetch(url,
-            {headers: new Headers({
-              "Accept": 'application/json',
-              "Origin": '*',
-              "Access-Control-Allow-Origin": '*'
-            }),
-            method: 'get'
-          }).then((res) => {
-            return res.json();
-          }).then((res) => {
-            if(res.result) {
-              window.localStorage.setItem('sessionId',res.session_id);
-              window.location.href = '/recharge/chargeAction.html';
-              clearInterval(interval);
-            }else {
-              let currentTime = new Date().getSeconds();
-              if(currentTime - startTime > 120) {
-                clearInterval(interval);
-                //展示请刷新按钮
-                $('.refresh').show('low');
-              }
-            }
-          })
-        },2000);
+    let startTime = new Date().getTime();
+    var interval = setInterval(() => {
+      fetch(UrlManage.LOGINSESSIONURL + token + '/session_id',
+          {headers: new Headers(
+            UrlManage.REQUESTHEADER
+          ),
+          method: 'post'
+      }).then((res) => {
+        return res.json();
+      }).then((res) => {
+        if(res.result) {
+          window.localStorage.setItem('sessionId',res.session_id);
+          window.location.href = '/recharge/chargeAction.html';
+          clearInterval(interval);
+        } else {
+          let currentTime = new Date().getTime();
+          if(currentTime - startTime > 60000) {
+            clearInterval(interval);
+            //展示请刷新按钮
+            $('.refresh').show('low');
+          }
+        }
+      })
+    },2000);
   }
 
   refresh() {
