@@ -1,5 +1,5 @@
 import React from 'react';
-import '../CSS/information5.css';
+import '../css/information5.css';
 import { width } from 'window-size';
 
 class InformationContent5 extends React.Component{

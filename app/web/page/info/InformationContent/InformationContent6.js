@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button,Icon} from 'antd';
-import '../CSS/information6.css';
+import '../css/information6.css';
 
 class InformationContent6 extends React.Component{
     constructor(props){
@@ -38,11 +38,11 @@ class InformationContent6 extends React.Component{
                 <div className="imgBox">
                     <div className="imgbox" style={{marginRight:'20px'}}>
                         <div>
-                        <img onClick={this.lookImg.bind(this,1)} className="img_Qualification" src={require('../images/Qualification/Qualification_dianxin.jpeg')}/>
+                        <img onClick={this.lookImg.bind(this,1)} className="img_Qualification" src={require('../images/qualification/qualification_dianxin.jpeg')}/>
                         </div>
                     </div>
                     <div className="imgbox">
-                        <img onClick={this.lookImg.bind(this,2)} className="img_Qualification" src={require('../images/Qualification/Qualification_yinye.png')}/>
+                        <img onClick={this.lookImg.bind(this,2)} className="img_Qualification" src={require('../images/qualification/qualification_yinye.png')}/>
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@ class InformationContent6 extends React.Component{
                  <div className="imgBox">
                     <div className="imgbox" style={{marginRight:'20px'}}>
                         <div>
-                        <img onClick={this.lookImg.bind(this,3)} className="img_Qualification" src={require('../images/Qualification/Qualification_yuming.jpeg')}/>
+                        <img onClick={this.lookImg.bind(this,3)} className="img_Qualification" src={require('../images/qualification/qualification_yuming.jpeg')}/>
                         </div>
                     </div>
                     <div className="imgbox" style={{border:"none"}}>
@@ -132,13 +132,13 @@ closeLook(){
 }
     render(){
         const index = this.state.imgIndex;
-        const imgSrcArr=['','Qualification_dianxin.jpeg','Qualification_yinye.png','Qualification_yuming.jpeg'];
+        const imgSrcArr=['','qualification_dianxin.jpeg','qualification_yinye.png','qualification_yuming.jpeg'];
         return(
             <div style={{display:this.state.visible}}>
-              <div id="imgBox" className="bookimg" style={{top:'92px',bottom:'0'}} onClick={this.closeLook.bind(this)}>
+              <div id="imgBox" className="bookimg" style={{top:'80px',bottom:'0'}} onClick={this.closeLook.bind(this)}>
                   <img onClick={this.toLeft.bind(this)} src={require('../images/icon_left.png')} alt="icon"/>
                   <div className="lookimgBox">
-                    <img className="img_agreement" src={require('../images/Qualification/'+imgSrcArr[index])} alt='资金存管服务协议'/>
+                    <img className="img_agreement" src={require('../images/qualification/'+imgSrcArr[index])} alt='资金存管服务协议'/>
                   </div>
                   <img onClick={this.toRight.bind(this)} src={require('../images/icon_right.png')} alt="icon"/>
               </div>
