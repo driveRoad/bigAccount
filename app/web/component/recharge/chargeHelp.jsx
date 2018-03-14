@@ -29,17 +29,7 @@ class UserInfo extends Component {
     //根据sessionId获取用户登陆信息,首先从localStorage上获取，如果localStorage没有，再从服务端获取
     let sessionId = window.localStorage.getItem('sessionId');
     if(sessionId) {
-      let userInfoLocal = JSON.parse(window.localStorage.getItem('userInfo'));
-      if(userInfoLocal && userInfoLocal.userName) {
-        this.setState({
-          userInfo: {
-            userName: userInfoLocal.userName,
-            userAccount: userInfoLocal.userAccount
-          }
-        })
-      } else {
-        this.getUserInfo(sessionId);
-      }
+      this.getUserInfo(sessionId);
     }
   }
 
@@ -60,7 +50,7 @@ class UserInfo extends Component {
 
     fetch(UrlManage.USERINFOURL,
       {headers: new Headers(
-        Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId,})
+        Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId})
       ),
       method: 'get'
     }).then((res) => {

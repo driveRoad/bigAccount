@@ -55,7 +55,7 @@ export default class ChargeAction extends Component {
     }
     fetch(UrlManage.USERINFOURL,
       {headers: new Headers(
-        Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId,})
+        Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId})
       ),
       method: 'get'
     }).then((res) => {

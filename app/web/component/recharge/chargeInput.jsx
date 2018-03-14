@@ -86,28 +86,27 @@ class ChargeInput extends Component {
      * 4.获取到的userInfo存放到localStorage和当前组件对象中
      */
     getUserInfo(sessionId) {
-        if (!sessionId) {
-            window.location.href = '/recharge/mobileScan.html';
-            return;
+        if(!sessionId) {
+          window.location.href='/recharge/mobileScan.html';
+          return;
         }
         fetch(UrlManage.USERINFOURL,
-            {
-                headers: new Headers(
-                    UrlManage.REQUESTHEADER
-                ),
-                method: 'get'
-            }).then((res) => {
-            return res.json();
+          {headers: new Headers(
+            Object.assign({},UrlManage.REQUESTHEADER,{"OA-TOKEN":sessionId})
+          ),
+          method: 'get'
         }).then((res) => {
-            //获取到的用户对象
-            this.setState({
-                userInfo: {
-                    userName: res.cname,
-                    userAccount: res.vname,
-                    userExtraMoney: res.fixed_asset.normal.total_amount,
-                    userTotalMoney: res.fixed_asset.normal.total_amount
-                }
-            })
+          return res.json();
+        }).then((res) => {
+          //获取到的用户对象
+          this.setState({
+            userInfo: {
+              userName: res.vname,
+              userAccount: res.phone,
+              userExtraMoney: res.cache.balance,
+              userTotalMoney: res.cache.total_amount + res.fixed_asset.normal.total_amount
+            }
+          })
         })
     }
 
