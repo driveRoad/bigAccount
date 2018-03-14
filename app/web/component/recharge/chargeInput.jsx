@@ -134,6 +134,7 @@ class ChargeInput extends Component {
         let funSubmitForm = function (res) {
             this.closeModal();
             //依据获取的表单数据，提交表单，跳转富民页面
+            console.log(res);
             let formMethod = res["form_method"];
             let formData = res["form_data"];
             let chargeForm = ReactDOM.findDOMNode(this.refs.chargeForm);
@@ -151,14 +152,15 @@ class ChargeInput extends Component {
         searchParams.append("type", "pc");
 
         const packageJson = require("../../../../package.json");
-        //真实地址：/api/v2/client/account/reapal/form/recharge_request
+        let clientInfo = {"version": "website " + packageJson.version, "market_vendor": "dzh", "device": {"platform": 'web'}};
+        //真实地址：http://craxhome.ddns.net:11021/api/v2/client/account/reapal/form/recharge_request
         //mock地址: http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/reapal/form/recharge_request
-        fetch('/api/v2/client/account/reapal/form/recharge_request', {
+        fetch('http://craxhome.ddns.net:11021/api/v2/client/account/reapal/form/recharge_request', {
             method: 'post',
             headers: new Headers({
                 'Content-Type': 'application/x-www-form-urlencoded', // 指定提交方式为表单提交
                 'OA-TOKEN': window.localStorage.getItem('sessionId'),
-                'CLIENT-INFO': {"version": "website " + packageJson.version, "market_vendor": "dzh", "device": {"platform": 'web'}}
+                'CLIENT-INFO': JSON.stringify(clientInfo)
             }),
             body: searchParams.toString()
         })
