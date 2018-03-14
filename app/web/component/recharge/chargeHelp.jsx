@@ -38,7 +38,6 @@ class UserInfo extends Component {
           }
         })
       } else {
-        console.log('fetch');
         this.getUserInfo(sessionId);
       }
     }

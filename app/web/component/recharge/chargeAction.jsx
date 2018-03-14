@@ -70,15 +70,6 @@ export default class ChargeAction extends Component {
           userTotalMoney: res.cache.total_amount + res.fixed_asset.normal.total_amount
         }
       })
-
-      //保存用户信息到localStorage
-      this.state.userInfo.userName = res.vname;
-      this.state.userInfo.userAccount = res.phone;
-      this.state.userInfo.userExtraMoney = res.cache.balance;
-      this.state.userInfo.userTotalMoney = res.cache.total_amount + res.fixed_asset.normal.total_amount;
-      
-      window.localStorage.setItem('userInfo',JSON.stringify(this.state.userInfo));
-      
     })
   }
 

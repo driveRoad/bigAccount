@@ -7,7 +7,6 @@
  module.exports = () => {
      return function*(next){
         let ctx = this;
-        console.log(ctx);
         getSiteDataContext(ctx);
         yield*  next;
      }
