@@ -15,14 +15,14 @@ class InformationContent6 extends React.Component{
     }
 
     lookImg (index){
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop =0;
+        document.documentElement.style.overflowY = 'hidden' ;
+
       this.setState({
           visible:"block",
           imgIndex : index,
           scroll:document.documentElement.scrollTop!=0 ?document.documentElement.scrollTop : document.body.scrollTop,
-        },()=>{
-          document.documentElement.scrollTop = 0;
-          document.body.scrollTop =0;
-          document.documentElement.style.overflowY = 'hidden' ;
         })
       }
 
