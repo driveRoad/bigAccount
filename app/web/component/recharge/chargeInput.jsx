@@ -137,8 +137,8 @@ class ChargeInput extends Component {
             let formMethod = res["form_method"];
             let formData = res["form_data"];
             let chargeForm = ReactDOM.findDOMNode(this.refs.chargeForm);
-            // chargeForm.action = formMethod["url"];
-            // chargeForm.method = formMethod["method"];
+            chargeForm.action = formMethod["url"];
+            chargeForm.method = formMethod["method"];
             chargeForm.childNodes[0].value = formData["merchant_id"];
             chargeForm.childNodes[1].value = formData["encryptkey"];
             chargeForm.childNodes[2].value = formData["data"];
@@ -153,7 +153,7 @@ class ChargeInput extends Component {
         const packageJson = require("../../../../package.json");
         //真实地址：/api/v2/client/account/reapal/form/recharge_request
         //mock地址: http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/reapal/form/recharge_request
-        fetch('http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/reapal/form/recharge_request', {
+        fetch('/api/v2/client/account/reapal/form/recharge_request', {
             method: 'post',
             headers: new Headers({
                 'Content-Type': 'application/x-www-form-urlencoded', // 指定提交方式为表单提交

@@ -18,9 +18,9 @@ export default class ChargeResult extends Component {
     if(this.props.result == "S") {
       return <p className="result-tint">您已成功充值xxxx元!</p>;
     } else if (this.props.result == 'F') {
-        return <p className="result-tint">充值失败</p>
+        return <p className="result-tint">充值失败。。。</p>
     } else {
-        return <p className="result-tint">等待中</p>
+        return <p className="result-tint">等待中。。。</p>
     }
   }
   render() {
