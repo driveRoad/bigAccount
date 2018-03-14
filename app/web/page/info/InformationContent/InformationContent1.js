@@ -53,6 +53,8 @@ closeLook(){
 }
     render(){
         const index = this.state.img_index;
+        // const headerHei = document.getElementsByClassName('header').heihght;
+        // console.log(headerHei);
         return(
             <div style={{display:this.state.visible}}>
             <div id="bookImg" className="bookimg" style={{top:'92px',bottom:"0"}} onClick={this.closeLook.bind(this)}>
@@ -75,13 +77,13 @@ class InformationContent1 extends React.Component{
         }
     }
     lookImg(){
-       this.setState({
-           visible:"block",
-           scroll:document.documentElement.scrollTop!=0 ?document.documentElement.scrollTop : document.body.scrollTop,
-       },()=>{
         document.documentElement.scrollTop = 0;
         document.body.scrollTop =0;
         document.documentElement.style.overflowY = 'hidden' ;
+        
+       this.setState({
+           visible:"block",
+           scroll:document.documentElement.scrollTop!=0 ? document.documentElement.scrollTop : document.body.scrollTop,
        })
     }
     close(){

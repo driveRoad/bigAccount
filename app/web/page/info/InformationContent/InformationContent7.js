@@ -1,5 +1,5 @@
 import React from 'react';
-import '../CSS/information7.css';
+import '../css/information7.css';
 
 class InformationContent7 extends React.Component{
     render(){

@@ -2,7 +2,7 @@ import React from 'react';
 import moment from 'moment';
 import echarts from 'echarts/lib/echarts';
 import  'echarts/lib/chart/line';
-import '../CSS/information2.css';
+import '../css/information2.css';
 
 class InformationContent2 extends React.Component{
   constructor(props){
