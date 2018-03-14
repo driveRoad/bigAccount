@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {Tabs} from 'antd';
 import './information.css';
-import InformationContent1 from './InformationContent/InformationContent1.js';
-import InformationContent2 from './InformationContent/InformationContent2.js';
-import InformationContent5 from './InformationContent/InformationContent5.js';
-import InformationContent6 from './InformationContent/InformationContent6.js';
-import InformationContent7 from './InformationContent/InformationContent7.js';
+import InformationContent1 from './informationContent/informationContent1.js';
+import InformationContent2 from './informationContent/informationContent2.js';
+import InformationContent5 from './informationContent/informationContent5.js';
+import InformationContent6 from './informationContent/informationContent6.js';
+import InformationContent7 from './informationContent/informationContent7.js';
 
 class Info  extends  React.Component {
   constructor(props){
