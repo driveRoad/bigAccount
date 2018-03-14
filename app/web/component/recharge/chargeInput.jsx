@@ -132,7 +132,6 @@ class ChargeInput extends Component {
         let funSubmitForm = function (res) {
             this.closeModal();
             //依据获取的表单数据，提交表单，跳转富民页面
-            console.log(res);
             let formMethod = res["form_method"];
             let formData = res["form_data"];
             let chargeForm = ReactDOM.findDOMNode(this.refs.chargeForm);
