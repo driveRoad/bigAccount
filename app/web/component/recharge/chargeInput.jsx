@@ -158,7 +158,7 @@ class ChargeInput extends Component {
             headers: new Headers({
                 'Content-Type': 'application/x-www-form-urlencoded', // 指定提交方式为表单提交
                 'OA-TOKEN': window.localStorage.getItem('sessionId'),
-                'CLIENT-INFO': {"version": packageJson.version, "market_vendor": 'dzh', "device": {"platform": 'web'}}
+                'CLIENT-INFO': {"version": "website " + packageJson.version, "market_vendor": "dzh", "device": {"platform": 'web'}}
             }),
             body: searchParams.toString()
         })
