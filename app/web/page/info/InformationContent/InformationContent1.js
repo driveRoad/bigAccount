@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button,Icon} from "antd";
-import '../CSS/information1.css';
+import '../css/information1.css';
 
 
 class  LookImg extends React.Component{
@@ -57,7 +57,7 @@ closeLook(){
         // console.log(headerHei);
         return(
             <div style={{display:this.state.visible}}>
-            <div id="bookImg" className="bookimg" style={{top:'92px',bottom:"0"}} onClick={this.closeLook.bind(this)}>
+            <div id="bookImg" className="bookimg" style={{top:'80px',bottom:"0"}} onClick={this.closeLook.bind(this)}>
                 <img onClick={this.toLeft.bind(this)} src={require('../images/icon_left.png')} alt="icon"/>
                 <img id="money_deposit_agreement" className="img_agreement" src={require('../images/agreement_img/money_deposit_agreement'+index+'.png')}  height="80%" alt='资金存管服务协议'/>
                 <img onClick={this.toRight.bind(this)} src={require('../images/icon_right.png')} alt="icon"/>

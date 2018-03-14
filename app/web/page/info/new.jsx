@@ -15,7 +15,7 @@ export default class New extends Component {
   }
   render() {
     return <div>
-      <Header menuactive={this.props.menuActive}></Header>
+      <Header  menuactive={this.props.menuActive}></Header>
 
       <Info msg={this.props.msg}/>
       <Footer></Footer>
