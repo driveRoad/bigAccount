@@ -26,6 +26,19 @@ const modalStyles = {
     }
 };
 
+const errorStyle = {
+    lineHeight: '18px',
+    height: '18px'
+};
+
+class ChargeError extends Component {
+    render() {
+        return <div>
+            <p style={errorStyle}>{this.props.message}</p>
+            </div>
+    }
+};
+
 class ChargeInput extends Component {
     constructor(props) {
         super(props);
@@ -39,6 +52,7 @@ class ChargeInput extends Component {
 
         this.state = {
             modalIsOpen: false,
+            errorMessage: null,   //充值失败的错误信息
             value: '',
             userInfo: {
                 userName: '',
@@ -128,8 +142,15 @@ class ChargeInput extends Component {
         let chargeBtn = ReactDOM.findDOMNode(this.refs.chargeBtn);
         chargeBtn.blur();
 
-        let funSubmitForm = function (res) {
+        let funcSubmitForm = function (res) {
             this.closeModal();
+
+            if (res.message) {  //显示充值错误信息
+                this.setState({errorMessage: res.message});
+                return;
+            }
+            this.setState({errorMessage: null});
+            console.log(res);
             //依据获取的表单数据，提交表单，跳转富民页面
             let formMethod = res["form_method"];
             let formData = res["form_data"];
@@ -161,9 +182,10 @@ class ChargeInput extends Component {
             body: searchParams.toString()
         })
             .then((res) => {
-                return res.json()
+                return res.json();
             })
-            .then(funSubmitForm);
+            .then(funcSubmitForm);
+            
     }
 
     /**
@@ -208,7 +230,9 @@ class ChargeInput extends Component {
                     <button className="recharge-action" onClick={this.onCharge} ref="chargeBtn">
                         <span>下一步</span>
                     </button>
-
+                    {
+                        this.state.errorMessage? <p className="charge-error-message">错误信息: {this.state.errorMessage}</p> : null
+                    }
                     <form className="charge-form" action="/recharge/chargeResult.html" target="_blank"
                           method="get" ref="chargeForm">
                         <input type="text" name="merchant_id"/>

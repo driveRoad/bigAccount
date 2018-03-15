@@ -130,3 +130,9 @@
   bottom: 0;
   background-color: rgba(55, 55, 55, 0.8);
 }
+
+.charge-show .charge-error-message {
+  margin: 10px auto;
+  color:red;
+  text-align: center;
+}
