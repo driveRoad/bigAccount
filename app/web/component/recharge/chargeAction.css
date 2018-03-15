@@ -128,7 +128,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(55, 55, 55, 0.8);
+  background-color: rgba(55, 55, 55, 0.2);
 }
 
 .charge-show .charge-error-message {

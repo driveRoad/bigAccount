@@ -170,9 +170,8 @@ class ChargeInput extends Component {
 
         const packageJson = require("../../../../package.json");
         let clientInfo = {"version": "website " + packageJson.version, "market_vendor": "dzh", "device": {"platform": 'web'}};
-        //真实地址：http://craxhome.ddns.net:11021/api/v2/client/account/reapal/form/recharge_request
-        //mock地址: http://craxhome.ddns.net:11100/mock/11/api/v2/client/account/reapal/form/recharge_request
-        fetch('http://craxhome.ddns.net:11021/api/v2/client/account/reapal/form/recharge_request', {
+
+        fetch(UrlManage.CHARGEURL, {
             method: 'post',
             headers: new Headers({
                 'Content-Type': 'application/x-www-form-urlencoded', // 指定提交方式为表单提交
@@ -231,7 +230,7 @@ class ChargeInput extends Component {
                         <span>下一步</span>
                     </button>
                     {
-                        this.state.errorMessage? <p className="charge-error-message">错误信息: {this.state.errorMessage}</p> : null
+                        this.state.errorMessage? <p className="charge-error-message">提示: {this.state.errorMessage}</p> : null
                     }
                     <form className="charge-form" action="/recharge/chargeResult.html" target="_blank"
                           method="get" ref="chargeForm">

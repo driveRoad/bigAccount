@@ -32,6 +32,10 @@ module.exports = {
   EXITLOGINURL: 'http://craxhome.ddns.net:11021/api/v1/client/sessions',
   
   /**
+   * 充值的url
+   */
+  CHARGEURL: 'http://craxhome.ddns.net:11021/api/v2/client/account/reapal/form/recharge_request',
+  /**
   * 异步请求头
   */
   REQUESTHEADER: {
